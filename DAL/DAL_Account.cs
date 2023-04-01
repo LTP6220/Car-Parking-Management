@@ -29,10 +29,10 @@ namespace DAL
                 {
                     DTO_Account account = new DTO_Account();
                     account.Id = reader.GetString(0);
-                    account.Email = reader.GetString(1);
-                    account.Fullname = reader.GetString(2);
-                    account.Username = reader.GetString(3);
-                    account.Password = reader.GetString(4);
+                    account.Fullname = reader.GetString(1);
+                    account.Username = reader.GetString(2);
+                    account.Password = reader.GetString(3);
+                    account.Email = reader.GetString(4);
 
                     accounts.Add(account);
                 }

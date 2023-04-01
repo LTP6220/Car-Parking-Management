@@ -16,7 +16,7 @@ namespace CarParkingManagement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ForgotPasswordForm());
+            Application.Run(new SignInForm());
         }
     }
 }

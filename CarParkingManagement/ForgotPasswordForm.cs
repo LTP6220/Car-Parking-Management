@@ -24,6 +24,10 @@ namespace CarParkingManagement
             return Regex.IsMatch(email, @"^[a-zA-Z0-9]{3,20}@gmail.com(.vn|)$");
         }
 
+        public bool checkAccount(string account) //check password va username
+        {
+            return Regex.IsMatch(account, @"^[a-zA-Z0-9]{4,24}$");
+        }
 
         public ForgotPasswordForm()
         {
@@ -59,7 +63,8 @@ namespace CarParkingManagement
         private void button_recoverPassword_Click(object sender, EventArgs e)
         {
             string email = textBox_email.Text;
-            string query = "select * from Account where email = '" + email + "'";
+            string username = textBox_email.Text;
+            string query = "select * from Account where email = '" + email + "' or username = '" + username + "'";
             if (accountController.GetAccounts(query).Count != 0)
             {
                 label_password.ForeColor = Color.Green;
@@ -68,7 +73,7 @@ namespace CarParkingManagement
             else
             {
                 label_password.ForeColor = Color.Red;
-                label_password.Text = "Email not found !";
+                label_password.Text = "Email or username not found !";
             }
 
         }
@@ -82,7 +87,7 @@ namespace CarParkingManagement
 
         private void textBox_email_TextChanged_1(object sender, EventArgs e)
         {
-            if (checkEmail(textBox_email.Text))
+            if (checkEmail(textBox_email.Text) || checkAccount(textBox_email.Text))
             {
                 button_recoverPassword.Enabled = true;
             }
@@ -90,6 +95,13 @@ namespace CarParkingManagement
             {
                 button_recoverPassword.Enabled = false;
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            SignInForm signInForm = new SignInForm();
+            this.Hide();
+            signInForm.ShowDialog();
         }
     }
 }

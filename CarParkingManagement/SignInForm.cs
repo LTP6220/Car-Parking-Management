@@ -89,14 +89,42 @@ namespace CarParkingManagement
 
         }
 
-        private void linkLabel1_MouseHover(object sender, EventArgs e)
+
+
+        private void label3_Click(object sender, EventArgs e)
         {
-            linkLabel1.ForeColor = Color.Black;
+            SignUpForm signUpForm = new SignUpForm();
+            this.Hide();
+            signUpForm.ShowDialog();
         }
 
-        private void linkLabel1_MouseLeave(object sender, EventArgs e)
+        private void label3_MouseHover(object sender, EventArgs e)
         {
-            linkLabel1.ForeColor = Color.Olive;
+            label_signUpHere.ForeColor = Color.DarkOliveGreen;
+        }
+
+        private void label3_MouseLeave(object sender, EventArgs e)
+        {
+            label_signUpHere.ForeColor = Color.Olive;
+        }
+
+    
+
+        private void label_forgotPassword_Click(object sender, EventArgs e)
+        {
+            ForgotPasswordForm forgotPasswordForm = new ForgotPasswordForm();
+            this.Hide();
+            forgotPasswordForm.ShowDialog();
+        }
+
+        private void label_forgotPassword_MouseHover(object sender, EventArgs e)
+        {
+            label_forgotPassword.ForeColor = Color.DarkOliveGreen;
+        }
+
+        private void label_forgotPassword_MouseLeave(object sender, EventArgs e)
+        {
+            label_forgotPassword.ForeColor = Color.Olive;
         }
     }
 }

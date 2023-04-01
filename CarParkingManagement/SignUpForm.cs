@@ -242,5 +242,12 @@ namespace CarParkingManagement
         {
             label_toSignInForm.ForeColor = Color.Gray;
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            SignInForm signInForm = new SignInForm();
+            this.Hide();
+            signInForm.ShowDialog();
+        }
     }
 }
