@@ -18,7 +18,7 @@ namespace BUS
             return accountModel.GetAccounts(query);
         }
 
-        public void AddAccount(string id, string fullname, string username, string password, string email)
+        public void AddAccount(string id, string fullname, string username, string password, string email, string position)
         {
             DTO_Account account = new DTO_Account();
             account.Id = id;
@@ -26,6 +26,7 @@ namespace BUS
             account.Username = username;
             account.Password = password;
             account.Email = email;
+            account.Position = position;
             accountModel.AddAccount(account);
         }
 

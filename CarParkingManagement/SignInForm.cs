@@ -40,9 +40,12 @@ namespace CarParkingManagement
             {
                 /*                MessageBox.Show("Login Successful", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 */
-                Home home = new Home();
-                home.ShowDialog();
+                SignInForm signInForm = new SignInForm();
                 this.Hide();
+                CarManagerForm home = new CarManagerForm();
+
+                home.ShowDialog();
+
             }
             else
             {
@@ -108,7 +111,7 @@ namespace CarParkingManagement
             label_signUpHere.ForeColor = Color.Olive;
         }
 
-    
+
 
         private void label_forgotPassword_Click(object sender, EventArgs e)
         {
@@ -125,6 +128,38 @@ namespace CarParkingManagement
         private void label_forgotPassword_MouseLeave(object sender, EventArgs e)
         {
             label_forgotPassword.ForeColor = Color.Olive;
+        }
+
+        private void rjButton_show_Click(object sender, EventArgs e)
+        {
+            if (textBox_password.PasswordChar == '•')
+            {
+                rjButton_hide.BringToFront();
+                textBox_password.PasswordChar = '\0';
+            }
+        }
+
+        private void rjButton_hide_Click(object sender, EventArgs e)
+        {
+            if (textBox_password.PasswordChar == '\0')
+            {
+                rjButton_show.BringToFront();
+                textBox_password.PasswordChar = '•';
+            }
+        }
+
+        private void textBox_username_MouseClick(object sender, MouseEventArgs e)
+        {
+            textBox_username.BackColor = Color.White;
+            rjTextBox1.BackColor = Color.White;
+            rjTextBox1.BorderColor = Color.Black;
+        }
+
+        private void SignInForm_MouseClick(object sender, MouseEventArgs e)
+        {
+            textBox_username.BackColor = Color.FromArgb(237, 237, 237);
+            rjTextBox1.BackColor = Color.FromArgb(237, 237, 237);
+            rjTextBox1.BorderColor = Color.Transparent;
         }
     }
 }

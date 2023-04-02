@@ -33,7 +33,7 @@ namespace DAL
                     account.Username = reader.GetString(2);
                     account.Password = reader.GetString(3);
                     account.Email = reader.GetString(4);
-
+                    account.Position = reader.GetString(5);
                     accounts.Add(account);
                 }
 
@@ -48,7 +48,7 @@ namespace DAL
             using (SqlConnection connection = Connection.GetSqlConnection())
             {
                 connection.Open();
-                string query = "insert into Account values (@id, @fullname, @username, @password, @email)";
+                string query = "insert into Account values (@id, @fullname, @username, @password, @email, @position)";
                 command = new SqlCommand(query, connection);
                 System.Diagnostics.Debug.WriteLine(command.CommandText);
                 command.Parameters.AddWithValue("@id", account.Id);
@@ -56,6 +56,7 @@ namespace DAL
                 command.Parameters.AddWithValue("@username", account.Username);
                 command.Parameters.AddWithValue("@password", account.Password);
                 command.Parameters.AddWithValue("@email", account.Email);
+                command.Parameters.AddWithValue("@position", account.Position);
                 command.ExecuteNonQuery();
                 connection.Close();
             }

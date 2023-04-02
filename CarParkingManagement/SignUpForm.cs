@@ -87,10 +87,11 @@ namespace CarParkingManagement
             string password = textBox_password.Text;
             string username = textBox_username.Text;
             string fullname = textBox_fullName.Text;
+            string position = comboBox_position.Text;
             string id = rnd().ToString();
             /* string query = "insert into Account values ('" + id + "','" + fullname + "','" + username + "','" + password + "','" + email + "')";
              accountController.Command(query);*/
-            accountController.AddAccount(id, fullname, username, password, email);
+            accountController.AddAccount(id, fullname, username, password, email, position);
             MessageBox.Show("Signup successful");
         }
 
