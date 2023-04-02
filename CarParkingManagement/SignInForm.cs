@@ -43,7 +43,6 @@ namespace CarParkingManagement
                 SignInForm signInForm = new SignInForm();
                 this.Hide();
                 CarManagerForm home = new CarManagerForm();
-
                 home.ShowDialog();
 
             }

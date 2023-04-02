@@ -17,6 +17,7 @@ namespace CarParkingManagement
         private IconButton currentBtn;
         private Panel leftBorderBtn;
         private Form currentChildForm;
+        bool visible = false;
         public CarManagerForm()
         {
             InitializeComponent();
@@ -142,6 +143,7 @@ namespace CarParkingManagement
             leftBorderBtn.Visible = false;
             iconCurrentChildForm.IconChar = IconChar.Home;
             iconCurrentChildForm.IconColor = Color.White;
+            label_titleChildForm.ForeColor = Color.White;
             label_titleChildForm.Text = "Home";
         }
 
@@ -218,6 +220,74 @@ namespace CarParkingManagement
         private void iconPictureBox_minimize_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
+        }
+
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconPictureBox_user_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rjButton1_Click(object sender, EventArgs e)
+        {
+            if (!visible)
+            {
+                panel_info.Visible = true;
+                visible = true;
+            }
+            else
+            {
+                panel_info.Visible = false;
+                visible = false;
+            }
+        }
+
+        private void rjButton1_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (!visible)
+            {
+                panel_info.Visible = true;
+                visible = true;
+            }
+            else
+            {
+                panel_info.Visible = false;
+                visible = false;
+            }
+        }
+
+        private void iconButton_user_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (!visible)
+            {
+                panel_info.Visible = true;
+                visible = true;
+            }
+            else
+            {
+                panel_info.Visible = false;
+                visible = false;
+            }
+        }
+
+        private void iconButton_exit_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
