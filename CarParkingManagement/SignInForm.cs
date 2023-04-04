@@ -1,8 +1,10 @@
 ﻿using BUS;
+using DAL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,6 +17,10 @@ namespace CarParkingManagement
     public partial class SignInForm : Form
     {
         BUS_Account accountController = new BUS_Account();
+        SqlDataAdapter data;
+        DataTable tb;
+        SqlConnection cn;
+
         public SignInForm()
         {
             InitializeComponent();
@@ -40,9 +46,24 @@ namespace CarParkingManagement
             {
                 /*                MessageBox.Show("Login Successful", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 */
+
                 SignInForm signInForm = new SignInForm();
                 this.Hide();
-                CarManagerForm home = new CarManagerForm();
+                string fullname = "select top 1 fullname from Account where username = '" + username + "'";
+                data = new SqlDataAdapter(fullname, Connection.GetSqlConnection());
+                tb = new DataTable();
+                data.Fill(tb);
+                fullname = tb.Rows[0][0].ToString();
+
+
+                string id = "select top 1 id from Account where username = '" + username + "'";
+                data = new SqlDataAdapter(id, Connection.GetSqlConnection());
+                tb = new DataTable();
+                data.Fill(tb);
+                id = tb.Rows[0][0].ToString();
+
+                string info = fullname + "#" + id;
+                CarManagerForm home = new CarManagerForm(info);
                 home.ShowDialog();
 
             }

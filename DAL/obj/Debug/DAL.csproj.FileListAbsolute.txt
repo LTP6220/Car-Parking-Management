@@ -9,3 +9,14 @@ D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\CarParkingManagement\DAL\obj\Deb
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\CarParkingManagement\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\CarParkingManagement\DAL\obj\Debug\DAL.dll
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\CarParkingManagement\DAL\obj\Debug\DAL.pdb
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\DAL\bin\Debug\DAL.dll
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\DAL\bin\Debug\DAL.pdb
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\DAL\bin\Debug\DTO.dll
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\DAL\bin\Debug\System.Data.SqlClient.dll
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\DAL\bin\Debug\DTO.pdb
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\DAL\bin\Debug\System.Data.SqlClient.xml
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\DAL\obj\Debug\DAL.dll
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\DAL\obj\Debug\DAL.pdb

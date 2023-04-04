@@ -89,6 +89,12 @@
     <Compile Include="CarManagerChildForm\DashboardForm.Designer.cs">
       <DependentUpon>DashboardForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CarManagerChildForm\InformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarManagerChildForm\InformationForm.Designer.cs">
+      <DependentUpon>InformationForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CarManagerChildForm\ParkingSlotForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CarManagerChildForm\DashboardForm.resx">
       <DependentUpon>DashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarManagerChildForm\InformationForm.resx">
+      <DependentUpon>InformationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CarManagerChildForm\ParkingSlotForm.resx">
       <DependentUpon>ParkingSlotForm.cs</DependentUpon>

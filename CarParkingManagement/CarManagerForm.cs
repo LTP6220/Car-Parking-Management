@@ -17,12 +17,14 @@ namespace CarParkingManagement
         private IconButton currentBtn;
         private Panel leftBorderBtn;
         private Form currentChildForm;
+
+
         bool visible = false;
-        public CarManagerForm()
+        public CarManagerForm(string value)
         {
             InitializeComponent();
             leftBorderBtn = new Panel();
-            leftBorderBtn.Size = new Size(7, 80);
+            leftBorderBtn.Size = new Size(7, 40);
             /*     currentBtn = iconButton_dashboard;*/
             panel_menu.Controls.Add(leftBorderBtn);
             /*    ActivateButton(currBtn, colorActive);*/
@@ -30,7 +32,10 @@ namespace CarParkingManagement
             this.ControlBox = false;
             this.DoubleBuffered = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
+            this.Value = value;
         }
+
+        public string Value { get; set; }
 
         public static Color colorActive = Color.FromArgb(172, 126, 241);
 
@@ -225,7 +230,7 @@ namespace CarParkingManagement
 
         private void iconButton1_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new CarManagerChildForm.InformationForm());
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -287,7 +292,37 @@ namespace CarParkingManagement
 
         private void iconButton_exit_Click(object sender, EventArgs e)
         {
+            Application.Exit();
+        }
 
+        private void CarManagerForm_Load(object sender, EventArgs e)
+        {
+            string info = Value;
+            label_fullname.Text = info.Substring(0, info.IndexOf('#')).ToUpper();
+            label_id.Text = info.Substring(info.Length - 9, 9);
+            /*      label_id.Text = label_fullname.Width.ToString();*/
+            if (label_fullname.Width > 130)
+            {
+                label_id.Location = new Point(label_fullname.Width - 130 + 142, 30);
+            }
+            else if (label_fullname.Width < 130)
+            {
+                label_id.Location = new Point(142 - (130 - label_fullname.Width), 30);
+            }
+            /* label_id.Text = label_fullname.Width.ToString();*/
+            label_id.ForeColor = Color.Gray;
+        }
+
+        private void label_id_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButton_signOut_Click(object sender, EventArgs e)
+        {
+            SignInForm signInForm = new SignInForm();
+            this.Hide();
+            signInForm.ShowDialog();
         }
     }
 }

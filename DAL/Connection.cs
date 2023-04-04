@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    internal class Connection
+    public class Connection
     {
         public static string GetConnectionString()
         {
@@ -16,7 +16,7 @@ namespace DAL
             builder["Data Source"] = "(LocalDB)\\MSSQLLocalDB";
             builder["integrated Security"] = true;
             /*builder["Initial Catalog"] = "";*/
-            builder["AttachDbFilename"] = "D:\\TDTU\\HK4\\Công nghệ phần mềm\\Đồ Án\\CarParkingManagement\\CarParkingManagement\\Database1.mdf";
+            builder["AttachDbFilename"] = "D:\\TDTU\\HK4\\Công nghệ phần mềm\\Đồ Án\\Car-Parking-Management\\CarParkingManagement\\Database1.mdf";
             /*builder.UserID = "DESKTOP-DJDATBB\\ASUS";*/
             Console.WriteLine(builder.ConnectionString);
             /*builder["Password"] = "";*/
