@@ -67,6 +67,7 @@
             this.textBox_username.TabIndex = 1;
             this.textBox_username.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBox_username_MouseClick);
             this.textBox_username.TextChanged += new System.EventHandler(this.textBox_username_TextChanged);
+            this.textBox_username.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_username_KeyDown);
             // 
             // textBox_password
             // 
@@ -79,6 +80,7 @@
             this.textBox_password.Size = new System.Drawing.Size(184, 13);
             this.textBox_password.TabIndex = 2;
             this.textBox_password.TextChanged += new System.EventHandler(this.textBox_password_TextChanged);
+            this.textBox_password.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_password_KeyDown);
             // 
             // label2
             // 
@@ -101,6 +103,8 @@
             this.button_signIn.Text = "Sign In";
             this.button_signIn.UseVisualStyleBackColor = false;
             this.button_signIn.Click += new System.EventHandler(this.button_signIn_Click);
+            this.button_signIn.Enter += new System.EventHandler(this.button_signIn_Enter);
+            this.button_signIn.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button_signIn_KeyDown);
             // 
             // label_signUpHere
             // 
@@ -169,9 +173,9 @@
             this.rjButton_show.FlatAppearance.BorderSize = 0;
             this.rjButton_show.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rjButton_show.ForeColor = System.Drawing.Color.White;
-            this.rjButton_show.Location = new System.Drawing.Point(451, 258);
+            this.rjButton_show.Location = new System.Drawing.Point(451, 262);
             this.rjButton_show.Name = "rjButton_show";
-            this.rjButton_show.Size = new System.Drawing.Size(25, 25);
+            this.rjButton_show.Size = new System.Drawing.Size(25, 17);
             this.rjButton_show.TabIndex = 16;
             this.rjButton_show.TextColor = System.Drawing.Color.White;
             this.rjButton_show.UseVisualStyleBackColor = false;
@@ -189,9 +193,9 @@
             this.rjButton_hide.FlatAppearance.BorderSize = 0;
             this.rjButton_hide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rjButton_hide.ForeColor = System.Drawing.Color.White;
-            this.rjButton_hide.Location = new System.Drawing.Point(451, 258);
+            this.rjButton_hide.Location = new System.Drawing.Point(451, 262);
             this.rjButton_hide.Name = "rjButton_hide";
-            this.rjButton_hide.Size = new System.Drawing.Size(25, 25);
+            this.rjButton_hide.Size = new System.Drawing.Size(25, 17);
             this.rjButton_hide.TabIndex = 17;
             this.rjButton_hide.TextColor = System.Drawing.Color.White;
             this.rjButton_hide.UseVisualStyleBackColor = false;

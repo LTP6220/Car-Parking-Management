@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Runtime.Remoting.Messaging;
+using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -57,6 +58,19 @@ namespace DAL
                 command.Parameters.AddWithValue("@password", account.Password);
                 command.Parameters.AddWithValue("@email", account.Email);
                 command.Parameters.AddWithValue("@position", account.Position);
+                command.ExecuteNonQuery();
+                connection.Close();
+            }
+        }
+
+        public void DeleteAccount(string id)
+        {
+            using (SqlConnection connection = Connection.GetSqlConnection())
+            {
+                connection.Open();
+                string query = "DELETE FROM Account where id = @id";
+                command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@id", id);
                 command.ExecuteNonQuery();
                 connection.Close();
             }

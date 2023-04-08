@@ -4,3 +4,9 @@ D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\CarParkingManagement\DTO\obj\Deb
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\CarParkingManagement\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\CarParkingManagement\DTO\obj\Debug\DTO.dll
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\CarParkingManagement\DTO\obj\Debug\DTO.pdb
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\DTO\bin\Debug\DTO.dll
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\DTO\bin\Debug\DTO.pdb
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\DTO\obj\Debug\DTO.dll
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\DTO\obj\Debug\DTO.pdb

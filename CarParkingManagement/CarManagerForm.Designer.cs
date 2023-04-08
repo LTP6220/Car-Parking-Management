@@ -29,7 +29,13 @@
         private void InitializeComponent()
         {
             this.panel_menu = new System.Windows.Forms.Panel();
+            this.iconButton5 = new FontAwesome.Sharp.IconButton();
+            this.iconButton_parkingSlot = new FontAwesome.Sharp.IconButton();
+            this.iconButton_cars = new FontAwesome.Sharp.IconButton();
+            this.iconButton_customers = new FontAwesome.Sharp.IconButton();
+            this.iconButton_dashboard = new FontAwesome.Sharp.IconButton();
             this.panel_picture = new System.Windows.Forms.Panel();
+            this.pictureBox_home = new System.Windows.Forms.PictureBox();
             this.panel_display = new System.Windows.Forms.Panel();
             this.panel_info = new System.Windows.Forms.Panel();
             this.iconButton_exit = new FontAwesome.Sharp.IconButton();
@@ -45,14 +51,9 @@
             this.iconPictureBox_exit = new FontAwesome.Sharp.IconPictureBox();
             this.label_titleChildForm = new System.Windows.Forms.Label();
             this.iconCurrentChildForm = new FontAwesome.Sharp.IconPictureBox();
-            this.iconButton5 = new FontAwesome.Sharp.IconButton();
-            this.iconButton_parkingSlot = new FontAwesome.Sharp.IconButton();
-            this.iconButton_cars = new FontAwesome.Sharp.IconButton();
-            this.iconButton_customers = new FontAwesome.Sharp.IconButton();
-            this.iconButton_dashboard = new FontAwesome.Sharp.IconButton();
-            this.pictureBox_home = new System.Windows.Forms.PictureBox();
             this.panel_menu.SuspendLayout();
             this.panel_picture.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_home)).BeginInit();
             this.panel_display.SuspendLayout();
             this.panel_info.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -60,7 +61,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox_minimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox_exit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconCurrentChildForm)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_home)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_menu
@@ -75,8 +75,122 @@
             this.panel_menu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel_menu.Location = new System.Drawing.Point(0, 0);
             this.panel_menu.Name = "panel_menu";
-            this.panel_menu.Size = new System.Drawing.Size(164, 901);
+            this.panel_menu.Size = new System.Drawing.Size(164, 845);
             this.panel_menu.TabIndex = 0;
+            // 
+            // iconButton5
+            // 
+            this.iconButton5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton5.FlatAppearance.BorderSize = 0;
+            this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton5.ForeColor = System.Drawing.Color.White;
+            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.House;
+            this.iconButton5.IconColor = System.Drawing.Color.White;
+            this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton5.IconSize = 32;
+            this.iconButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton5.Location = new System.Drawing.Point(0, 270);
+            this.iconButton5.Name = "iconButton5";
+            this.iconButton5.Size = new System.Drawing.Size(164, 40);
+            this.iconButton5.TabIndex = 7;
+            this.iconButton5.Text = "iconButton5";
+            this.iconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton5.UseVisualStyleBackColor = true;
+            // 
+            // iconButton_parkingSlot
+            // 
+            this.iconButton_parkingSlot.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButton_parkingSlot.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton_parkingSlot.FlatAppearance.BorderSize = 0;
+            this.iconButton_parkingSlot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton_parkingSlot.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton_parkingSlot.ForeColor = System.Drawing.Color.White;
+            this.iconButton_parkingSlot.IconChar = FontAwesome.Sharp.IconChar.Parking;
+            this.iconButton_parkingSlot.IconColor = System.Drawing.Color.White;
+            this.iconButton_parkingSlot.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton_parkingSlot.IconSize = 32;
+            this.iconButton_parkingSlot.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton_parkingSlot.Location = new System.Drawing.Point(0, 230);
+            this.iconButton_parkingSlot.Name = "iconButton_parkingSlot";
+            this.iconButton_parkingSlot.Size = new System.Drawing.Size(164, 40);
+            this.iconButton_parkingSlot.TabIndex = 6;
+            this.iconButton_parkingSlot.Text = "Parking Slot";
+            this.iconButton_parkingSlot.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton_parkingSlot.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton_parkingSlot.UseVisualStyleBackColor = true;
+            this.iconButton_parkingSlot.Click += new System.EventHandler(this.iconButton_parkingSlot_Click);
+            // 
+            // iconButton_cars
+            // 
+            this.iconButton_cars.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(58)))), ((int)(((byte)(64)))));
+            this.iconButton_cars.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButton_cars.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton_cars.FlatAppearance.BorderSize = 0;
+            this.iconButton_cars.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton_cars.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton_cars.ForeColor = System.Drawing.Color.White;
+            this.iconButton_cars.IconChar = FontAwesome.Sharp.IconChar.Car;
+            this.iconButton_cars.IconColor = System.Drawing.Color.White;
+            this.iconButton_cars.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton_cars.IconSize = 32;
+            this.iconButton_cars.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton_cars.Location = new System.Drawing.Point(0, 190);
+            this.iconButton_cars.Name = "iconButton_cars";
+            this.iconButton_cars.Size = new System.Drawing.Size(164, 40);
+            this.iconButton_cars.TabIndex = 5;
+            this.iconButton_cars.Text = "Cars";
+            this.iconButton_cars.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton_cars.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton_cars.UseVisualStyleBackColor = true;
+            this.iconButton_cars.Click += new System.EventHandler(this.iconButton_cars_Click);
+            // 
+            // iconButton_customers
+            // 
+            this.iconButton_customers.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButton_customers.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton_customers.FlatAppearance.BorderSize = 0;
+            this.iconButton_customers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton_customers.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton_customers.ForeColor = System.Drawing.Color.White;
+            this.iconButton_customers.IconChar = FontAwesome.Sharp.IconChar.UserGroup;
+            this.iconButton_customers.IconColor = System.Drawing.Color.White;
+            this.iconButton_customers.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton_customers.IconSize = 32;
+            this.iconButton_customers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton_customers.Location = new System.Drawing.Point(0, 150);
+            this.iconButton_customers.Name = "iconButton_customers";
+            this.iconButton_customers.Size = new System.Drawing.Size(164, 40);
+            this.iconButton_customers.TabIndex = 4;
+            this.iconButton_customers.Text = "Custumers";
+            this.iconButton_customers.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton_customers.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton_customers.UseVisualStyleBackColor = true;
+            this.iconButton_customers.Click += new System.EventHandler(this.iconButton_customers_Click);
+            // 
+            // iconButton_dashboard
+            // 
+            this.iconButton_dashboard.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButton_dashboard.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton_dashboard.FlatAppearance.BorderSize = 0;
+            this.iconButton_dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton_dashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton_dashboard.ForeColor = System.Drawing.Color.White;
+            this.iconButton_dashboard.IconChar = FontAwesome.Sharp.IconChar.ChartSimple;
+            this.iconButton_dashboard.IconColor = System.Drawing.Color.White;
+            this.iconButton_dashboard.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton_dashboard.IconSize = 32;
+            this.iconButton_dashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton_dashboard.Location = new System.Drawing.Point(0, 110);
+            this.iconButton_dashboard.Name = "iconButton_dashboard";
+            this.iconButton_dashboard.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.iconButton_dashboard.Size = new System.Drawing.Size(164, 40);
+            this.iconButton_dashboard.TabIndex = 3;
+            this.iconButton_dashboard.Text = "Dashboard";
+            this.iconButton_dashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton_dashboard.UseVisualStyleBackColor = true;
+            this.iconButton_dashboard.Click += new System.EventHandler(this.iconButton_dashboard_Click);
             // 
             // panel_picture
             // 
@@ -86,6 +200,18 @@
             this.panel_picture.Name = "panel_picture";
             this.panel_picture.Size = new System.Drawing.Size(164, 110);
             this.panel_picture.TabIndex = 8;
+            // 
+            // pictureBox_home
+            // 
+            this.pictureBox_home.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox_home.Image = global::CarParkingManagement.Properties.Resources.Peaceful_Black__Car;
+            this.pictureBox_home.Location = new System.Drawing.Point(34, 12);
+            this.pictureBox_home.Name = "pictureBox_home";
+            this.pictureBox_home.Size = new System.Drawing.Size(79, 77);
+            this.pictureBox_home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_home.TabIndex = 0;
+            this.pictureBox_home.TabStop = false;
+            this.pictureBox_home.Click += new System.EventHandler(this.pictureBox_home_Click);
             // 
             // panel_display
             // 
@@ -97,7 +223,7 @@
             this.panel_display.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_display.Location = new System.Drawing.Point(164, 0);
             this.panel_display.Name = "panel_display";
-            this.panel_display.Size = new System.Drawing.Size(1370, 901);
+            this.panel_display.Size = new System.Drawing.Size(1370, 845);
             this.panel_display.TabIndex = 1;
             this.panel_display.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_display_Paint);
             // 
@@ -108,9 +234,9 @@
             this.panel_info.Controls.Add(this.iconButton_signOut);
             this.panel_info.Controls.Add(this.iconButton_accountDetails);
             this.panel_info.Controls.Add(this.panel1);
-            this.panel_info.Location = new System.Drawing.Point(981, 35);
+            this.panel_info.Location = new System.Drawing.Point(995, 35);
             this.panel_info.Name = "panel_info";
-            this.panel_info.Size = new System.Drawing.Size(311, 269);
+            this.panel_info.Size = new System.Drawing.Size(297, 269);
             this.panel_info.TabIndex = 10;
             this.panel_info.Visible = false;
             // 
@@ -129,7 +255,7 @@
             this.iconButton_exit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton_exit.Location = new System.Drawing.Point(0, 153);
             this.iconButton_exit.Name = "iconButton_exit";
-            this.iconButton_exit.Size = new System.Drawing.Size(311, 40);
+            this.iconButton_exit.Size = new System.Drawing.Size(297, 40);
             this.iconButton_exit.TabIndex = 2;
             this.iconButton_exit.Text = "EXIT";
             this.iconButton_exit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -152,7 +278,7 @@
             this.iconButton_signOut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton_signOut.Location = new System.Drawing.Point(0, 113);
             this.iconButton_signOut.Name = "iconButton_signOut";
-            this.iconButton_signOut.Size = new System.Drawing.Size(311, 40);
+            this.iconButton_signOut.Size = new System.Drawing.Size(297, 40);
             this.iconButton_signOut.TabIndex = 1;
             this.iconButton_signOut.Text = "SIGN OUT";
             this.iconButton_signOut.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -176,7 +302,7 @@
             this.iconButton_accountDetails.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton_accountDetails.Location = new System.Drawing.Point(0, 73);
             this.iconButton_accountDetails.Name = "iconButton_accountDetails";
-            this.iconButton_accountDetails.Size = new System.Drawing.Size(311, 40);
+            this.iconButton_accountDetails.Size = new System.Drawing.Size(297, 40);
             this.iconButton_accountDetails.TabIndex = 0;
             this.iconButton_accountDetails.Text = "ACCOUNT DETAILS";
             this.iconButton_accountDetails.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -193,7 +319,7 @@
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(311, 73);
+            this.panel1.Size = new System.Drawing.Size(297, 73);
             this.panel1.TabIndex = 3;
             // 
             // label_id
@@ -322,138 +448,12 @@
             this.iconCurrentChildForm.TabIndex = 0;
             this.iconCurrentChildForm.TabStop = false;
             // 
-            // iconButton5
-            // 
-            this.iconButton5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton5.FlatAppearance.BorderSize = 0;
-            this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton5.ForeColor = System.Drawing.Color.White;
-            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.House;
-            this.iconButton5.IconColor = System.Drawing.Color.White;
-            this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton5.IconSize = 32;
-            this.iconButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton5.Location = new System.Drawing.Point(0, 270);
-            this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Size = new System.Drawing.Size(164, 40);
-            this.iconButton5.TabIndex = 7;
-            this.iconButton5.Text = "iconButton5";
-            this.iconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton5.UseVisualStyleBackColor = true;
-            // 
-            // iconButton_parkingSlot
-            // 
-            this.iconButton_parkingSlot.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton_parkingSlot.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton_parkingSlot.FlatAppearance.BorderSize = 0;
-            this.iconButton_parkingSlot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton_parkingSlot.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton_parkingSlot.ForeColor = System.Drawing.Color.White;
-            this.iconButton_parkingSlot.IconChar = FontAwesome.Sharp.IconChar.Parking;
-            this.iconButton_parkingSlot.IconColor = System.Drawing.Color.White;
-            this.iconButton_parkingSlot.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton_parkingSlot.IconSize = 32;
-            this.iconButton_parkingSlot.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton_parkingSlot.Location = new System.Drawing.Point(0, 230);
-            this.iconButton_parkingSlot.Name = "iconButton_parkingSlot";
-            this.iconButton_parkingSlot.Size = new System.Drawing.Size(164, 40);
-            this.iconButton_parkingSlot.TabIndex = 6;
-            this.iconButton_parkingSlot.Text = "Parking Slot";
-            this.iconButton_parkingSlot.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton_parkingSlot.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton_parkingSlot.UseVisualStyleBackColor = true;
-            this.iconButton_parkingSlot.Click += new System.EventHandler(this.iconButton_parkingSlot_Click);
-            // 
-            // iconButton_cars
-            // 
-            this.iconButton_cars.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(58)))), ((int)(((byte)(64)))));
-            this.iconButton_cars.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton_cars.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton_cars.FlatAppearance.BorderSize = 0;
-            this.iconButton_cars.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton_cars.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton_cars.ForeColor = System.Drawing.Color.White;
-            this.iconButton_cars.IconChar = FontAwesome.Sharp.IconChar.Car;
-            this.iconButton_cars.IconColor = System.Drawing.Color.White;
-            this.iconButton_cars.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton_cars.IconSize = 32;
-            this.iconButton_cars.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton_cars.Location = new System.Drawing.Point(0, 190);
-            this.iconButton_cars.Name = "iconButton_cars";
-            this.iconButton_cars.Size = new System.Drawing.Size(164, 40);
-            this.iconButton_cars.TabIndex = 5;
-            this.iconButton_cars.Text = "Cars";
-            this.iconButton_cars.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton_cars.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton_cars.UseVisualStyleBackColor = true;
-            this.iconButton_cars.Click += new System.EventHandler(this.iconButton_cars_Click);
-            // 
-            // iconButton_customers
-            // 
-            this.iconButton_customers.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton_customers.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton_customers.FlatAppearance.BorderSize = 0;
-            this.iconButton_customers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton_customers.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton_customers.ForeColor = System.Drawing.Color.White;
-            this.iconButton_customers.IconChar = FontAwesome.Sharp.IconChar.UserGroup;
-            this.iconButton_customers.IconColor = System.Drawing.Color.White;
-            this.iconButton_customers.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton_customers.IconSize = 32;
-            this.iconButton_customers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton_customers.Location = new System.Drawing.Point(0, 150);
-            this.iconButton_customers.Name = "iconButton_customers";
-            this.iconButton_customers.Size = new System.Drawing.Size(164, 40);
-            this.iconButton_customers.TabIndex = 4;
-            this.iconButton_customers.Text = "Custumers";
-            this.iconButton_customers.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton_customers.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton_customers.UseVisualStyleBackColor = true;
-            this.iconButton_customers.Click += new System.EventHandler(this.iconButton_customers_Click);
-            // 
-            // iconButton_dashboard
-            // 
-            this.iconButton_dashboard.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton_dashboard.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton_dashboard.FlatAppearance.BorderSize = 0;
-            this.iconButton_dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton_dashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton_dashboard.ForeColor = System.Drawing.Color.White;
-            this.iconButton_dashboard.IconChar = FontAwesome.Sharp.IconChar.ChartSimple;
-            this.iconButton_dashboard.IconColor = System.Drawing.Color.White;
-            this.iconButton_dashboard.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton_dashboard.IconSize = 32;
-            this.iconButton_dashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton_dashboard.Location = new System.Drawing.Point(0, 110);
-            this.iconButton_dashboard.Name = "iconButton_dashboard";
-            this.iconButton_dashboard.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.iconButton_dashboard.Size = new System.Drawing.Size(164, 40);
-            this.iconButton_dashboard.TabIndex = 3;
-            this.iconButton_dashboard.Text = "Dashboard";
-            this.iconButton_dashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton_dashboard.UseVisualStyleBackColor = true;
-            this.iconButton_dashboard.Click += new System.EventHandler(this.iconButton_dashboard_Click);
-            // 
-            // pictureBox_home
-            // 
-            this.pictureBox_home.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox_home.Image = global::CarParkingManagement.Properties.Resources.Peaceful_Black__Car;
-            this.pictureBox_home.Location = new System.Drawing.Point(34, 12);
-            this.pictureBox_home.Name = "pictureBox_home";
-            this.pictureBox_home.Size = new System.Drawing.Size(79, 77);
-            this.pictureBox_home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox_home.TabIndex = 0;
-            this.pictureBox_home.TabStop = false;
-            this.pictureBox_home.Click += new System.EventHandler(this.pictureBox_home_Click);
-            // 
             // CarManagerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1534, 901);
+            this.ClientSize = new System.Drawing.Size(1534, 845);
             this.Controls.Add(this.panel_display);
             this.Controls.Add(this.panel_menu);
             this.Name = "CarManagerForm";
@@ -461,6 +461,7 @@
             this.Load += new System.EventHandler(this.CarManagerForm_Load);
             this.panel_menu.ResumeLayout(false);
             this.panel_picture.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_home)).EndInit();
             this.panel_display.ResumeLayout(false);
             this.panel_info.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
@@ -470,7 +471,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox_minimize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox_exit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconCurrentChildForm)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_home)).EndInit();
             this.ResumeLayout(false);
 
         }

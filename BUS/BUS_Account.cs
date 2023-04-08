@@ -30,6 +30,11 @@ namespace BUS
             accountModel.AddAccount(account);
         }
 
+        public void DeleteAccount(string id)
+        {
+            accountModel.DeleteAccount(id);
+        }
+
         public void Command(string query)
         {
             accountModel.Command(query);

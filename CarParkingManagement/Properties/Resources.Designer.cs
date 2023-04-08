@@ -123,6 +123,26 @@ namespace CarParkingManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pexels_pixabay_164634 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-pixabay-164634", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_stephan_müller_753876 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-stephan-müller-753876", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Tumblr_1 {
             get {
                 object obj = ResourceManager.GetObject("Tumblr 1", resourceCulture);

@@ -42,35 +42,45 @@ namespace CarParkingManagement
 
             button_signIn.Enabled = true;
             string query = "Select * from Account where username = '" + username + "' and password = '" + password + "'";
-            if (accountController.GetAccounts(query).Count > 0)
+            if (username == "admin" && password == "123456")
             {
-                /*                MessageBox.Show("Login Successful", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                */
-
-                SignInForm signInForm = new SignInForm();
+                AdminForm adminForm = new AdminForm();
                 this.Hide();
-                string fullname = "select top 1 fullname from Account where username = '" + username + "'";
-                data = new SqlDataAdapter(fullname, Connection.GetSqlConnection());
-                tb = new DataTable();
-                data.Fill(tb);
-                fullname = tb.Rows[0][0].ToString();
-
-
-                string id = "select top 1 id from Account where username = '" + username + "'";
-                data = new SqlDataAdapter(id, Connection.GetSqlConnection());
-                tb = new DataTable();
-                data.Fill(tb);
-                id = tb.Rows[0][0].ToString();
-
-                string info = fullname + "#" + id;
-                CarManagerForm home = new CarManagerForm(info);
-                home.ShowDialog();
-
+                adminForm.ShowDialog();
             }
             else
             {
-                MessageBox.Show("The username or password is incorrect", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (accountController.GetAccounts(query).Count > 0)
+                {
+                    /*                MessageBox.Show("Login Successful", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    */
+
+                    SignInForm signInForm = new SignInForm();
+                    this.Hide();
+                    string fullname = "select top 1 fullname from Account where username = '" + username + "'";
+                    data = new SqlDataAdapter(fullname, Connection.GetSqlConnection());
+                    tb = new DataTable();
+                    data.Fill(tb);
+                    fullname = tb.Rows[0][0].ToString();
+
+
+                    string id = "select top 1 id from Account where username = '" + username + "'";
+                    data = new SqlDataAdapter(id, Connection.GetSqlConnection());
+                    tb = new DataTable();
+                    data.Fill(tb);
+                    id = tb.Rows[0][0].ToString();
+
+                    string info = fullname + "#" + id;
+                    CarManagerForm home = new CarManagerForm(info);
+                    home.ShowDialog();
+
+                }
+                else
+                {
+                    MessageBox.Show("The username or password is incorrect", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
+
 
         }
 
@@ -180,6 +190,34 @@ namespace CarParkingManagement
             textBox_username.BackColor = Color.FromArgb(237, 237, 237);
             rjTextBox1.BackColor = Color.FromArgb(237, 237, 237);
             rjTextBox1.BorderColor = Color.Transparent;
+        }
+
+        private void button_signIn_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_signIn_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void textBox_password_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+
+                button_signIn_Click(sender, e);
+            }
+        }
+
+        private void textBox_username_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+
+                button_signIn_Click(sender, e);
+            }
         }
     }
 }

@@ -15,6 +15,7 @@ namespace CarParkingManagement
     public partial class SignUpForm : Form
     {
         BUS_Account accountController = new BUS_Account();
+        AdminForm adminForm = new AdminForm();
         public SignUpForm()
         {
             InitializeComponent();
@@ -91,8 +92,15 @@ namespace CarParkingManagement
             string id = rnd().ToString();
             /* string query = "insert into Account values ('" + id + "','" + fullname + "','" + username + "','" + password + "','" + email + "')";
              accountController.Command(query);*/
+
+            DataGridView dataGridView_info = adminForm.Controls["dataGridView_info"] as DataGridView;
+
             accountController.AddAccount(id, fullname, username, password, email, position);
-            MessageBox.Show("Signup successful");
+            this.Hide();
+            adminForm.ShowDialog();
+            dataGridView_info.DataSource = accountController.GetAccounts("SELECT * FROM Account");
+            /*
+                        MessageBox.Show("Signup successful");*/
         }
 
         private void textBox_email_TextChanged(object sender, EventArgs e)

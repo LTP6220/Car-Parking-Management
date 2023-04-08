@@ -309,6 +309,10 @@ namespace CarParkingManagement
             {
                 label_id.Location = new Point(142 - (130 - label_fullname.Width), 30);
             }
+            else
+            {
+                label_id.Location = new Point(label_fullname.Width + 12, 30);
+            }
             /* label_id.Text = label_fullname.Width.ToString();*/
             label_id.ForeColor = Color.Gray;
         }
