@@ -93,12 +93,12 @@ namespace CarParkingManagement
             /* string query = "insert into Account values ('" + id + "','" + fullname + "','" + username + "','" + password + "','" + email + "')";
              accountController.Command(query);*/
 
-            DataGridView dataGridView_info = adminForm.Controls["dataGridView_info"] as DataGridView;
-
+            /*            DataGridView dataGridView_info = adminForm.Controls["dataGridView_info"] as DataGridView;
+            */
             accountController.AddAccount(id, fullname, username, password, email, position);
             this.Hide();
-            adminForm.ShowDialog();
-            dataGridView_info.DataSource = accountController.GetAccounts("SELECT * FROM Account");
+            /*   adminForm.ShowDialog();*/
+            adminForm.dataGridView_info.DataSource = accountController.GetAccounts("SELECT * FROM Account");
             /*
                         MessageBox.Show("Signup successful");*/
         }
@@ -124,7 +124,7 @@ namespace CarParkingManagement
             {
                 button_signup.Enabled = false;
             }
-            else if (label_checkUsername.ForeColor == Color.Black && checkAccount(username) && label_checkEmail.ForeColor == Color.Black && checkEmail(email) && confirmPassword == password && label_checkLong.ForeColor == Color.Green && label_checkLetter.ForeColor == Color.Green)
+            else if (label_checkUsername.ForeColor == Color.Black && checkAccount(username) && label_checkEmail.ForeColor == Color.Black && checkEmail(email) && confirmPassword == password && label_checkLong.ForeColor == Color.Green && label_checkLetter.ForeColor == Color.Green && comboBox_position.Text != "")
             {
                 button_signup.Enabled = true;
             }
@@ -157,7 +157,7 @@ namespace CarParkingManagement
             {
                 label_checkLetter.ForeColor = Color.Black;
             }
-            if (label_checkUsername.ForeColor == Color.Black && checkAccount(username) && label_checkEmail.ForeColor == Color.Black && checkEmail(email) && confirmPassword == password && label_checkLong.ForeColor == Color.Green && label_checkLetter.ForeColor == Color.Green)
+            if (label_checkUsername.ForeColor == Color.Black && checkAccount(username) && label_checkEmail.ForeColor == Color.Black && checkEmail(email) && confirmPassword == password && label_checkLong.ForeColor == Color.Green && label_checkLetter.ForeColor == Color.Green && comboBox_position.Text != "")
             {
                 button_signup.Enabled = true;
             }
@@ -173,7 +173,7 @@ namespace CarParkingManagement
             string password = textBox_password.Text;
             string email = textBox_email.Text;
             string username = textBox_username.Text;
-            if (label_checkUsername.ForeColor == Color.Black && checkAccount(username) && label_checkEmail.ForeColor == Color.Black && checkEmail(email) && confirmPassword == password && label_checkLong.ForeColor == Color.Green && label_checkLetter.ForeColor == Color.Green)
+            if (label_checkUsername.ForeColor == Color.Black && checkAccount(username) && label_checkEmail.ForeColor == Color.Black && checkEmail(email) && confirmPassword == password && label_checkLong.ForeColor == Color.Green && label_checkLetter.ForeColor == Color.Green && comboBox_position.Text != "")
             {
                 button_signup.Enabled = true;
             }
@@ -212,7 +212,7 @@ namespace CarParkingManagement
             {
                 button_signup.Enabled = false;
             }
-            else if (label_checkUsername.ForeColor == Color.Black && checkAccount(username) && label_checkEmail.ForeColor == Color.Black && checkEmail(email) && confirmPassword == password && label_checkLong.ForeColor == Color.Green && label_checkLetter.ForeColor == Color.Green)
+            else if (label_checkUsername.ForeColor == Color.Black && checkAccount(username) && label_checkEmail.ForeColor == Color.Black && checkEmail(email) && confirmPassword == password && label_checkLong.ForeColor == Color.Green && label_checkLetter.ForeColor == Color.Green && comboBox_position.Text != "")
             {
                 button_signup.Enabled = true;
             }
@@ -257,6 +257,43 @@ namespace CarParkingManagement
             SignInForm signInForm = new SignInForm();
             this.Hide();
             signInForm.ShowDialog();
+        }
+
+        private void comboBox_position_TextChanged(object sender, EventArgs e)
+        {
+            string password = textBox_password.Text;
+            string confirmPassword = textBox_confirmPassword.Text;
+            string email = textBox_email.Text;
+            string username = textBox_username.Text;
+
+            if (label_checkUsername.ForeColor == Color.Black && checkAccount(username) && label_checkEmail.ForeColor == Color.Black && checkEmail(email) && confirmPassword == password && label_checkLong.ForeColor == Color.Green && label_checkLetter.ForeColor == Color.Green && comboBox_position.Text != "")
+            {
+                button_signup.Enabled = true;
+            }
+            else
+            {
+                button_signup.Enabled = false;
+            }
+        }
+
+        private void textBox_fullName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox_position_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_signup_MouseHover(object sender, EventArgs e)
+        {
+            button_signup.BackColor = Color.Orange;
+        }
+
+        private void button_signup_MouseLeave(object sender, EventArgs e)
+        {
+            button_signup.BackColor = Color.Yellow;
         }
     }
 }

@@ -126,13 +126,11 @@ namespace CarParkingManagement
             updatePassword = password;
             /*    UpdateForm updateForm = new UpdateForm(id);
                 updateForm.ShowDialog();*/
-
         }
 
         private void rjButton_update_Click(object sender, EventArgs e)
         {
-
-            UpdateForm updateForm = new UpdateForm(updateId, updateFullname, updateUsername, updatePassword, updateEmail, updatePosition);
+            UpdateForm updateForm = new UpdateForm(updateId, updateFullname, updateUsername, updatePassword, updateEmail, updatePosition, this);
             updateForm.ShowDialog();
         }
 

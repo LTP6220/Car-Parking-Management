@@ -63,6 +63,8 @@
             this.comboBox_position.Name = "comboBox_position";
             this.comboBox_position.Size = new System.Drawing.Size(314, 21);
             this.comboBox_position.TabIndex = 44;
+            this.comboBox_position.SelectedIndexChanged += new System.EventHandler(this.comboBox_position_SelectedIndexChanged);
+            this.comboBox_position.TextChanged += new System.EventHandler(this.comboBox_position_TextChanged);
             // 
             // label_position
             // 
@@ -89,8 +91,9 @@
             // button_signup
             // 
             this.button_signup.BackColor = System.Drawing.Color.Yellow;
+            this.button_signup.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_signup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_signup.Location = new System.Drawing.Point(247, 516);
+            this.button_signup.Location = new System.Drawing.Point(258, 496);
             this.button_signup.Margin = new System.Windows.Forms.Padding(2);
             this.button_signup.Name = "button_signup";
             this.button_signup.Size = new System.Drawing.Size(260, 63);
@@ -98,6 +101,7 @@
             this.button_signup.Text = "Update";
             this.button_signup.UseVisualStyleBackColor = false;
             this.button_signup.Click += new System.EventHandler(this.button_signup_Click);
+            this.button_signup.MouseHover += new System.EventHandler(this.button_signup_MouseHover);
             // 
             // label_checkUsername
             // 
@@ -150,6 +154,7 @@
             this.textBox_username.Name = "textBox_username";
             this.textBox_username.Size = new System.Drawing.Size(314, 20);
             this.textBox_username.TabIndex = 29;
+            this.textBox_username.TextChanged += new System.EventHandler(this.textBox_username_TextChanged);
             // 
             // textBox_fullName
             // 
@@ -158,6 +163,7 @@
             this.textBox_fullName.Name = "textBox_fullName";
             this.textBox_fullName.Size = new System.Drawing.Size(314, 20);
             this.textBox_fullName.TabIndex = 28;
+            this.textBox_fullName.TextChanged += new System.EventHandler(this.textBox_fullName_TextChanged);
             // 
             // label_email
             // 
@@ -221,6 +227,7 @@
             this.textBox_password.PasswordChar = '•';
             this.textBox_password.Size = new System.Drawing.Size(314, 20);
             this.textBox_password.TabIndex = 30;
+            this.textBox_password.TextChanged += new System.EventHandler(this.textBox_password_TextChanged);
             // 
             // label_checkLong
             // 
@@ -237,7 +244,7 @@
             // 
             this.label_checkLetter.AutoSize = true;
             this.label_checkLetter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_checkLetter.Location = new System.Drawing.Point(237, 435);
+            this.label_checkLetter.Location = new System.Drawing.Point(252, 442);
             this.label_checkLetter.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_checkLetter.Name = "label_checkLetter";
             this.label_checkLetter.Size = new System.Drawing.Size(266, 15);
@@ -274,7 +281,6 @@
             this.Controls.Add(this.label_position);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label_checkUsername2);
-            this.Controls.Add(this.button_signup);
             this.Controls.Add(this.label_checkLetter);
             this.Controls.Add(this.label_checkLong);
             this.Controls.Add(this.label_checkUsername);
@@ -288,6 +294,7 @@
             this.Controls.Add(this.label_email);
             this.Controls.Add(this.textBox_email);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.button_signup);
             this.Name = "UpdateForm";
             this.Text = "UpdateForm";
             this.Load += new System.EventHandler(this.UpdateForm_Load);

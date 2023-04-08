@@ -206,8 +206,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridView_info;
         private FontAwesome.Sharp.IconButton iconButton1;
         private System.Windows.Forms.Panel panel_title;
         private FontAwesome.Sharp.IconButton iconButton_user;
@@ -216,5 +214,6 @@
         private RJControls.RJButton rjButton_createAccount;
         private RJControls.RJButton rjButton_delete;
         private RJControls.RJButton rjButton_update;
+        public System.Windows.Forms.DataGridView dataGridView_info;
     }
 }

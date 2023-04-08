@@ -76,6 +76,28 @@ namespace DAL
             }
         }
 
+        public void UpdateAccount(DTO_Account account)
+        {
+            using (SqlConnection connection = Connection.GetSqlConnection())
+            {
+                connection.Open();
+                string query = "UPDATE Account SET id = @id," +
+                    "fullname = @fullname, username = @username, password = @password," +
+                    "email = @email, position = @position " +
+                    "WHERE id = @id";
+
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@id", account.Id);
+                command.Parameters.AddWithValue("@fullname", account.Fullname);
+                command.Parameters.AddWithValue("@username", account.Username);
+                command.Parameters.AddWithValue("@password", account.Password);
+                command.Parameters.AddWithValue("@email", account.Email);
+                command.Parameters.AddWithValue("@position", account.Position);
+                command.ExecuteNonQuery();
+                connection.Close();
+            }
+        }
+
         public void Command(string query)
         {
             using (SqlConnection connection = Connection.GetSqlConnection())

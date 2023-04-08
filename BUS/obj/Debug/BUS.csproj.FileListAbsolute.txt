@@ -20,3 +20,14 @@ D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\BUS\obj\D
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\BUS\obj\Debug\BUS.csproj.CopyComplete
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\BUS\obj\Debug\BUS.dll
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\Car-Parking-Management\BUS\obj\Debug\BUS.pdb
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\BUS\bin\Debug\BUS.dll
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\BUS\bin\Debug\BUS.pdb
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\BUS\bin\Debug\DAL.dll
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\BUS\bin\Debug\DTO.dll
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\BUS\bin\Debug\DAL.pdb
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\BUS\bin\Debug\DTO.pdb
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\BUS\obj\Debug\BUS.dll
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\BUS\obj\Debug\BUS.pdb

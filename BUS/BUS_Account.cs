@@ -30,9 +30,22 @@ namespace BUS
             accountModel.AddAccount(account);
         }
 
+
         public void DeleteAccount(string id)
         {
             accountModel.DeleteAccount(id);
+        }
+
+        public void UpdateAccount(string id, string fullname, string username, string password, string email, string position)
+        {
+            DTO_Account account = new DTO_Account();
+            account.Id = id;
+            account.Fullname = fullname;
+            account.Username = username;
+            account.Password = password;
+            account.Email = email;
+            account.Position = position;
+            accountModel.UpdateAccount(account);
         }
 
         public void Command(string query)

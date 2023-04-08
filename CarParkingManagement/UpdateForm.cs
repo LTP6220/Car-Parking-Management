@@ -15,7 +15,8 @@ namespace CarParkingManagement
     public partial class UpdateForm : Form
     {
         BUS_Account accountController = new BUS_Account();
-        public UpdateForm(string id, string fullname, string username, string password, string email, string position)
+        AdminForm adminForm = new AdminForm();
+        public UpdateForm(string id, string fullname, string username, string password, string email, string position, AdminForm adminForm)
         {
             InitializeComponent();
             this.Id = id;
@@ -24,7 +25,7 @@ namespace CarParkingManagement
             this.Password = password;
             this.Email = email;
             this.Position = position;
-
+            this.adminForm = adminForm;
         }
 
         public string Id { get; set; }
@@ -88,6 +89,19 @@ namespace CarParkingManagement
 
         private void button_signup_Click(object sender, EventArgs e)
         {
+            string email = textBox_email.Text;
+            string password = textBox_password.Text;
+            string username = textBox_username.Text;
+            string fullname = textBox_fullName.Text;
+            string position = comboBox_position.Text;
+            string id = textBox_id.Text;
+
+            /*            DataGridView dataGridView_info = adminForm.Controls["dataGridView_info"] as DataGridView;
+            */
+            accountController.UpdateAccount(id, fullname, username, password, email, position);
+            this.Hide();
+            /*  adminForm.ShowDialog();*/
+            adminForm.dataGridView_info.DataSource = accountController.GetAccounts("SELECT * FROM Account");
 
         }
 
@@ -106,6 +120,10 @@ namespace CarParkingManagement
             textBox_username.Text = username;
             textBox_password.Text = password;
             comboBox_position.Text = position;
+
+            textBox_id.Enabled = false;
+
+            /*    label_checkEmail.Hide();*/
         }
 
 
@@ -116,7 +134,13 @@ namespace CarParkingManagement
             string password = textBox_password.Text;
 
             string username = textBox_username.Text;
-            if (accountController.GetAccounts("Select * from Account where email = '" + email + "'").Count != 0)
+
+            if (email == Email)
+            {
+                label_checkEmail.Hide();
+                label_checkEmail.ForeColor = Color.Black;
+            }
+            else if (accountController.GetAccounts("Select * from Account where email = '" + email + "'").Count != 0)
             {
                 label_checkEmail.ForeColor = Color.Red;
                 label_checkEmail.Show();
@@ -131,7 +155,116 @@ namespace CarParkingManagement
             {
                 button_signup.Enabled = false;
             }
-            else if (label_checkUsername.ForeColor == Color.Black && checkAccount(username) && label_checkEmail.ForeColor == Color.Black && checkEmail(email)  && label_checkLong.ForeColor == Color.Green && label_checkLetter.ForeColor == Color.Green)
+            else if (label_checkUsername.ForeColor == Color.Black && checkAccount(username) && label_checkEmail.ForeColor == Color.Black && checkEmail(email) && label_checkLong.ForeColor == Color.Green && label_checkLetter.ForeColor == Color.Green && comboBox_position.Text != "")
+            {
+                button_signup.Enabled = true;
+            }
+            else
+            {
+                button_signup.Enabled = false;
+            }
+        }
+
+        private void textBox_password_TextChanged(object sender, EventArgs e)
+        {
+            string password = textBox_password.Text;
+            string email = textBox_email.Text;
+            string username = textBox_username.Text;
+            if (password.Length >= 8)
+            {
+                label_checkLong.ForeColor = Color.Green;
+            }
+            else
+            {
+                label_checkLong.ForeColor = Color.Black;
+            }
+
+            if (ValidatePassword(password))
+            {
+                label_checkLetter.ForeColor = Color.Green;
+            }
+            else
+            {
+                label_checkLetter.ForeColor = Color.Black;
+            }
+            if (label_checkUsername.ForeColor == Color.Black && checkAccount(username) && label_checkEmail.ForeColor == Color.Black && checkEmail(email) && label_checkLong.ForeColor == Color.Green && label_checkLetter.ForeColor == Color.Green && comboBox_position.Text != "")
+            {
+                button_signup.Enabled = true;
+            }
+            else
+            {
+                button_signup.Enabled = false;
+            }
+        }
+
+        private void textBox_fullName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox_position_TextChanged(object sender, EventArgs e)
+        {
+            string password = textBox_password.Text;
+            string email = textBox_email.Text;
+            string username = textBox_username.Text;
+
+            if (label_checkUsername.ForeColor == Color.Black && checkAccount(username) && label_checkEmail.ForeColor == Color.Black && checkEmail(email) && label_checkLong.ForeColor == Color.Green && label_checkLetter.ForeColor == Color.Green && comboBox_position.Text != "")
+            {
+                button_signup.Enabled = true;
+            }
+            else
+            {
+                button_signup.Enabled = false;
+            }
+        }
+
+        private void button_signup_MouseHover(object sender, EventArgs e)
+        {
+            button_signup.BackColor = Color.Orange;
+        }
+
+        private void comboBox_position_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_username_TextChanged(object sender, EventArgs e)
+        {
+            string username = textBox_username.Text;
+            string email = textBox_email.Text;
+            string password = textBox_password.Text;
+
+            if (username == "")
+            {
+                label_checkUsername2.Show();
+            }
+            else
+            {
+                label_checkUsername2.Hide();
+            }
+
+
+            if (username == Username)
+            {
+                label_checkUsername.ForeColor = Color.Black;
+                label_checkUsername.Hide();
+            }
+            else if (accountController.GetAccounts("Select * from Account where username = '" + username + "'").Count != 0)
+            {
+                label_checkUsername.ForeColor = Color.Red;
+                label_checkUsername.Show();
+            }
+            else
+            {
+                label_checkUsername.ForeColor = Color.Black;
+                label_checkUsername.Hide();
+            }
+
+            if (label_checkUsername.ForeColor == Color.Red)
+            {
+                button_signup.Enabled = false;
+            }
+            else if (label_checkUsername.ForeColor == Color.Black && checkAccount(username) && label_checkEmail.ForeColor == Color.Black && checkEmail(email) && label_checkLong.ForeColor == Color.Green && label_checkLetter.ForeColor == Color.Green && comboBox_position.Text != "")
             {
                 button_signup.Enabled = true;
             }
