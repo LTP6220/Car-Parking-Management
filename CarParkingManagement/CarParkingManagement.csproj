@@ -101,6 +101,12 @@
     <Compile Include="CarManagerChildForm\InformationForm.Designer.cs">
       <DependentUpon>InformationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CarManagerChildForm\InformationFormTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarManagerChildForm\InformationFormTest.Designer.cs">
+      <DependentUpon>InformationFormTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="CarManagerChildForm\ParkingSlotForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CarManagerChildForm\InformationForm.resx">
       <DependentUpon>InformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarManagerChildForm\InformationFormTest.resx">
+      <DependentUpon>InformationFormTest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CarManagerChildForm\ParkingSlotForm.resx">
       <DependentUpon>ParkingSlotForm.cs</DependentUpon>

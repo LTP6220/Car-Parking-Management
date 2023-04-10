@@ -1,14 +1,20 @@
-﻿using FontAwesome.Sharp;
+﻿using DAL;
+using FontAwesome.Sharp;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+using System.Windows.Markup;
+using BUS;
+using System.Globalization;
 
 namespace CarParkingManagement
 {
@@ -17,7 +23,9 @@ namespace CarParkingManagement
         private IconButton currentBtn;
         private Panel leftBorderBtn;
         private Form currentChildForm;
-
+        BUS_Account accountController = new BUS_Account();
+        SqlDataAdapter data;
+        DataTable tb;
 
         bool visible = false;
         public CarManagerForm(string value)
@@ -68,6 +76,7 @@ namespace CarParkingManagement
                 leftBorderBtn.Visible = true;
                 leftBorderBtn.BringToFront();
                 //Current Child Form Icon
+                iconCurrentChildForm.Show();
                 iconCurrentChildForm.IconChar = currentBtn.IconChar;
                 iconCurrentChildForm.IconColor = color;
                 label_titleChildForm.ForeColor = color;
@@ -230,7 +239,40 @@ namespace CarParkingManagement
 
         private void iconButton1_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new CarManagerChildForm.InformationForm());
+            Reset();
+            iconCurrentChildForm.Hide();
+
+            string id = label_id.Text.Substring(label_id.Text.Length - 8, 8);
+
+            string fullname = "select top 1 fullname from Account where id = '" + id + "'";
+            data = new SqlDataAdapter(fullname, Connection.GetSqlConnection());
+            tb = new DataTable();
+            data.Fill(tb);
+            fullname = tb.Rows[0][0].ToString();
+
+            string username = "select top 1 username from Account where id = '" + id + "'";
+            data = new SqlDataAdapter(username, Connection.GetSqlConnection());
+            tb = new DataTable();
+            data.Fill(tb);
+            username = tb.Rows[0][0].ToString();
+
+
+            string email = "select top 1 email from Account where id = '" + id + "'";
+            data = new SqlDataAdapter(email, Connection.GetSqlConnection());
+            tb = new DataTable();
+            data.Fill(tb);
+            email = tb.Rows[0][0].ToString();
+
+            string position = "select top 1 position from Account where id = '" + id + "'";
+            data = new SqlDataAdapter(position, Connection.GetSqlConnection());
+            tb = new DataTable();
+            data.Fill(tb);
+            position = tb.Rows[0][0].ToString();
+
+            MessageBox.Show(username);
+            string updateId = "#" + id;
+            OpenChildForm(new CarManagerChildForm.InformationForm(updateId, fullname, username, email, position));
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -327,6 +369,16 @@ namespace CarParkingManagement
             SignInForm signInForm = new SignInForm();
             this.Hide();
             signInForm.ShowDialog();
+        }
+
+        private void iconButton_user_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel_desktop_MouseClick(object sender, MouseEventArgs e)
+        {
+            panel_info.Visible = false;
         }
     }
 }

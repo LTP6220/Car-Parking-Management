@@ -353,6 +353,7 @@
             this.panel_desktop.Name = "panel_desktop";
             this.panel_desktop.Size = new System.Drawing.Size(1370, 826);
             this.panel_desktop.TabIndex = 2;
+            this.panel_desktop.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_desktop_MouseClick);
             // 
             // panel_title
             // 
@@ -385,6 +386,7 @@
             this.iconButton_user.Size = new System.Drawing.Size(60, 60);
             this.iconButton_user.TabIndex = 10;
             this.iconButton_user.UseVisualStyleBackColor = false;
+            this.iconButton_user.Click += new System.EventHandler(this.iconButton_user_Click);
             this.iconButton_user.MouseClick += new System.Windows.Forms.MouseEventHandler(this.iconButton_user_MouseClick);
             // 
             // iconPictureBox_minimize
@@ -493,7 +495,6 @@
         private System.Windows.Forms.Label label_titleChildForm;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox_exit;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox_minimize;
-        private System.Windows.Forms.Panel panel_info;
         private FontAwesome.Sharp.IconButton iconButton_exit;
         private FontAwesome.Sharp.IconButton iconButton_signOut;
         private FontAwesome.Sharp.IconButton iconButton_accountDetails;
@@ -501,5 +502,6 @@
         private System.Windows.Forms.Label label_fullname;
         private FontAwesome.Sharp.IconButton iconButton_user;
         private System.Windows.Forms.Label label_id;
+        public System.Windows.Forms.Panel panel_info;
     }
 }

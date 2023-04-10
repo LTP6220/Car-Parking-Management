@@ -91,3 +91,4 @@ D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\Ca
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.csproj.CopyComplete
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.exe
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.pdb
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.CarManagerChildForm.InformationFormTest.resources

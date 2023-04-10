@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CarParkingManagement"
+    "\\CarParkingManagement",
+    "\\CarParkingManagement\\CarManagerChildForm"
   ],
-  "SelectedNode": "\\CarParkingManagement\\CarManagerForm.cs",
+  "SelectedNode": "\\CarParkingManagement\\CarManagerChildForm\\InformationFormTest.cs",
   "PreviewInSolutionExplorer": false
 }

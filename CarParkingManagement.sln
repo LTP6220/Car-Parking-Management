@@ -11,6 +11,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUS", "BUS\BUS.csproj", "{43A6C8D4-E7DD-40E8-A8BA-FF02CBCA32EA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CFBF2E5C-200E-4CE5-AADA-6D03B04E630C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\inter\Inter-Black.ttf = ..\..\..\inter\Inter-Black.ttf
+		..\..\..\inter\Inter-Bold.ttf = ..\..\..\inter\Inter-Bold.ttf
+		..\..\..\inter\Inter-BoldItalic.ttf = ..\..\..\inter\Inter-BoldItalic.ttf
+		..\..\..\inter\Inter-ExtraBold.ttf = ..\..\..\inter\Inter-ExtraBold.ttf
+		..\..\..\inter\Inter-ExtraBoldItalic.ttf = ..\..\..\inter\Inter-ExtraBoldItalic.ttf
+		..\..\..\inter\Inter-ExtraLight-BETA.ttf = ..\..\..\inter\Inter-ExtraLight-BETA.ttf
+		..\..\..\inter\Inter-ExtraLightItalic-BETA.ttf = ..\..\..\inter\Inter-ExtraLightItalic-BETA.ttf
+		..\..\..\inter\Inter-Italic.ttf = ..\..\..\inter\Inter-Italic.ttf
+		..\..\..\inter\Inter-Light-BETA.ttf = ..\..\..\inter\Inter-Light-BETA.ttf
+		..\..\..\inter\Inter-LightItalic-BETA.ttf = ..\..\..\inter\Inter-LightItalic-BETA.ttf
+		..\..\..\inter\Inter-Medium.ttf = ..\..\..\inter\Inter-Medium.ttf
+		..\..\..\inter\Inter-MediumItalic.ttf = ..\..\..\inter\Inter-MediumItalic.ttf
+		..\..\..\inter\Inter-Regular.ttf = ..\..\..\inter\Inter-Regular.ttf
+		..\..\..\inter\Inter-SemiBold.ttf = ..\..\..\inter\Inter-SemiBold.ttf
+		..\..\..\inter\Inter-SemiBoldItalic.ttf = ..\..\..\inter\Inter-SemiBoldItalic.ttf
+		..\..\..\inter\Inter-Thin-BETA.ttf = ..\..\..\inter\Inter-Thin-BETA.ttf
+		..\..\..\inter\Inter-ThinItalic-BETA.ttf = ..\..\..\inter\Inter-ThinItalic-BETA.ttf
+		..\..\..\inter\Inter-UI-BlackItalic.ttf = ..\..\..\inter\Inter-UI-BlackItalic.ttf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

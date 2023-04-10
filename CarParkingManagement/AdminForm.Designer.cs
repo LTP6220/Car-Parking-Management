@@ -196,6 +196,7 @@
             this.Controls.Add(this.iconButton1);
             this.Controls.Add(this.dataGridView_info);
             this.Name = "AdminForm";
+            this.Text = "  ";
             this.Load += new System.EventHandler(this.AdminForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_info)).EndInit();
             this.panel_title.ResumeLayout(false);
