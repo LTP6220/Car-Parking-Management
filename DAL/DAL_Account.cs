@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Runtime.Remoting.Messaging;
@@ -97,6 +98,21 @@ namespace DAL
                 connection.Close();
             }
         }
+        public void UpdatePassword(string newPassword, string username)
+        {
+            using (SqlConnection connection = Connection.GetSqlConnection())
+            {
+                connection.Open();
+                string query = "UPDATE Account SET password = '" + newPassword + "' where username = '" + username + "'";
+                SqlCommand command = new SqlCommand(query, connection);
+                SqlDataAdapter data = new SqlDataAdapter(command);
+                DataTable dt = new DataTable();
+                data.Fill(dt);
+                command.ExecuteNonQuery();
+                connection.Close();
+            }
+        }
+
 
         public void Command(string query)
         {

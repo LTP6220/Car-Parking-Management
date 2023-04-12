@@ -42,6 +42,26 @@ namespace CarParkingManagement
             dataGridView_info.Columns[3].HeaderCell.Value = "Password";
             dataGridView_info.Columns[4].HeaderCell.Value = "Email";
             dataGridView_info.Columns[5].HeaderCell.Value = "Position";
+            /*
+                        dataGridView_info.RowHeadersVisible = false;*/
+            /*            dataGridView_info.ColumnHeadersDefaultCellStyle.BackColor = Color.Yellow;
+            */
+            /*   dataGridView_info.RowHeadersDefaultCellStyle = ;*/
+            /*   dataGridView_info.ColumnHeadersDefaultCellStyle.SelectionForeColor = dataGridView_info.BackColor;*/
+            /*            dataGridView_info.ColumnHeadersDefaultCellStyle.SelectionBackColor = dataGridView_info.ColumnHeadersDefaultCellStyle.BackColor;
+            */
+
+
+            dataGridView_info.RowsDefaultCellStyle.SelectionBackColor = Color.Gray;
+            dataGridView_info.RowsDefaultCellStyle.SelectionForeColor = Color.WhiteSmoke;
+            dataGridView_info.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(32, 30, 31);
+            dataGridView_info.RowHeadersDefaultCellStyle.ForeColor = Color.Gray;
+            dataGridView_info.RowHeadersDefaultCellStyle.SelectionBackColor = Color.FromArgb(32, 30, 31);
+            dataGridView_info.RowHeadersDefaultCellStyle.SelectionForeColor = Color.Gray;
+            dataGridView_info.EnableHeadersVisualStyles = false;
+
+            dataGridView_info.AllowUserToResizeRows = false;
+
         }
 
         //Drag Form
@@ -82,16 +102,21 @@ namespace CarParkingManagement
         private void rjButton_delete_Click(object sender, EventArgs e)
         {
             string id = getSelectedIdAccount();
+            DialogResult result = MessageBox.Show("Do you want to delete?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                if (id != "-1")
+                {
+                    accountController.DeleteAccount(id);
+                    dataGridView_info.DataSource = accountController.GetAccounts("SELECT * FROM Account");
+                }
+                else
+                {
+                    MessageBox.Show("Please select an account to delete.");
+                }
+            }
 
-            if (id != "-1")
-            {
-                accountController.DeleteAccount(id);
-                dataGridView_info.DataSource = accountController.GetAccounts("SELECT * FROM Account");
-            }
-            else
-            {
-                MessageBox.Show("Please select a account to delete.");
-            }
+
         }
 
         private string getSelectedIdAccount()
@@ -111,12 +136,24 @@ namespace CarParkingManagement
         {
             rjButton_update.Enabled = true;
             TextBox textBox_id = new TextBox();
-            string id = dataGridView_info.Rows[e.RowIndex].Cells["ID"].FormattedValue.ToString();
-            string email = dataGridView_info.Rows[e.RowIndex].Cells["Email"].FormattedValue.ToString();
-            string fullname = dataGridView_info.Rows[e.RowIndex].Cells["Fullname"].FormattedValue.ToString();
-            string position = dataGridView_info.Rows[e.RowIndex].Cells["Position"].FormattedValue.ToString();
-            string username = dataGridView_info.Rows[e.RowIndex].Cells["Username"].FormattedValue.ToString();
-            string password = dataGridView_info.Rows[e.RowIndex].Cells["Password"].FormattedValue.ToString();
+            string id = "";
+            string email = "";
+            string fullname = "";
+            string position = "";
+            string username = "";
+            string password = "";
+
+            dataGridView_info.Columns[e.ColumnIndex].HeaderCell.Style.BackColor = Color.Red;
+            if (e.RowIndex == -1) // Check if the clicked cell is a header cell
+            {
+                dataGridView_info.Columns[e.ColumnIndex].HeaderCell.Style.BackColor = Color.Red;
+            }
+            id = dataGridView_info.Rows[e.RowIndex].Cells["ID"].FormattedValue.ToString();
+            email = dataGridView_info.Rows[e.RowIndex].Cells["Email"].FormattedValue.ToString();
+            fullname = dataGridView_info.Rows[e.RowIndex].Cells["Fullname"].FormattedValue.ToString();
+            position = dataGridView_info.Rows[e.RowIndex].Cells["Position"].FormattedValue.ToString();
+            username = dataGridView_info.Rows[e.RowIndex].Cells["Username"].FormattedValue.ToString();
+            password = dataGridView_info.Rows[e.RowIndex].Cells["Password"].FormattedValue.ToString();
 
             updateId = id;
             updateEmail = email;
@@ -124,8 +161,13 @@ namespace CarParkingManagement
             updatePosition = position;
             updateUsername = username;
             updatePassword = password;
+
+
+
             /*    UpdateForm updateForm = new UpdateForm(id);
                 updateForm.ShowDialog();*/
+
+
         }
 
         private void rjButton_update_Click(object sender, EventArgs e)
@@ -134,6 +176,105 @@ namespace CarParkingManagement
             updateForm.ShowDialog();
         }
 
+        private void dataGridView_info_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
+        }
+
+        private void panel_title_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dataGridView_info_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            /*dataGridView_info.Rows[0].DefaultCellStyle.BackColor = Color.Red;*/
+            dataGridView_info.EnableHeadersVisualStyles = false;
+
+            foreach (DataGridViewRow r in dataGridView_info.Rows)
+            {
+                r.DefaultCellStyle.BackColor = Color.FromArgb(52, 58, 64);
+                r.DefaultCellStyle.ForeColor = Color.White;
+            }
+
+            // Header color Datagridview
+
+
+        }
+
+        /*  private void iconPictureBox2_MouseHover(object sender, EventArgs e)
+          {
+              iconPictureBox_exit.BackColor = Color.Red;
+          }*/
+
+        private void iconPictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            iconPictureBox_exit.BackColor = Color.Transparent;
+        }
+
+        private void iconPictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void rjButton_createAccount_MouseEnter(object sender, EventArgs e)
+        {
+            rjButton_createAccount.BackColor = Color.FromArgb(32, 30, 31);
+        }
+
+        private void rjButton_createAccount_MouseLeave(object sender, EventArgs e)
+        {
+            rjButton_createAccount.BackColor = Color.Transparent;
+        }
+
+        private void rjButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconPictureBox_exit_MouseEnter(object sender, EventArgs e)
+        {
+            iconPictureBox_exit.BackColor = Color.Red;
+        }
+
+        private void rjButton_delete_MouseEnter(object sender, EventArgs e)
+        {
+            rjButton_delete.BackColor = Color.FromArgb(32, 30, 31);
+        }
+
+        private void rjButton_delete_MouseLeave(object sender, EventArgs e)
+        {
+            rjButton_delete.BackColor = Color.Transparent;
+        }
+
+        private void rjButton_update_MouseEnter(object sender, EventArgs e)
+        {
+            rjButton_update.BackColor = Color.FromArgb(32, 30, 31);
+        }
+
+        private void rjButton_update_MouseLeave(object sender, EventArgs e)
+        {
+            rjButton_update.BackColor = Color.Transparent;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconPictureBox_minimize_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        private void iconPictureBox_minimize_MouseEnter(object sender, EventArgs e)
+        {
+            iconPictureBox_minimize.BackColor = Color.FromArgb(55, 59, 63);
+        }
+
+        private void iconPictureBox_minimize_MouseLeave(object sender, EventArgs e)
+        {
+            iconPictureBox_minimize.BackColor = Color.Transparent;
+        }
     }
 }

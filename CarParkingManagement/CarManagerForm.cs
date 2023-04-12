@@ -269,7 +269,7 @@ namespace CarParkingManagement
             data.Fill(tb);
             position = tb.Rows[0][0].ToString();
 
-            MessageBox.Show(username);
+            /*         MessageBox.Show(username);*/
             string updateId = "#" + id;
             OpenChildForm(new CarManagerChildForm.InformationForm(updateId, fullname, username, email, position));
 
@@ -379,6 +379,26 @@ namespace CarParkingManagement
         private void panel_desktop_MouseClick(object sender, MouseEventArgs e)
         {
             panel_info.Visible = false;
+        }
+
+        private void iconPictureBox_exit_MouseEnter(object sender, EventArgs e)
+        {
+            iconPictureBox_exit.BackColor = Color.Red;
+        }
+
+        private void iconPictureBox_minimize_MouseEnter(object sender, EventArgs e)
+        {
+            iconPictureBox_minimize.BackColor = Color.FromArgb(55, 59, 63);
+        }
+
+        private void panel_menu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel_title_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

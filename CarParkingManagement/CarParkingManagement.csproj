@@ -101,12 +101,6 @@
     <Compile Include="CarManagerChildForm\InformationForm.Designer.cs">
       <DependentUpon>InformationForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="CarManagerChildForm\InformationFormTest.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CarManagerChildForm\InformationFormTest.Designer.cs">
-      <DependentUpon>InformationFormTest.cs</DependentUpon>
-    </Compile>
     <Compile Include="CarManagerChildForm\ParkingSlotForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,9 +163,6 @@
     <EmbeddedResource Include="CarManagerChildForm\InformationForm.resx">
       <DependentUpon>InformationForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CarManagerChildForm\InformationFormTest.resx">
-      <DependentUpon>InformationFormTest.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CarManagerChildForm\ParkingSlotForm.resx">
       <DependentUpon>ParkingSlotForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -225,6 +216,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\olav-tvedt--oVaYMgBMbs-unsplash %281%29.jpg" />
+    <None Include="Resources\olav-tvedt--oVaYMgBMbs-unsplash.jpg" />
+    <None Include="Resources\x-solid.png" />
     <None Include="Resources\pexels-pixabay-164634.jpg" />
     <None Include="Resources\pexels-stephan-müller-753876.jpg" />
     <None Include="Resources\minimize-sign.png" />

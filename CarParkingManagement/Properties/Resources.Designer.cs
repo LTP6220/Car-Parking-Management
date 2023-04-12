@@ -113,6 +113,26 @@ namespace CarParkingManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap olav_tvedt__oVaYMgBMbs_unsplash {
+            get {
+                object obj = ResourceManager.GetObject("olav-tvedt--oVaYMgBMbs-unsplash", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap olav_tvedt__oVaYMgBMbs_unsplash__1_ {
+            get {
+                object obj = ResourceManager.GetObject("olav-tvedt--oVaYMgBMbs-unsplash (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Peaceful_Black__Car {
             get {
                 object obj = ResourceManager.GetObject("Peaceful Black  Car", resourceCulture);
@@ -176,6 +196,16 @@ namespace CarParkingManagement.Properties {
         internal static System.Drawing.Bitmap window_minimize_solid {
             get {
                 object obj = ResourceManager.GetObject("window-minimize-solid", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap x_solid {
+            get {
+                object obj = ResourceManager.GetObject("x-solid", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

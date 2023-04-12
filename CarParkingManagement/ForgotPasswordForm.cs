@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -40,7 +41,7 @@ namespace CarParkingManagement
 
         private void ForgotPasswordForm_Load(object sender, EventArgs e)
         {
-            button_recoverPassword.Enabled = false;
+            rjButton_sendPassword.Enabled = false;
         }
 
         private void rjTextBox_email_TextChanged(object sender, EventArgs e)
@@ -89,11 +90,11 @@ namespace CarParkingManagement
         {
             if (checkEmail(textBox_email.Text) || checkAccount(textBox_email.Text))
             {
-                button_recoverPassword.Enabled = true;
+                rjButton_sendPassword.Enabled = true;
             }
             else
             {
-                button_recoverPassword.Enabled = false;
+                rjButton_sendPassword.Enabled = false;
             }
         }
 
@@ -102,6 +103,72 @@ namespace CarParkingManagement
             SignInForm signInForm = new SignInForm();
             this.Hide();
             signInForm.ShowDialog();
+        }
+
+        private void textBox_email_Enter(object sender, EventArgs e)
+        {
+            if (textBox_email.Text == "Email or Phone")
+            {
+                textBox_email.Text = "";
+                textBox_email.ForeColor = Color.Black;
+            }
+        }
+
+        private void rjButton_sendPassword_Click(object sender, EventArgs e)
+        {
+            string email = textBox_email.Text;
+            string username = textBox_email.Text;
+            string query = "select * from Account where email = '" + email + "' or username = '" + username + "'";
+            if (accountController.GetAccounts(query).Count != 0)
+            {
+                label_password.ForeColor = Color.Green;
+                label_password.Text = "Password: " + accountController.GetAccounts(query)[0].Password;
+            }
+            else
+            {
+                label_password.ForeColor = Color.Red;
+                label_password.Text = "Email or username not found !";
+            }
+        }
+
+        private void iconPictureBox2_MouseEnter(object sender, EventArgs e)
+        {
+            iconPictureBox2.BackColor = Color.Red;
+        }
+
+        private void iconPictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void iconPictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            iconPictureBox2.BackColor = Color.Transparent;
+        }
+
+        private void iconPictureBox1_MouseEnter(object sender, EventArgs e)
+        {
+            iconPictureBox1.BackColor = Color.FromArgb(55, 59, 63);
+        }
+
+        private void iconPictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            iconPictureBox1.BackColor = Color.Transparent;
+        }
+
+        private void iconPictureBox1_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+
+        private void panel3_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
     }
 }

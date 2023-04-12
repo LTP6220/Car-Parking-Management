@@ -37,12 +37,17 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.rjTextBox4 = new CarParkingManagement.RJControls.RJTextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.rjTextBox3 = new CarParkingManagement.RJControls.RJTextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.textBox_confirmNewPassword = new System.Windows.Forms.TextBox();
             this.rjTextBox2 = new CarParkingManagement.RJControls.RJTextBox();
+            this.textBox_newPassword = new System.Windows.Forms.TextBox();
+            this.rjTextBox1 = new CarParkingManagement.RJControls.RJTextBox();
+            this.textBox_currentPassword = new System.Windows.Forms.TextBox();
+            this.label_checkPassword = new System.Windows.Forms.Label();
+            this.rjButton_saveChanges = new CarParkingManagement.RJControls.RJButton();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.rjTextBox_currentPassword = new CarParkingManagement.RJControls.RJTextBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -56,6 +61,8 @@
             this.panel9 = new System.Windows.Forms.Panel();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.label_checkLetter = new System.Windows.Forms.Label();
+            this.label_checkLong = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -180,50 +187,151 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.panel5.Controls.Add(this.label9);
-            this.panel5.Controls.Add(this.rjTextBox4);
-            this.panel5.Controls.Add(this.label8);
-            this.panel5.Controls.Add(this.rjTextBox3);
-            this.panel5.Controls.Add(this.label6);
+            this.panel5.Controls.Add(this.label_checkLetter);
+            this.panel5.Controls.Add(this.label_checkLong);
+            this.panel5.Controls.Add(this.textBox_currentPassword);
+            this.panel5.Controls.Add(this.textBox_newPassword);
+            this.panel5.Controls.Add(this.textBox_confirmNewPassword);
             this.panel5.Controls.Add(this.rjTextBox2);
+            this.panel5.Controls.Add(this.rjTextBox1);
+            this.panel5.Controls.Add(this.label_checkPassword);
+            this.panel5.Controls.Add(this.rjButton_saveChanges);
+            this.panel5.Controls.Add(this.label9);
+            this.panel5.Controls.Add(this.label8);
+            this.panel5.Controls.Add(this.label6);
+            this.panel5.Controls.Add(this.rjTextBox_currentPassword);
             this.panel5.Controls.Add(this.panel6);
             this.panel5.Location = new System.Drawing.Point(92, 788);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1135, 413);
+            this.panel5.Size = new System.Drawing.Size(1135, 514);
             this.panel5.TabIndex = 4;
+            // 
+            // textBox_confirmNewPassword
+            // 
+            this.textBox_confirmNewPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.textBox_confirmNewPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_confirmNewPassword.ForeColor = System.Drawing.Color.White;
+            this.textBox_confirmNewPassword.Location = new System.Drawing.Point(520, 302);
+            this.textBox_confirmNewPassword.Name = "textBox_confirmNewPassword";
+            this.textBox_confirmNewPassword.PasswordChar = '•';
+            this.textBox_confirmNewPassword.Size = new System.Drawing.Size(462, 13);
+            this.textBox_confirmNewPassword.TabIndex = 23;
+            this.textBox_confirmNewPassword.TextChanged += new System.EventHandler(this.textBox_confirmNewPassword_TextChanged);
+            // 
+            // rjTextBox2
+            // 
+            this.rjTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.rjTextBox2.BorderColor = System.Drawing.Color.White;
+            this.rjTextBox2.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.rjTextBox2.BorderRadius = 0;
+            this.rjTextBox2.BorderSize = 1;
+            this.rjTextBox2.Enabled = false;
+            this.rjTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBox2.ForeColor = System.Drawing.Color.White;
+            this.rjTextBox2.Location = new System.Drawing.Point(509, 291);
+            this.rjTextBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBox2.Multiline = false;
+            this.rjTextBox2.Name = "rjTextBox2";
+            this.rjTextBox2.Padding = new System.Windows.Forms.Padding(7);
+            this.rjTextBox2.PasswordChar = true;
+            this.rjTextBox2.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.rjTextBox2.PlaceholderText = "";
+            this.rjTextBox2.Size = new System.Drawing.Size(484, 35);
+            this.rjTextBox2.TabIndex = 24;
+            this.rjTextBox2.Texts = "";
+            this.rjTextBox2.UnderlinedStyle = false;
+            // 
+            // textBox_newPassword
+            // 
+            this.textBox_newPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.textBox_newPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_newPassword.ForeColor = System.Drawing.Color.White;
+            this.textBox_newPassword.Location = new System.Drawing.Point(520, 171);
+            this.textBox_newPassword.Name = "textBox_newPassword";
+            this.textBox_newPassword.PasswordChar = '•';
+            this.textBox_newPassword.Size = new System.Drawing.Size(462, 13);
+            this.textBox_newPassword.TabIndex = 21;
+            this.textBox_newPassword.TextChanged += new System.EventHandler(this.textBox_newPassword_TextChanged);
+            // 
+            // rjTextBox1
+            // 
+            this.rjTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.rjTextBox1.BorderColor = System.Drawing.Color.White;
+            this.rjTextBox1.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.rjTextBox1.BorderRadius = 0;
+            this.rjTextBox1.BorderSize = 1;
+            this.rjTextBox1.Enabled = false;
+            this.rjTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBox1.ForeColor = System.Drawing.Color.White;
+            this.rjTextBox1.Location = new System.Drawing.Point(509, 160);
+            this.rjTextBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBox1.Multiline = false;
+            this.rjTextBox1.Name = "rjTextBox1";
+            this.rjTextBox1.Padding = new System.Windows.Forms.Padding(7);
+            this.rjTextBox1.PasswordChar = true;
+            this.rjTextBox1.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.rjTextBox1.PlaceholderText = "";
+            this.rjTextBox1.Size = new System.Drawing.Size(484, 35);
+            this.rjTextBox1.TabIndex = 22;
+            this.rjTextBox1.Texts = "";
+            this.rjTextBox1.UnderlinedStyle = false;
+            // 
+            // textBox_currentPassword
+            // 
+            this.textBox_currentPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.textBox_currentPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_currentPassword.ForeColor = System.Drawing.Color.White;
+            this.textBox_currentPassword.Location = new System.Drawing.Point(520, 87);
+            this.textBox_currentPassword.Name = "textBox_currentPassword";
+            this.textBox_currentPassword.PasswordChar = '•';
+            this.textBox_currentPassword.Size = new System.Drawing.Size(462, 13);
+            this.textBox_currentPassword.TabIndex = 5;
+            this.textBox_currentPassword.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBox_currentPassword_MouseClick);
+            this.textBox_currentPassword.TextChanged += new System.EventHandler(this.textBox_currentPassword_TextChanged);
+            // 
+            // label_checkPassword
+            // 
+            this.label_checkPassword.AutoSize = true;
+            this.label_checkPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_checkPassword.ForeColor = System.Drawing.Color.Red;
+            this.label_checkPassword.Location = new System.Drawing.Point(506, 113);
+            this.label_checkPassword.Name = "label_checkPassword";
+            this.label_checkPassword.Size = new System.Drawing.Size(123, 15);
+            this.label_checkPassword.TabIndex = 5;
+            this.label_checkPassword.Text = "Password is incorrect";
+            this.label_checkPassword.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // rjButton_saveChanges
+            // 
+            this.rjButton_saveChanges.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.rjButton_saveChanges.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.rjButton_saveChanges.BorderColor = System.Drawing.Color.White;
+            this.rjButton_saveChanges.BorderRadius = 0;
+            this.rjButton_saveChanges.BorderSize = 1;
+            this.rjButton_saveChanges.Enabled = false;
+            this.rjButton_saveChanges.FlatAppearance.BorderSize = 0;
+            this.rjButton_saveChanges.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton_saveChanges.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjButton_saveChanges.ForeColor = System.Drawing.Color.White;
+            this.rjButton_saveChanges.Location = new System.Drawing.Point(832, 367);
+            this.rjButton_saveChanges.Name = "rjButton_saveChanges";
+            this.rjButton_saveChanges.Size = new System.Drawing.Size(161, 33);
+            this.rjButton_saveChanges.TabIndex = 5;
+            this.rjButton_saveChanges.Text = "SAVE CHANGES";
+            this.rjButton_saveChanges.TextColor = System.Drawing.Color.White;
+            this.rjButton_saveChanges.UseVisualStyleBackColor = false;
+            this.rjButton_saveChanges.Click += new System.EventHandler(this.rjButton_saveChanges_Click);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(506, 220);
+            this.label9.Location = new System.Drawing.Point(506, 269);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(205, 16);
             this.label9.TabIndex = 20;
             this.label9.Text = "CONFIRM NEW PASSWORD";
-            // 
-            // rjTextBox4
-            // 
-            this.rjTextBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.rjTextBox4.BorderColor = System.Drawing.Color.White;
-            this.rjTextBox4.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.rjTextBox4.BorderRadius = 0;
-            this.rjTextBox4.BorderSize = 1;
-            this.rjTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBox4.ForeColor = System.Drawing.Color.White;
-            this.rjTextBox4.Location = new System.Drawing.Point(509, 240);
-            this.rjTextBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBox4.Multiline = false;
-            this.rjTextBox4.Name = "rjTextBox4";
-            this.rjTextBox4.Padding = new System.Windows.Forms.Padding(7);
-            this.rjTextBox4.PasswordChar = true;
-            this.rjTextBox4.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.rjTextBox4.PlaceholderText = "";
-            this.rjTextBox4.Size = new System.Drawing.Size(484, 35);
-            this.rjTextBox4.TabIndex = 19;
-            this.rjTextBox4.Texts = "";
-            this.rjTextBox4.UnderlinedStyle = false;
             // 
             // label8
             // 
@@ -236,28 +344,6 @@
             this.label8.TabIndex = 18;
             this.label8.Text = "NEW PASSWORD";
             // 
-            // rjTextBox3
-            // 
-            this.rjTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.rjTextBox3.BorderColor = System.Drawing.Color.White;
-            this.rjTextBox3.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.rjTextBox3.BorderRadius = 0;
-            this.rjTextBox3.BorderSize = 1;
-            this.rjTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBox3.ForeColor = System.Drawing.Color.White;
-            this.rjTextBox3.Location = new System.Drawing.Point(509, 156);
-            this.rjTextBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBox3.Multiline = false;
-            this.rjTextBox3.Name = "rjTextBox3";
-            this.rjTextBox3.Padding = new System.Windows.Forms.Padding(7);
-            this.rjTextBox3.PasswordChar = true;
-            this.rjTextBox3.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.rjTextBox3.PlaceholderText = "";
-            this.rjTextBox3.Size = new System.Drawing.Size(484, 35);
-            this.rjTextBox3.TabIndex = 17;
-            this.rjTextBox3.Texts = "";
-            this.rjTextBox3.UnderlinedStyle = false;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -269,27 +355,30 @@
             this.label6.TabIndex = 15;
             this.label6.Text = "CURRENT PASSWORD";
             // 
-            // rjTextBox2
+            // rjTextBox_currentPassword
             // 
-            this.rjTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.rjTextBox2.BorderColor = System.Drawing.Color.White;
-            this.rjTextBox2.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.rjTextBox2.BorderRadius = 0;
-            this.rjTextBox2.BorderSize = 1;
-            this.rjTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBox2.ForeColor = System.Drawing.Color.White;
-            this.rjTextBox2.Location = new System.Drawing.Point(509, 76);
-            this.rjTextBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBox2.Multiline = false;
-            this.rjTextBox2.Name = "rjTextBox2";
-            this.rjTextBox2.Padding = new System.Windows.Forms.Padding(7);
-            this.rjTextBox2.PasswordChar = true;
-            this.rjTextBox2.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.rjTextBox2.PlaceholderText = "";
-            this.rjTextBox2.Size = new System.Drawing.Size(484, 35);
-            this.rjTextBox2.TabIndex = 14;
-            this.rjTextBox2.Texts = "";
-            this.rjTextBox2.UnderlinedStyle = false;
+            this.rjTextBox_currentPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.rjTextBox_currentPassword.BorderColor = System.Drawing.Color.White;
+            this.rjTextBox_currentPassword.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.rjTextBox_currentPassword.BorderRadius = 0;
+            this.rjTextBox_currentPassword.BorderSize = 1;
+            this.rjTextBox_currentPassword.Enabled = false;
+            this.rjTextBox_currentPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBox_currentPassword.ForeColor = System.Drawing.Color.White;
+            this.rjTextBox_currentPassword.Location = new System.Drawing.Point(509, 76);
+            this.rjTextBox_currentPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBox_currentPassword.Multiline = false;
+            this.rjTextBox_currentPassword.Name = "rjTextBox_currentPassword";
+            this.rjTextBox_currentPassword.Padding = new System.Windows.Forms.Padding(7);
+            this.rjTextBox_currentPassword.PasswordChar = true;
+            this.rjTextBox_currentPassword.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.rjTextBox_currentPassword.PlaceholderText = "";
+            this.rjTextBox_currentPassword.Size = new System.Drawing.Size(484, 35);
+            this.rjTextBox_currentPassword.TabIndex = 14;
+            this.rjTextBox_currentPassword.Texts = "";
+            this.rjTextBox_currentPassword.UnderlinedStyle = false;
+            this.rjTextBox_currentPassword.Load += new System.EventHandler(this.rjTextBox_currentPassword_Load);
+            this.rjTextBox_currentPassword.MouseClick += new System.Windows.Forms.MouseEventHandler(this.rjTextBox_currentPassword_MouseClick);
             // 
             // panel6
             // 
@@ -299,7 +388,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(448, 413);
+            this.panel6.Size = new System.Drawing.Size(448, 514);
             this.panel6.TabIndex = 2;
             this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
@@ -474,6 +563,30 @@
             this.label15.TabIndex = 0;
             this.label15.Text = "Personal Information";
             // 
+            // label_checkLetter
+            // 
+            this.label_checkLetter.AutoSize = true;
+            this.label_checkLetter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_checkLetter.ForeColor = System.Drawing.Color.White;
+            this.label_checkLetter.Location = new System.Drawing.Point(506, 237);
+            this.label_checkLetter.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_checkLetter.Name = "label_checkLetter";
+            this.label_checkLetter.Size = new System.Drawing.Size(266, 15);
+            this.label_checkLetter.TabIndex = 26;
+            this.label_checkLetter.Text = "Password contains at least one letter or number";
+            // 
+            // label_checkLong
+            // 
+            this.label_checkLong.AutoSize = true;
+            this.label_checkLong.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_checkLong.ForeColor = System.Drawing.Color.White;
+            this.label_checkLong.Location = new System.Drawing.Point(506, 213);
+            this.label_checkLong.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_checkLong.Name = "label_checkLong";
+            this.label_checkLong.Size = new System.Drawing.Size(215, 15);
+            this.label_checkLong.TabIndex = 25;
+            this.label_checkLong.Text = "Password is at least 8 characters long.";
+            // 
             // InformationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -515,11 +628,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label9;
-        private RJControls.RJTextBox rjTextBox4;
         private System.Windows.Forms.Label label8;
-        private RJControls.RJTextBox rjTextBox3;
         private System.Windows.Forms.Label label6;
-        private RJControls.RJTextBox rjTextBox2;
+        private RJControls.RJTextBox rjTextBox_currentPassword;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
@@ -533,5 +644,14 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label1;
         private RJControls.RJTextBox rjTextBox_position;
+        private RJControls.RJButton rjButton_saveChanges;
+        private System.Windows.Forms.Label label_checkPassword;
+        private System.Windows.Forms.TextBox textBox_confirmNewPassword;
+        private RJControls.RJTextBox rjTextBox2;
+        private System.Windows.Forms.TextBox textBox_newPassword;
+        private RJControls.RJTextBox rjTextBox1;
+        private System.Windows.Forms.TextBox textBox_currentPassword;
+        private System.Windows.Forms.Label label_checkLetter;
+        private System.Windows.Forms.Label label_checkLong;
     }
 }

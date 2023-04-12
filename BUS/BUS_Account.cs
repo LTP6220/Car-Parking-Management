@@ -48,6 +48,13 @@ namespace BUS
             accountModel.UpdateAccount(account);
         }
 
+        public void UpdatePassword(string password, string username)
+        {
+            accountModel.UpdatePassword(password, username);
+        }
+
+
+
         public void Command(string query)
         {
             accountModel.Command(query);

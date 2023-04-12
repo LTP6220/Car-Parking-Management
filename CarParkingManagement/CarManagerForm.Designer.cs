@@ -75,8 +75,9 @@
             this.panel_menu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel_menu.Location = new System.Drawing.Point(0, 0);
             this.panel_menu.Name = "panel_menu";
-            this.panel_menu.Size = new System.Drawing.Size(164, 845);
+            this.panel_menu.Size = new System.Drawing.Size(184, 845);
             this.panel_menu.TabIndex = 0;
+            this.panel_menu.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_menu_Paint);
             // 
             // iconButton5
             // 
@@ -92,7 +93,7 @@
             this.iconButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton5.Location = new System.Drawing.Point(0, 270);
             this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Size = new System.Drawing.Size(164, 40);
+            this.iconButton5.Size = new System.Drawing.Size(184, 40);
             this.iconButton5.TabIndex = 7;
             this.iconButton5.Text = "iconButton5";
             this.iconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -114,7 +115,7 @@
             this.iconButton_parkingSlot.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton_parkingSlot.Location = new System.Drawing.Point(0, 230);
             this.iconButton_parkingSlot.Name = "iconButton_parkingSlot";
-            this.iconButton_parkingSlot.Size = new System.Drawing.Size(164, 40);
+            this.iconButton_parkingSlot.Size = new System.Drawing.Size(184, 40);
             this.iconButton_parkingSlot.TabIndex = 6;
             this.iconButton_parkingSlot.Text = "Parking Slot";
             this.iconButton_parkingSlot.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -138,7 +139,7 @@
             this.iconButton_cars.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton_cars.Location = new System.Drawing.Point(0, 190);
             this.iconButton_cars.Name = "iconButton_cars";
-            this.iconButton_cars.Size = new System.Drawing.Size(164, 40);
+            this.iconButton_cars.Size = new System.Drawing.Size(184, 40);
             this.iconButton_cars.TabIndex = 5;
             this.iconButton_cars.Text = "Cars";
             this.iconButton_cars.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -161,7 +162,7 @@
             this.iconButton_customers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton_customers.Location = new System.Drawing.Point(0, 150);
             this.iconButton_customers.Name = "iconButton_customers";
-            this.iconButton_customers.Size = new System.Drawing.Size(164, 40);
+            this.iconButton_customers.Size = new System.Drawing.Size(184, 40);
             this.iconButton_customers.TabIndex = 4;
             this.iconButton_customers.Text = "Custumers";
             this.iconButton_customers.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -185,7 +186,7 @@
             this.iconButton_dashboard.Location = new System.Drawing.Point(0, 110);
             this.iconButton_dashboard.Name = "iconButton_dashboard";
             this.iconButton_dashboard.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.iconButton_dashboard.Size = new System.Drawing.Size(164, 40);
+            this.iconButton_dashboard.Size = new System.Drawing.Size(184, 40);
             this.iconButton_dashboard.TabIndex = 3;
             this.iconButton_dashboard.Text = "Dashboard";
             this.iconButton_dashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -198,14 +199,14 @@
             this.panel_picture.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_picture.Location = new System.Drawing.Point(0, 0);
             this.panel_picture.Name = "panel_picture";
-            this.panel_picture.Size = new System.Drawing.Size(164, 110);
+            this.panel_picture.Size = new System.Drawing.Size(184, 110);
             this.panel_picture.TabIndex = 8;
             // 
             // pictureBox_home
             // 
             this.pictureBox_home.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox_home.Image = global::CarParkingManagement.Properties.Resources.Peaceful_Black__Car;
-            this.pictureBox_home.Location = new System.Drawing.Point(34, 12);
+            this.pictureBox_home.Location = new System.Drawing.Point(51, 18);
             this.pictureBox_home.Name = "pictureBox_home";
             this.pictureBox_home.Size = new System.Drawing.Size(79, 77);
             this.pictureBox_home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -221,9 +222,9 @@
             this.panel_display.Controls.Add(this.panel_desktop);
             this.panel_display.Controls.Add(this.panel_title);
             this.panel_display.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_display.Location = new System.Drawing.Point(164, 0);
+            this.panel_display.Location = new System.Drawing.Point(184, 0);
             this.panel_display.Name = "panel_display";
-            this.panel_display.Size = new System.Drawing.Size(1370, 845);
+            this.panel_display.Size = new System.Drawing.Size(1350, 845);
             this.panel_display.TabIndex = 1;
             this.panel_display.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_display_Paint);
             // 
@@ -234,7 +235,7 @@
             this.panel_info.Controls.Add(this.iconButton_signOut);
             this.panel_info.Controls.Add(this.iconButton_accountDetails);
             this.panel_info.Controls.Add(this.panel1);
-            this.panel_info.Location = new System.Drawing.Point(995, 35);
+            this.panel_info.Location = new System.Drawing.Point(978, 35);
             this.panel_info.Name = "panel_info";
             this.panel_info.Size = new System.Drawing.Size(297, 269);
             this.panel_info.TabIndex = 10;
@@ -351,7 +352,7 @@
             this.panel_desktop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_desktop.Location = new System.Drawing.Point(0, 95);
             this.panel_desktop.Name = "panel_desktop";
-            this.panel_desktop.Size = new System.Drawing.Size(1370, 826);
+            this.panel_desktop.Size = new System.Drawing.Size(1350, 826);
             this.panel_desktop.TabIndex = 2;
             this.panel_desktop.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_desktop_MouseClick);
             // 
@@ -366,8 +367,9 @@
             this.panel_title.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_title.Location = new System.Drawing.Point(0, 0);
             this.panel_title.Name = "panel_title";
-            this.panel_title.Size = new System.Drawing.Size(1370, 95);
+            this.panel_title.Size = new System.Drawing.Size(1350, 95);
             this.panel_title.TabIndex = 3;
+            this.panel_title.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_title_Paint);
             this.panel_title.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel_title_MouseDown);
             // 
             // iconButton_user
@@ -381,7 +383,7 @@
             this.iconButton_user.IconColor = System.Drawing.Color.White;
             this.iconButton_user.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.iconButton_user.IconSize = 35;
-            this.iconButton_user.Location = new System.Drawing.Point(1298, 35);
+            this.iconButton_user.Location = new System.Drawing.Point(1288, 35);
             this.iconButton_user.Name = "iconButton_user";
             this.iconButton_user.Size = new System.Drawing.Size(60, 60);
             this.iconButton_user.TabIndex = 10;
@@ -397,13 +399,14 @@
             this.iconPictureBox_minimize.IconColor = System.Drawing.Color.White;
             this.iconPictureBox_minimize.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox_minimize.IconSize = 20;
-            this.iconPictureBox_minimize.Location = new System.Drawing.Point(1300, 1);
+            this.iconPictureBox_minimize.Location = new System.Drawing.Point(1280, 0);
             this.iconPictureBox_minimize.Name = "iconPictureBox_minimize";
             this.iconPictureBox_minimize.Size = new System.Drawing.Size(35, 20);
             this.iconPictureBox_minimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.iconPictureBox_minimize.TabIndex = 9;
             this.iconPictureBox_minimize.TabStop = false;
             this.iconPictureBox_minimize.Click += new System.EventHandler(this.iconPictureBox_minimize_Click);
+            this.iconPictureBox_minimize.MouseEnter += new System.EventHandler(this.iconPictureBox_minimize_MouseEnter);
             this.iconPictureBox_minimize.MouseLeave += new System.EventHandler(this.iconPictureBox_minimize_MouseLeave);
             this.iconPictureBox_minimize.MouseHover += new System.EventHandler(this.iconPictureBox_minimize_MouseHover);
             // 
@@ -415,13 +418,14 @@
             this.iconPictureBox_exit.IconColor = System.Drawing.Color.White;
             this.iconPictureBox_exit.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox_exit.IconSize = 20;
-            this.iconPictureBox_exit.Location = new System.Drawing.Point(1335, 1);
+            this.iconPictureBox_exit.Location = new System.Drawing.Point(1315, 0);
             this.iconPictureBox_exit.Name = "iconPictureBox_exit";
             this.iconPictureBox_exit.Size = new System.Drawing.Size(35, 20);
             this.iconPictureBox_exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.iconPictureBox_exit.TabIndex = 8;
             this.iconPictureBox_exit.TabStop = false;
             this.iconPictureBox_exit.Click += new System.EventHandler(this.iconPictureBox_exit_Click);
+            this.iconPictureBox_exit.MouseEnter += new System.EventHandler(this.iconPictureBox_exit_MouseEnter);
             this.iconPictureBox_exit.MouseLeave += new System.EventHandler(this.iconPictureBox_exit_MouseLeave);
             this.iconPictureBox_exit.MouseHover += new System.EventHandler(this.iconPictureBox_exit_MouseHover);
             // 
@@ -458,6 +462,7 @@
             this.ClientSize = new System.Drawing.Size(1534, 845);
             this.Controls.Add(this.panel_display);
             this.Controls.Add(this.panel_menu);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CarManagerForm";
             this.Text = " ";
             this.Load += new System.EventHandler(this.CarManagerForm_Load);
