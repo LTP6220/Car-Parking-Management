@@ -1,8 +1,10 @@
 ﻿using BUS;
+using DAL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -15,6 +17,7 @@ namespace CarParkingManagement
     public partial class AdminForm : Form
     {
         BUS_Account accountController = new BUS_Account();
+        DataTable dt;
         string updateId;
         string updateEmail;
         string updateFullname;
@@ -31,10 +34,23 @@ namespace CarParkingManagement
             this.DoubleBuffered = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
         }
+
+
         private void AdminForm_Load(object sender, EventArgs e)
         {
             rjButton_update.Enabled = false;
-            dataGridView_info.DataSource = accountController.GetAccounts("select * from Account");
+            /*     dataGridView_info.DataSource = accountController.GetAccounts("select * from Account");*/
+
+
+            SqlConnection connection = Connection.GetSqlConnection();
+            SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM Account", connection);
+            dt = new DataTable();
+            connection.Open();
+            adapter.Fill(dt);
+            dataGridView_info.DataSource = dt;
+            connection.Close();
+
+
             AdjustStudentGridView();
             dataGridView_info.Columns[0].HeaderCell.Value = "ID";
             dataGridView_info.Columns[1].HeaderCell.Value = "Full Name";
@@ -282,6 +298,18 @@ namespace CarParkingManagement
             SignInForm signInForm = new SignInForm();
             this.Hide();
             signInForm.ShowDialog();
+        }
+
+        private void textBox_search_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_search_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            DataView dv = dt.DefaultView;
+            dv.RowFilter = String.Format("fullname like '%{0}%'", textBox_search.Text);
+            dataGridView_info.DataSource = dv.ToTable();
         }
     }
 }
