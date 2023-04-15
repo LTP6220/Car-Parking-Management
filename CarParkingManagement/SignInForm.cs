@@ -123,13 +123,14 @@ namespace CarParkingManagement
         }
 
 
-
+        
         private void label3_Click(object sender, EventArgs e)
         {
             SignUpForm signUpForm = new SignUpForm();
             this.Hide();
             signUpForm.ShowDialog();
         }
+        
 
         private void label3_MouseHover(object sender, EventArgs e)
         {
@@ -218,6 +219,21 @@ namespace CarParkingManagement
 
                 button_signIn_Click(sender, e);
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

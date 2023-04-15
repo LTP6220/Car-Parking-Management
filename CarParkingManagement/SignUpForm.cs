@@ -295,5 +295,55 @@ namespace CarParkingManagement
         {
             button_signup.BackColor = Color.Yellow;
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label_position_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_checkLong_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_checkUsername2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_confirmPassword_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_checkEmail_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_fullname_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
