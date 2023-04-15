@@ -18,8 +18,7 @@ namespace CarParkingManagement
     {
         public RJTextBox rJTextBox = new RJTextBox();
         public ForgotPasswordForm forgotPasswordForm;
-
-
+        /*     BUS_Account accountController = new BUS_Account();*/
         public bool checkEmail(string email)
         {
             return Regex.IsMatch(email, @"^[a-zA-Z0-9]{3,20}@gmail.com(.vn|)$");
@@ -39,9 +38,11 @@ namespace CarParkingManagement
 
         BUS_Account accountController = new BUS_Account();
 
+
         private void ForgotPasswordForm_Load(object sender, EventArgs e)
         {
             rjButton_sendPassword.Enabled = false;
+            this.ActiveControl = textBox_email;
         }
 
         private void rjTextBox_email_TextChanged(object sender, EventArgs e)
@@ -105,14 +106,7 @@ namespace CarParkingManagement
             signInForm.ShowDialog();
         }
 
-        private void textBox_email_Enter(object sender, EventArgs e)
-        {
-            if (textBox_email.Text == "Email or Phone")
-            {
-                textBox_email.Text = "";
-                textBox_email.ForeColor = Color.Black;
-            }
-        }
+
 
         private void rjButton_sendPassword_Click(object sender, EventArgs e)
         {
@@ -169,6 +163,15 @@ namespace CarParkingManagement
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void textBox_email_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (textBox_email.Text == "Email or Phone")
+            {
+                textBox_email.Text = "";
+                textBox_email.ForeColor = Color.Black;
+            }
         }
     }
 }

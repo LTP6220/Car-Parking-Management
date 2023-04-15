@@ -32,7 +32,7 @@ namespace CarParkingManagement
         {
             InitializeComponent();
             leftBorderBtn = new Panel();
-            leftBorderBtn.Size = new Size(7, 40);
+            leftBorderBtn.Size = new Size(7, 80);
             /*     currentBtn = iconButton_dashboard;*/
             panel_menu.Controls.Add(leftBorderBtn);
             /*    ActivateButton(currBtn, colorActive);*/
@@ -379,6 +379,7 @@ namespace CarParkingManagement
         private void panel_desktop_MouseClick(object sender, MouseEventArgs e)
         {
             panel_info.Visible = false;
+            visible = false;
         }
 
         private void iconPictureBox_exit_MouseEnter(object sender, EventArgs e)
@@ -399,6 +400,17 @@ namespace CarParkingManagement
         private void panel_title_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void panel_desktop_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel_title_MouseClick(object sender, MouseEventArgs e)
+        {
+            panel_info.Visible = false;
+            visible = false;
         }
     }
 }

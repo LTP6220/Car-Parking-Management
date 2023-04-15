@@ -54,10 +54,10 @@ namespace CarParkingManagement
 
             dataGridView_info.RowsDefaultCellStyle.SelectionBackColor = Color.Gray;
             dataGridView_info.RowsDefaultCellStyle.SelectionForeColor = Color.WhiteSmoke;
-            dataGridView_info.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(32, 30, 31);
-            dataGridView_info.RowHeadersDefaultCellStyle.ForeColor = Color.Gray;
-            dataGridView_info.RowHeadersDefaultCellStyle.SelectionBackColor = Color.FromArgb(32, 30, 31);
-            dataGridView_info.RowHeadersDefaultCellStyle.SelectionForeColor = Color.Gray;
+            dataGridView_info.RowHeadersDefaultCellStyle.BackColor = Color.FromArgb(41, 39, 39);
+            dataGridView_info.RowHeadersDefaultCellStyle.ForeColor = Color.White;
+            dataGridView_info.RowHeadersDefaultCellStyle.SelectionBackColor = Color.FromArgb(41, 39, 39);
+            dataGridView_info.RowHeadersDefaultCellStyle.SelectionForeColor = Color.White;
             dataGridView_info.EnableHeadersVisualStyles = false;
 
             dataGridView_info.AllowUserToResizeRows = false;
@@ -143,11 +143,11 @@ namespace CarParkingManagement
             string username = "";
             string password = "";
 
-            dataGridView_info.Columns[e.ColumnIndex].HeaderCell.Style.BackColor = Color.Red;
-            if (e.RowIndex == -1) // Check if the clicked cell is a header cell
-            {
-                dataGridView_info.Columns[e.ColumnIndex].HeaderCell.Style.BackColor = Color.Red;
-            }
+            /*  dataGridView_info.Columns[e.ColumnIndex].HeaderCell.Style.BackColor = Color.Red;
+              if (e.RowIndex == -1) // Check if the clicked cell is a header cell
+              {
+                  dataGridView_info.Columns[e.ColumnIndex].HeaderCell.Style.BackColor = Color.Red;
+              }*/
             id = dataGridView_info.Rows[e.RowIndex].Cells["ID"].FormattedValue.ToString();
             email = dataGridView_info.Rows[e.RowIndex].Cells["Email"].FormattedValue.ToString();
             fullname = dataGridView_info.Rows[e.RowIndex].Cells["Fullname"].FormattedValue.ToString();
@@ -193,7 +193,7 @@ namespace CarParkingManagement
 
             foreach (DataGridViewRow r in dataGridView_info.Rows)
             {
-                r.DefaultCellStyle.BackColor = Color.FromArgb(52, 58, 64);
+                r.DefaultCellStyle.BackColor = Color.FromArgb(41, 39, 39);
                 r.DefaultCellStyle.ForeColor = Color.White;
             }
 
@@ -219,7 +219,7 @@ namespace CarParkingManagement
 
         private void rjButton_createAccount_MouseEnter(object sender, EventArgs e)
         {
-            rjButton_createAccount.BackColor = Color.FromArgb(32, 30, 31);
+            rjButton_createAccount.BackColor = Color.FromArgb(15, 14, 14);
         }
 
         private void rjButton_createAccount_MouseLeave(object sender, EventArgs e)
@@ -239,7 +239,7 @@ namespace CarParkingManagement
 
         private void rjButton_delete_MouseEnter(object sender, EventArgs e)
         {
-            rjButton_delete.BackColor = Color.FromArgb(32, 30, 31);
+            rjButton_delete.BackColor = Color.FromArgb(15, 14, 14);
         }
 
         private void rjButton_delete_MouseLeave(object sender, EventArgs e)
@@ -249,7 +249,7 @@ namespace CarParkingManagement
 
         private void rjButton_update_MouseEnter(object sender, EventArgs e)
         {
-            rjButton_update.BackColor = Color.FromArgb(32, 30, 31);
+            rjButton_update.BackColor = Color.FromArgb(15, 14, 14);
         }
 
         private void rjButton_update_MouseLeave(object sender, EventArgs e)
@@ -275,6 +275,13 @@ namespace CarParkingManagement
         private void iconPictureBox_minimize_MouseLeave(object sender, EventArgs e)
         {
             iconPictureBox_minimize.BackColor = Color.Transparent;
+        }
+
+        private void iconPictureBox1_Click(object sender, EventArgs e)
+        {
+            SignInForm signInForm = new SignInForm();
+            this.Hide();
+            signInForm.ShowDialog();
         }
     }
 }

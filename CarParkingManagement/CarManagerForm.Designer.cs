@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CarManagerForm));
             this.panel_menu = new System.Windows.Forms.Panel();
-            this.iconButton5 = new FontAwesome.Sharp.IconButton();
             this.iconButton_parkingSlot = new FontAwesome.Sharp.IconButton();
             this.iconButton_cars = new FontAwesome.Sharp.IconButton();
             this.iconButton_customers = new FontAwesome.Sharp.IconButton();
@@ -66,7 +66,6 @@
             // panel_menu
             // 
             this.panel_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(58)))), ((int)(((byte)(64)))));
-            this.panel_menu.Controls.Add(this.iconButton5);
             this.panel_menu.Controls.Add(this.iconButton_parkingSlot);
             this.panel_menu.Controls.Add(this.iconButton_cars);
             this.panel_menu.Controls.Add(this.iconButton_customers);
@@ -78,27 +77,6 @@
             this.panel_menu.Size = new System.Drawing.Size(184, 845);
             this.panel_menu.TabIndex = 0;
             this.panel_menu.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_menu_Paint);
-            // 
-            // iconButton5
-            // 
-            this.iconButton5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton5.FlatAppearance.BorderSize = 0;
-            this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton5.ForeColor = System.Drawing.Color.White;
-            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.House;
-            this.iconButton5.IconColor = System.Drawing.Color.White;
-            this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton5.IconSize = 32;
-            this.iconButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton5.Location = new System.Drawing.Point(0, 270);
-            this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Size = new System.Drawing.Size(184, 40);
-            this.iconButton5.TabIndex = 7;
-            this.iconButton5.Text = "iconButton5";
-            this.iconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton5.UseVisualStyleBackColor = true;
             // 
             // iconButton_parkingSlot
             // 
@@ -113,9 +91,9 @@
             this.iconButton_parkingSlot.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton_parkingSlot.IconSize = 32;
             this.iconButton_parkingSlot.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton_parkingSlot.Location = new System.Drawing.Point(0, 230);
+            this.iconButton_parkingSlot.Location = new System.Drawing.Point(0, 384);
             this.iconButton_parkingSlot.Name = "iconButton_parkingSlot";
-            this.iconButton_parkingSlot.Size = new System.Drawing.Size(184, 40);
+            this.iconButton_parkingSlot.Size = new System.Drawing.Size(184, 80);
             this.iconButton_parkingSlot.TabIndex = 6;
             this.iconButton_parkingSlot.Text = "Parking Slot";
             this.iconButton_parkingSlot.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -137,9 +115,9 @@
             this.iconButton_cars.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton_cars.IconSize = 32;
             this.iconButton_cars.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton_cars.Location = new System.Drawing.Point(0, 190);
+            this.iconButton_cars.Location = new System.Drawing.Point(0, 304);
             this.iconButton_cars.Name = "iconButton_cars";
-            this.iconButton_cars.Size = new System.Drawing.Size(184, 40);
+            this.iconButton_cars.Size = new System.Drawing.Size(184, 80);
             this.iconButton_cars.TabIndex = 5;
             this.iconButton_cars.Text = "Cars";
             this.iconButton_cars.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -160,9 +138,9 @@
             this.iconButton_customers.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton_customers.IconSize = 32;
             this.iconButton_customers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton_customers.Location = new System.Drawing.Point(0, 150);
+            this.iconButton_customers.Location = new System.Drawing.Point(0, 224);
             this.iconButton_customers.Name = "iconButton_customers";
-            this.iconButton_customers.Size = new System.Drawing.Size(184, 40);
+            this.iconButton_customers.Size = new System.Drawing.Size(184, 80);
             this.iconButton_customers.TabIndex = 4;
             this.iconButton_customers.Text = "Custumers";
             this.iconButton_customers.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -183,10 +161,10 @@
             this.iconButton_dashboard.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton_dashboard.IconSize = 32;
             this.iconButton_dashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton_dashboard.Location = new System.Drawing.Point(0, 110);
+            this.iconButton_dashboard.Location = new System.Drawing.Point(0, 144);
             this.iconButton_dashboard.Name = "iconButton_dashboard";
             this.iconButton_dashboard.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.iconButton_dashboard.Size = new System.Drawing.Size(184, 40);
+            this.iconButton_dashboard.Size = new System.Drawing.Size(184, 80);
             this.iconButton_dashboard.TabIndex = 3;
             this.iconButton_dashboard.Text = "Dashboard";
             this.iconButton_dashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -199,16 +177,16 @@
             this.panel_picture.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_picture.Location = new System.Drawing.Point(0, 0);
             this.panel_picture.Name = "panel_picture";
-            this.panel_picture.Size = new System.Drawing.Size(184, 110);
+            this.panel_picture.Size = new System.Drawing.Size(184, 144);
             this.panel_picture.TabIndex = 8;
             // 
             // pictureBox_home
             // 
             this.pictureBox_home.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox_home.Image = global::CarParkingManagement.Properties.Resources.Peaceful_Black__Car;
-            this.pictureBox_home.Location = new System.Drawing.Point(51, 18);
+            this.pictureBox_home.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_home.Image")));
+            this.pictureBox_home.Location = new System.Drawing.Point(27, 12);
             this.pictureBox_home.Name = "pictureBox_home";
-            this.pictureBox_home.Size = new System.Drawing.Size(79, 77);
+            this.pictureBox_home.Size = new System.Drawing.Size(123, 121);
             this.pictureBox_home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox_home.TabIndex = 0;
             this.pictureBox_home.TabStop = false;
@@ -216,7 +194,7 @@
             // 
             // panel_display
             // 
-            this.panel_display.BackgroundImage = global::CarParkingManagement.Properties.Resources.Tumblr_1;
+            this.panel_display.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_display.BackgroundImage")));
             this.panel_display.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel_display.Controls.Add(this.panel_info);
             this.panel_display.Controls.Add(this.panel_desktop);
@@ -235,7 +213,7 @@
             this.panel_info.Controls.Add(this.iconButton_signOut);
             this.panel_info.Controls.Add(this.iconButton_accountDetails);
             this.panel_info.Controls.Add(this.panel1);
-            this.panel_info.Location = new System.Drawing.Point(978, 35);
+            this.panel_info.Location = new System.Drawing.Point(968, 35);
             this.panel_info.Name = "panel_info";
             this.panel_info.Size = new System.Drawing.Size(297, 269);
             this.panel_info.TabIndex = 10;
@@ -254,9 +232,9 @@
             this.iconButton_exit.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton_exit.IconSize = 30;
             this.iconButton_exit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton_exit.Location = new System.Drawing.Point(0, 153);
+            this.iconButton_exit.Location = new System.Drawing.Point(0, 179);
             this.iconButton_exit.Name = "iconButton_exit";
-            this.iconButton_exit.Size = new System.Drawing.Size(297, 40);
+            this.iconButton_exit.Size = new System.Drawing.Size(297, 53);
             this.iconButton_exit.TabIndex = 2;
             this.iconButton_exit.Text = "EXIT";
             this.iconButton_exit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -277,9 +255,9 @@
             this.iconButton_signOut.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton_signOut.IconSize = 30;
             this.iconButton_signOut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton_signOut.Location = new System.Drawing.Point(0, 113);
+            this.iconButton_signOut.Location = new System.Drawing.Point(0, 126);
             this.iconButton_signOut.Name = "iconButton_signOut";
-            this.iconButton_signOut.Size = new System.Drawing.Size(297, 40);
+            this.iconButton_signOut.Size = new System.Drawing.Size(297, 53);
             this.iconButton_signOut.TabIndex = 1;
             this.iconButton_signOut.Text = "SIGN OUT";
             this.iconButton_signOut.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -303,7 +281,7 @@
             this.iconButton_accountDetails.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton_accountDetails.Location = new System.Drawing.Point(0, 73);
             this.iconButton_accountDetails.Name = "iconButton_accountDetails";
-            this.iconButton_accountDetails.Size = new System.Drawing.Size(297, 40);
+            this.iconButton_accountDetails.Size = new System.Drawing.Size(297, 53);
             this.iconButton_accountDetails.TabIndex = 0;
             this.iconButton_accountDetails.Text = "ACCOUNT DETAILS";
             this.iconButton_accountDetails.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -354,6 +332,7 @@
             this.panel_desktop.Name = "panel_desktop";
             this.panel_desktop.Size = new System.Drawing.Size(1350, 826);
             this.panel_desktop.TabIndex = 2;
+            this.panel_desktop.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_desktop_Paint);
             this.panel_desktop.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_desktop_MouseClick);
             // 
             // panel_title
@@ -370,6 +349,7 @@
             this.panel_title.Size = new System.Drawing.Size(1350, 95);
             this.panel_title.TabIndex = 3;
             this.panel_title.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_title_Paint);
+            this.panel_title.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_title_MouseClick);
             this.panel_title.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel_title_MouseDown);
             // 
             // iconButton_user
@@ -383,7 +363,7 @@
             this.iconButton_user.IconColor = System.Drawing.Color.White;
             this.iconButton_user.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.iconButton_user.IconSize = 35;
-            this.iconButton_user.Location = new System.Drawing.Point(1288, 35);
+            this.iconButton_user.Location = new System.Drawing.Point(1278, 35);
             this.iconButton_user.Name = "iconButton_user";
             this.iconButton_user.Size = new System.Drawing.Size(60, 60);
             this.iconButton_user.TabIndex = 10;
@@ -432,11 +412,11 @@
             // label_titleChildForm
             // 
             this.label_titleChildForm.AutoSize = true;
-            this.label_titleChildForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_titleChildForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_titleChildForm.ForeColor = System.Drawing.Color.White;
-            this.label_titleChildForm.Location = new System.Drawing.Point(55, 26);
+            this.label_titleChildForm.Location = new System.Drawing.Point(55, 35);
             this.label_titleChildForm.Name = "label_titleChildForm";
-            this.label_titleChildForm.Size = new System.Drawing.Size(62, 24);
+            this.label_titleChildForm.Size = new System.Drawing.Size(86, 31);
             this.label_titleChildForm.TabIndex = 2;
             this.label_titleChildForm.Text = "Home";
             this.label_titleChildForm.Click += new System.EventHandler(this.label_titleChildForm_Click);
@@ -448,7 +428,7 @@
             this.iconCurrentChildForm.IconChar = FontAwesome.Sharp.IconChar.House;
             this.iconCurrentChildForm.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.iconCurrentChildForm.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconCurrentChildForm.Location = new System.Drawing.Point(21, 24);
+            this.iconCurrentChildForm.Location = new System.Drawing.Point(21, 35);
             this.iconCurrentChildForm.Name = "iconCurrentChildForm";
             this.iconCurrentChildForm.Size = new System.Drawing.Size(32, 32);
             this.iconCurrentChildForm.TabIndex = 0;
@@ -463,6 +443,7 @@
             this.Controls.Add(this.panel_display);
             this.Controls.Add(this.panel_menu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CarManagerForm";
             this.Text = " ";
             this.Load += new System.EventHandler(this.CarManagerForm_Load);
@@ -486,7 +467,6 @@
 
         private System.Windows.Forms.Panel panel_menu;
         private RJControls.RJButton rjButton_signOut;
-        private FontAwesome.Sharp.IconButton iconButton5;
         private FontAwesome.Sharp.IconButton iconButton_parkingSlot;
         private FontAwesome.Sharp.IconButton iconButton_cars;
         private FontAwesome.Sharp.IconButton iconButton_customers;

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ForgotPasswordForm));
             this.label_email = new System.Windows.Forms.Label();
             this.label_password = new System.Windows.Forms.Label();
             this.textBox_email = new System.Windows.Forms.TextBox();
@@ -62,8 +63,8 @@
             this.label_email.Name = "label_email";
             this.label_email.Size = new System.Drawing.Size(339, 36);
             this.label_email.TabIndex = 0;
-            this.label_email.Text = "Enter the email or phone number you used when \r\nyou joined and we\'ll send you tem" +
-    "porary password";
+            this.label_email.Text = "Enter the email or username you used when \r\nyou joined and we\'ll send you tempora" +
+    "ry password";
             this.label_email.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_password
@@ -91,13 +92,13 @@
             this.textBox_email.TabIndex = 12;
             this.textBox_email.Tag = "";
             this.textBox_email.Text = "Email or Phone";
+            this.textBox_email.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBox_email_MouseClick);
             this.textBox_email.TextChanged += new System.EventHandler(this.textBox_email_TextChanged_1);
-            this.textBox_email.Enter += new System.EventHandler(this.textBox_email_Enter);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::CarParkingManagement.Properties.Resources.arrow;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(29, 24);
@@ -159,7 +160,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.BackgroundImage = global::CarParkingManagement.Properties.Resources.olav_tvedt__oVaYMgBMbs_unsplash__1_;
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Location = new System.Drawing.Point(423, 0);
@@ -221,6 +222,7 @@
             this.rjButton_sendPassword.BorderRadius = 0;
             this.rjButton_sendPassword.BorderSize = 0;
             this.rjButton_sendPassword.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rjButton_sendPassword.Enabled = false;
             this.rjButton_sendPassword.FlatAppearance.BorderSize = 0;
             this.rjButton_sendPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rjButton_sendPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

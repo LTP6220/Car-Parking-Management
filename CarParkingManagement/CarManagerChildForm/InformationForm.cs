@@ -232,5 +232,11 @@ namespace CarParkingManagement.CarManagerChildForm
                 rjButton_saveChanges.Enabled = false;
             }
         }
+
+        private void InformationForm_MouseClick(object sender, MouseEventArgs e)
+        {
+            CarManagerForm carManagerForm = new CarManagerForm("");
+            carManagerForm.panel_info.Visible = false;
+        }
     }
 }
