@@ -31,3 +31,14 @@ D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\DA
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\DAL\obj\Debug\DAL.dll
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\DAL\obj\Debug\DAL.pdb
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\DAL\bin\Debug\DAL.dll
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\DAL\bin\Debug\DAL.pdb
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\DAL\bin\Debug\DTO.dll
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\DAL\bin\Debug\System.Data.SqlClient.dll
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\DAL\bin\Debug\DTO.pdb
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\DAL\bin\Debug\System.Data.SqlClient.xml
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\DAL\obj\Debug\DAL.dll
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\DAL\obj\Debug\DAL.pdb

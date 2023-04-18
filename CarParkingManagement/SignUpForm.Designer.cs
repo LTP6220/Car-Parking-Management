@@ -317,7 +317,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::CarParkingManagement.Properties.Resources.bg_image;
+            //this.pictureBox2.Image = global::CarParkingManagement.Properties.Resources.bg_image;
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";

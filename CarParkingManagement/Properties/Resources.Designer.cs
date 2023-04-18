@@ -133,6 +133,16 @@ namespace CarParkingManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap otopark_otoyıkama_tasarımı {
+            get {
+                object obj = ResourceManager.GetObject("otopark otoyıkama tasarımı", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Peaceful_Black__Car {
             get {
                 object obj = ResourceManager.GetObject("Peaceful Black  Car", resourceCulture);
@@ -156,6 +166,16 @@ namespace CarParkingManagement.Properties {
         internal static System.Drawing.Bitmap pexels_stephan_müller_753876 {
             get {
                 object obj = ResourceManager.GetObject("pexels-stephan-müller-753876", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2023_04_11_001245 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2023-04-11 001245", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

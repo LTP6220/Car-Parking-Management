@@ -127,6 +127,12 @@
   <data name="window-minimize-regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\window-minimize-regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="eye-slash-solid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye-slash-solid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="otopark otoyıkama tasarımı" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\otopark otoyıkama tasarımı.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pexels-stephan-müller-753876" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pexels-stephan-müller-753876.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,8 +148,8 @@
   <data name="Tumblr 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tumblr 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="eye-slash-solid" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eye-slash-solid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="olav-tvedt--oVaYMgBMbs-unsplash (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\olav-tvedt--oVaYMgBMbs-unsplash (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Peaceful Black  Car" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Peaceful Black  Car.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,7 +169,7 @@
   <data name="eye-solid" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eye-solid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="olav-tvedt--oVaYMgBMbs-unsplash (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\olav-tvedt--oVaYMgBMbs-unsplash (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Screenshot 2023-04-11 001245" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2023-04-11 001245.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

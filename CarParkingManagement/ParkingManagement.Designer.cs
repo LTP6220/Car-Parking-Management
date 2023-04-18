@@ -374,7 +374,6 @@
             // 
             // panel18
             // 
-            this.panel18.BackgroundImage = global::CarParkingManagement.Properties.Resources.Screenshot_2023_04_11_000355;
             this.panel18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel18.Location = new System.Drawing.Point(540, 660);
             this.panel18.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -384,7 +383,6 @@
             // 
             // panel25
             // 
-            this.panel25.BackgroundImage = global::CarParkingManagement.Properties.Resources.Screenshot_2023_04_11_000355;
             this.panel25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel25.Location = new System.Drawing.Point(1500, 660);
             this.panel25.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -394,7 +392,6 @@
             // 
             // panel26
             // 
-            this.panel26.BackgroundImage = global::CarParkingManagement.Properties.Resources.Cars_Silhouette_PNG_Images__Car_Silhouette_Vector__Car_Clipart_Png__Car__Sport_Car_Silhouette_Vector_PNG_Image_For_Free_Download;
             this.panel26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel26.Location = new System.Drawing.Point(1260, 660);
             this.panel26.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -404,7 +401,6 @@
             // 
             // panel27
             // 
-            this.panel27.BackgroundImage = global::CarParkingManagement.Properties.Resources.Cars_Silhouette_PNG_Images__Car_Silhouette_Vector__Car_Clipart_Png__Car__Sport_Car_Silhouette_Vector_PNG_Image_For_Free_Download;
             this.panel27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel27.Location = new System.Drawing.Point(1020, 660);
             this.panel27.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -414,7 +410,6 @@
             // 
             // panel13
             // 
-            this.panel13.BackgroundImage = global::CarParkingManagement.Properties.Resources.Cars_Silhouette_PNG_Images__Car_Silhouette_Vector__Car_Clipart_Png__Car__Sport_Car_Silhouette_Vector_PNG_Image_For_Free_Download;
             this.panel13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel13.Location = new System.Drawing.Point(1500, 360);
             this.panel13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -424,7 +419,6 @@
             // 
             // panel23
             // 
-            this.panel23.BackgroundImage = global::CarParkingManagement.Properties.Resources.Screenshot_2023_04_11_000355;
             this.panel23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel23.Location = new System.Drawing.Point(1260, 360);
             this.panel23.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -434,7 +428,6 @@
             // 
             // panel17
             // 
-            this.panel17.BackgroundImage = global::CarParkingManagement.Properties.Resources.Cars_Silhouette_PNG_Images__Car_Silhouette_Vector__Car_Clipart_Png__Car__Sport_Car_Silhouette_Vector_PNG_Image_For_Free_Download;
             this.panel17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel17.Location = new System.Drawing.Point(1020, 360);
             this.panel17.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -444,7 +437,6 @@
             // 
             // panel14
             // 
-            this.panel14.BackgroundImage = global::CarParkingManagement.Properties.Resources.Screenshot_2023_04_11_000355;
             this.panel14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel14.Location = new System.Drawing.Point(300, 660);
             this.panel14.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -454,7 +446,6 @@
             // 
             // panel15
             // 
-            this.panel15.BackgroundImage = global::CarParkingManagement.Properties.Resources.Cars_Silhouette_PNG_Images__Car_Silhouette_Vector__Car_Clipart_Png__Car__Sport_Car_Silhouette_Vector_PNG_Image_For_Free_Download;
             this.panel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel15.Location = new System.Drawing.Point(780, 660);
             this.panel15.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -464,7 +455,6 @@
             // 
             // panel16
             // 
-            this.panel16.BackgroundImage = global::CarParkingManagement.Properties.Resources.Cars_Silhouette_PNG_Images__Car_Silhouette_Vector__Car_Clipart_Png__Car__Sport_Car_Silhouette_Vector_PNG_Image_For_Free_Download;
             this.panel16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel16.Location = new System.Drawing.Point(780, 360);
             this.panel16.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -474,7 +464,6 @@
             // 
             // panel20
             // 
-            this.panel20.BackgroundImage = global::CarParkingManagement.Properties.Resources.Cars_Silhouette_PNG_Images__Car_Silhouette_Vector__Car_Clipart_Png__Car__Sport_Car_Silhouette_Vector_PNG_Image_For_Free_Download;
             this.panel20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel20.Location = new System.Drawing.Point(60, 660);
             this.panel20.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -484,7 +473,6 @@
             // 
             // panel21
             // 
-            this.panel21.BackgroundImage = global::CarParkingManagement.Properties.Resources.Screenshot_2023_04_11_000355;
             this.panel21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel21.Location = new System.Drawing.Point(540, 360);
             this.panel21.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -494,7 +482,6 @@
             // 
             // panel22
             // 
-            this.panel22.BackgroundImage = global::CarParkingManagement.Properties.Resources.Cars_Silhouette_PNG_Images__Car_Silhouette_Vector__Car_Clipart_Png__Car__Sport_Car_Silhouette_Vector_PNG_Image_For_Free_Download;
             this.panel22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel22.Location = new System.Drawing.Point(300, 360);
             this.panel22.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -504,7 +491,6 @@
             // 
             // panel12
             // 
-            this.panel12.BackgroundImage = global::CarParkingManagement.Properties.Resources.Screenshot_2023_04_11_000355;
             this.panel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel12.Location = new System.Drawing.Point(60, 360);
             this.panel12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -514,7 +500,6 @@
             // 
             // panel11
             // 
-            this.panel11.BackgroundImage = global::CarParkingManagement.Properties.Resources.Screenshot_2023_04_11_000355;
             this.panel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel11.Location = new System.Drawing.Point(1260, 60);
             this.panel11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -524,7 +509,6 @@
             // 
             // panel10
             // 
-            this.panel10.BackgroundImage = global::CarParkingManagement.Properties.Resources.Screenshot_2023_04_11_000355;
             this.panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel10.Location = new System.Drawing.Point(1500, 60);
             this.panel10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -536,7 +520,6 @@
             // 
             this.panel9.AutoSize = true;
             this.panel9.BackColor = System.Drawing.Color.White;
-            this.panel9.BackgroundImage = global::CarParkingManagement.Properties.Resources.Cars_Silhouette_PNG_Images__Car_Silhouette_Vector__Car_Clipart_Png__Car__Sport_Car_Silhouette_Vector_PNG_Image_For_Free_Download;
             this.panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel9.Location = new System.Drawing.Point(1020, 60);
             this.panel9.Margin = new System.Windows.Forms.Padding(0);
@@ -548,7 +531,6 @@
             // 
             this.panel5.AutoSize = true;
             this.panel5.BackColor = System.Drawing.Color.White;
-            this.panel5.BackgroundImage = global::CarParkingManagement.Properties.Resources.Cars_Silhouette_PNG_Images__Car_Silhouette_Vector__Car_Clipart_Png__Car__Sport_Car_Silhouette_Vector_PNG_Image_For_Free_Download;
             this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel5.Location = new System.Drawing.Point(780, 60);
             this.panel5.Margin = new System.Windows.Forms.Padding(0);
@@ -560,7 +542,6 @@
             // 
             this.panel6.AutoSize = true;
             this.panel6.BackColor = System.Drawing.Color.White;
-            this.panel6.BackgroundImage = global::CarParkingManagement.Properties.Resources.Cars_Silhouette_PNG_Images__Car_Silhouette_Vector__Car_Clipart_Png__Car__Sport_Car_Silhouette_Vector_PNG_Image_For_Free_Download;
             this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel6.Controls.Add(this.panel8);
             this.panel6.Location = new System.Drawing.Point(960, 31);
@@ -573,8 +554,6 @@
             // panel8
             // 
             this.panel8.AutoSize = true;
-            this.panel8.BackColor = System.Drawing.Color.White;
-            this.panel8.BackgroundImage = global::CarParkingManagement.Properties.Resources.Cars_Silhouette_PNG_Images__Car_Silhouette_Vector__Car_Clipart_Png__Car__Sport_Car_Silhouette_Vector_PNG_Image_For_Free_Download;
             this.panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel8.Location = new System.Drawing.Point(0, 174);
             this.panel8.Margin = new System.Windows.Forms.Padding(0);
@@ -586,7 +565,6 @@
             // 
             this.panel7.AutoSize = true;
             this.panel7.BackColor = System.Drawing.Color.White;
-            this.panel7.BackgroundImage = global::CarParkingManagement.Properties.Resources.Cars_Silhouette_PNG_Images__Car_Silhouette_Vector__Car_Clipart_Png__Car__Sport_Car_Silhouette_Vector_PNG_Image_For_Free_Download;
             this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel7.Location = new System.Drawing.Point(1185, 62);
             this.panel7.Margin = new System.Windows.Forms.Padding(0);
@@ -598,7 +576,6 @@
             // 
             this.panel4.AutoSize = true;
             this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.BackgroundImage = global::CarParkingManagement.Properties.Resources.Cars_Silhouette_PNG_Images__Car_Silhouette_Vector__Car_Clipart_Png__Car__Sport_Car_Silhouette_Vector_PNG_Image_For_Free_Download;
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel4.Location = new System.Drawing.Point(540, 60);
             this.panel4.Margin = new System.Windows.Forms.Padding(0);
@@ -611,7 +588,6 @@
             // 
             this.panel3.AutoSize = true;
             this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.BackgroundImage = global::CarParkingManagement.Properties.Resources.Cars_Silhouette_PNG_Images__Car_Silhouette_Vector__Car_Clipart_Png__Car__Sport_Car_Silhouette_Vector_PNG_Image_For_Free_Download;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Location = new System.Drawing.Point(300, 60);
             this.panel3.Margin = new System.Windows.Forms.Padding(0);
@@ -623,13 +599,13 @@
             // 
             this.panel2.AutoSize = true;
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.BackgroundImage = global::CarParkingManagement.Properties.Resources.Cars_Silhouette_PNG_Images__Car_Silhouette_Vector__Car_Clipart_Png__Car__Sport_Car_Silhouette_Vector_PNG_Image_For_Free_Download;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Location = new System.Drawing.Point(60, 60);
             this.panel2.Margin = new System.Windows.Forms.Padding(0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(195, 240);
             this.panel2.TabIndex = 2;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // textBox1
             // 
@@ -645,7 +621,6 @@
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox2.Image = global::CarParkingManagement.Properties.Resources.Screenshot_2023_04_11_001245;
             this.pictureBox2.Location = new System.Drawing.Point(675, 65);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
@@ -657,7 +632,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::CarParkingManagement.Properties.Resources.bg_image;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";

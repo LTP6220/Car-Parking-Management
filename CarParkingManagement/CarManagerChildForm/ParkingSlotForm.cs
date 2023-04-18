@@ -16,5 +16,10 @@ namespace CarParkingManagement.CarManagerChildForm
         {
             InitializeComponent();
         }
+
+        private void ParkingSlotForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
