@@ -173,5 +173,16 @@ namespace CarParkingManagement
                 textBox_email.ForeColor = Color.Black;
             }
         }
+
+        private void rjButton_sendPassword_MouseEnter(object sender, EventArgs e)
+        {
+            rjButton_sendPassword.BackColor = Color.FromArgb(188, 37, 42);
+        }
+
+        private void rjButton_sendPassword_MouseLeave(object sender, EventArgs e)
+        {
+            rjButton_sendPassword.BackColor = Color.FromArgb(209, 54, 57);
+
+        }
     }
 }

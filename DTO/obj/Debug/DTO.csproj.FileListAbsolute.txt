@@ -16,3 +16,5 @@ D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\DT
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\DTO\obj\Debug\DTO.dll
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\DTO\obj\Debug\DTO.pdb
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\DTO\bin\Debug\Guna.UI2.dll
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\DTO\obj\Debug\DTO.csproj.CopyComplete

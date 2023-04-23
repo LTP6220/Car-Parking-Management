@@ -36,11 +36,10 @@ namespace CarParkingManagement
         }
 
 
-        private void AdminForm_Load(object sender, EventArgs e)
+        public void AdminForm_Load(object sender, EventArgs e)
         {
             rjButton_update.Enabled = false;
             /*     dataGridView_info.DataSource = accountController.GetAccounts("select * from Account");*/
-
 
             SqlConnection connection = Connection.GetSqlConnection();
             SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM Account", connection);
@@ -151,7 +150,7 @@ namespace CarParkingManagement
         private void dataGridView_info_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             rjButton_update.Enabled = true;
-            TextBox textBox_id = new TextBox();
+
             string id = "";
             string email = "";
             string fullname = "";
@@ -310,6 +309,11 @@ namespace CarParkingManagement
             DataView dv = dt.DefaultView;
             dv.RowFilter = String.Format("fullname like '%{0}%'", textBox_search.Text);
             dataGridView_info.DataSource = dv.ToTable();
+        }
+
+        private void rjButton1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

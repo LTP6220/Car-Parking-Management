@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\..\..\inter\Inter-UI-BlackItalic.ttf = ..\..\..\inter\Inter-UI-BlackItalic.ttf
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{01A5C74D-2D82-461E-BE11-DE3D4D7656BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{43A6C8D4-E7DD-40E8-A8BA-FF02CBCA32EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43A6C8D4-E7DD-40E8-A8BA-FF02CBCA32EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43A6C8D4-E7DD-40E8-A8BA-FF02CBCA32EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A5C74D-2D82-461E-BE11-DE3D4D7656BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A5C74D-2D82-461E-BE11-DE3D4D7656BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A5C74D-2D82-461E-BE11-DE3D4D7656BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A5C74D-2D82-461E-BE11-DE3D4D7656BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

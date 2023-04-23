@@ -83,6 +83,16 @@ namespace CarParkingManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CarParkingManager {
+            get {
+                object obj = ResourceManager.GetObject("CarParkingManager", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap eye_slash_solid {
             get {
                 object obj = ResourceManager.GetObject("eye-slash-solid", resourceCulture);
@@ -96,6 +106,16 @@ namespace CarParkingManagement.Properties {
         internal static System.Drawing.Bitmap eye_solid {
             get {
                 object obj = ResourceManager.GetObject("eye-solid", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HD_wallpaper_car_sports_car_parking_green {
+            get {
+                object obj = ResourceManager.GetObject("HD-wallpaper-car-sports-car-parking-green", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,6 +163,16 @@ namespace CarParkingManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap peakpx {
+            get {
+                object obj = ResourceManager.GetObject("peakpx", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pexels_pixabay_164634 {
             get {
                 object obj = ResourceManager.GetObject("pexels-pixabay-164634", resourceCulture);
@@ -156,6 +186,16 @@ namespace CarParkingManagement.Properties {
         internal static System.Drawing.Bitmap pexels_stephan_müller_753876 {
             get {
                 object obj = ResourceManager.GetObject("pexels-stephan-müller-753876", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_26 {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 26", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

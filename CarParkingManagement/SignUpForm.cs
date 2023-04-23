@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -30,6 +31,13 @@ namespace CarParkingManagement
         {
             return Regex.IsMatch(email, @"^[a-zA-Z0-9]{3,20}@gmail.com(.vn|)$");
         }
+
+
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+
 
         static bool ValidatePassword(string passWord)
         {
@@ -146,7 +154,7 @@ namespace CarParkingManagement
             }
             else
             {
-                label_checkLong.ForeColor = Color.Black;
+                label_checkLong.ForeColor = Color.White;
             }
 
             if (ValidatePassword(password))
@@ -155,7 +163,7 @@ namespace CarParkingManagement
             }
             else
             {
-                label_checkLetter.ForeColor = Color.Black;
+                label_checkLetter.ForeColor = Color.White;
             }
             if (label_checkUsername.ForeColor == Color.Black && checkAccount(username) && label_checkEmail.ForeColor == Color.Black && checkEmail(email) && confirmPassword == password && label_checkLong.ForeColor == Color.Green && label_checkLetter.ForeColor == Color.Green && comboBox_position.Text != "")
             {
@@ -244,12 +252,12 @@ namespace CarParkingManagement
 
         private void label_toSignInForm_MouseHover(object sender, EventArgs e)
         {
-            label_toSignInForm.ForeColor = Color.Black;
+
         }
 
         private void label_toSignInForm_MouseLeave(object sender, EventArgs e)
         {
-            label_toSignInForm.ForeColor = Color.Gray;
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -294,6 +302,135 @@ namespace CarParkingManagement
         private void button_signup_MouseLeave(object sender, EventArgs e)
         {
             button_signup.BackColor = Color.Yellow;
+        }
+
+        private void label_checkLong_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_email_TextChanged_1(object sender, EventArgs e)
+        {
+            string email = textBox_email.Text;
+            string password = textBox_password.Text;
+            string confirmPassword = textBox_confirmPassword.Text;
+            string username = textBox_username.Text;
+            if (accountController.GetAccounts("Select * from Account where email = '" + email + "'").Count != 0)
+            {
+                label_checkEmail.ForeColor = Color.Red;
+                label_checkEmail.Show();
+            }
+            else
+            {
+                label_checkEmail.ForeColor = Color.Black;
+                label_checkEmail.Hide();
+            }
+
+            if (label_checkEmail.ForeColor == Color.Red)
+            {
+                button_signup.Enabled = false;
+            }
+            else if (label_checkUsername.ForeColor == Color.Black && checkAccount(username) && label_checkEmail.ForeColor == Color.Black && checkEmail(email) && confirmPassword == password && label_checkLong.ForeColor == Color.Green && label_checkLetter.ForeColor == Color.Green && comboBox_position.Text != "")
+            {
+                button_signup.Enabled = true;
+            }
+            else
+            {
+                button_signup.Enabled = false;
+            }
+        }
+
+        private void button_signup_Click_1(object sender, EventArgs e)
+        {
+            string email = textBox_email.Text;
+            string password = textBox_password.Text;
+            string username = textBox_username.Text;
+            string fullname = textBox_fullName.Text;
+            string position = comboBox_position.Text;
+            string id = rnd().ToString();
+            accountController.AddAccount(id, fullname, username, password, email, position);
+            this.Hide();
+            /*   adminForm.ShowDialog();*/
+            List<Form> form = Application.OpenForms.Cast<Form>().ToList();
+            AdminForm forms;
+
+            foreach (Form formItem in form)
+            {
+                if (formItem.Name == "AdminForm")
+                {
+                    forms = (AdminForm)formItem;
+                    forms.AdminForm_Load(sender, e);
+                    break;
+                }
+            }
+
+
+        }
+
+        private void iconPictureBox_exit_MouseEnter(object sender, EventArgs e)
+        {
+            iconPictureBox_exit.BackColor = Color.Red;
+        }
+
+        private void iconPictureBox_exit_MouseLeave(object sender, EventArgs e)
+        {
+            iconPictureBox_exit.BackColor = Color.Transparent;
+        }
+
+        private void iconPictureBox_exit_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void iconPictureBox_minimize_MouseEnter(object sender, EventArgs e)
+        {
+            iconPictureBox_minimize.BackColor = Color.FromArgb(55, 59, 63);
+
+        }
+
+        private void iconPictureBox_minimize_MouseLeave(object sender, EventArgs e)
+        {
+            iconPictureBox_minimize.BackColor = Color.Transparent;
+
+        }
+
+        private void iconPictureBox_minimize_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+
+        }
+
+        private void panel_title_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void rjButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel_title_MouseEnter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ComboBox1_TextChanged(object sender, EventArgs e)
+        {
+            string password = textBox_password.Text;
+            string confirmPassword = textBox_confirmPassword.Text;
+            string email = textBox_email.Text;
+            string username = textBox_username.Text;
+
+            if (label_checkUsername.ForeColor == Color.Black && checkAccount(username) && label_checkEmail.ForeColor == Color.Black && checkEmail(email) && confirmPassword == password && label_checkLong.ForeColor == Color.Green && label_checkLetter.ForeColor == Color.Green && comboBox_position.Text != "")
+            {
+                button_signup.Enabled = true;
+            }
+            else
+            {
+                button_signup.Enabled = false;
+            }
         }
     }
 }

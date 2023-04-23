@@ -24,7 +24,7 @@ namespace DAL
             {
                 connection.Open();
                 command = new SqlCommand(query, connection);
-                System.Diagnostics.Debug.WriteLine(command.CommandText);
+
                 reader = command.ExecuteReader();
 
                 while (reader.Read())
