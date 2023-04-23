@@ -31,3 +31,14 @@ D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\BU
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\BUS\obj\Debug\BUS.csproj.CopyComplete
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\BUS\obj\Debug\BUS.dll
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\BUS\obj\Debug\BUS.pdb
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\BUS\bin\Debug\BUS.dll
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\BUS\bin\Debug\BUS.pdb
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\BUS\bin\Debug\DAL.dll
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\BUS\bin\Debug\DTO.dll
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\BUS\bin\Debug\DAL.pdb
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\BUS\bin\Debug\DTO.pdb
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\BUS\obj\Debug\BUS.dll
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\BUS\obj\Debug\BUS.pdb

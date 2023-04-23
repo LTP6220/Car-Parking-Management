@@ -133,8 +133,18 @@
   <data name="eye-slash-solid" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eye-slash-solid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+<<<<<<< HEAD
   <data name="HD-wallpaper-car-sports-car-parking-green" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HD-wallpaper-car-sports-car-parking-green.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+=======
+<<<<<<< HEAD
+  <data name="HD-wallpaper-car-sports-car-parking-green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HD-wallpaper-car-sports-car-parking-green.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+=======
+  <data name="otopark otoyıkama tasarımı" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\otopark otoyıkama tasarımı.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
   </data>
   <data name="pexels-stephan-müller-753876" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pexels-stephan-müller-753876.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,7 +185,17 @@
   <data name="eye-solid" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eye-solid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+<<<<<<< HEAD
   <data name="CarParkingManager" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CarParkingManager.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+=======
+<<<<<<< HEAD
+  <data name="CarParkingManager" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CarParkingManager.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+=======
+  <data name="Screenshot 2023-04-11 001245" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2023-04-11 001245.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
   </data>
 </root>

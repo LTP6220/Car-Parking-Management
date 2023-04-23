@@ -91,7 +91,10 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView_info.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView_info.Dock = System.Windows.Forms.DockStyle.Top;
+<<<<<<< HEAD
             this.dataGridView_info.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(58)))), ((int)(((byte)(64)))));
+=======
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
             this.dataGridView_info.Location = new System.Drawing.Point(0, 0);
             this.dataGridView_info.Name = "dataGridView_info";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;

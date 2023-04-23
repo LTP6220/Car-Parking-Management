@@ -158,7 +158,10 @@ namespace CarParkingManagement
                 }
             }
 
+<<<<<<< HEAD
             // Lệnh in
+=======
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
             printBillButton_Click(sender, e);
             this.Hide();
 
@@ -168,7 +171,11 @@ namespace CarParkingManagement
         }
 
 
+<<<<<<< HEAD
         // Lệnh in
+=======
+
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
         private void printBillButton_Click(object sender, EventArgs e)
         {
             // Create a new PrintDocument object
@@ -259,6 +266,7 @@ namespace CarParkingManagement
 
         }
 
+<<<<<<< HEAD
         public int total(DateTime check_in, DateTime check_out)
         {
             TimeSpan timeSpan = check_out - check_in;
@@ -268,6 +276,8 @@ namespace CarParkingManagement
             return total;
         }
 
+=======
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
         private void iconButton_charge_Click(object sender, EventArgs e)
         {
             string slot_id = textBox_slotId.Text;
@@ -283,9 +293,18 @@ namespace CarParkingManagement
             {
                 DateTime check_out = dateTimePicker_checkOut.Value;
 
+<<<<<<< HEAD
                 int totals = total(check_in, check_out);
 
                 textBox_total.Text = totals.ToString();
+=======
+                TimeSpan timeSpan = check_out - check_in;
+                double hours = timeSpan.TotalHours;
+                int hour = (int)hours;
+                int total = (hour / 4 + 1) * 35000;
+
+                textBox_total.Text = total.ToString();
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
             }
             else
             {

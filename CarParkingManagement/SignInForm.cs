@@ -125,13 +125,14 @@ namespace CarParkingManagement
         }
 
 
-
+        
         private void label3_Click(object sender, EventArgs e)
         {
             SignUpForm signUpForm = new SignUpForm();
             this.Hide();
             signUpForm.ShowDialog();
         }
+        
 
         private void label3_MouseHover(object sender, EventArgs e)
         {
@@ -222,6 +223,10 @@ namespace CarParkingManagement
             }
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
         private void button_signIn_Click_1(object sender, EventArgs e)
         {
             string username = textBox_username.Text;
@@ -360,10 +365,29 @@ namespace CarParkingManagement
             label_forgotPassword.ForeColor = Color.FromArgb(188, 37, 42);
         }
 
+<<<<<<< HEAD
+=======
+=======
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
         private void label3_Click_1(object sender, EventArgs e)
         {
 
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -374,5 +398,10 @@ namespace CarParkingManagement
         {
 
         }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
     }
 }
