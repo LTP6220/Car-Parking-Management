@@ -56,7 +56,9 @@
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Xaml" />
@@ -132,6 +134,7 @@
     <Compile Include="CarManagerForm.Designer.cs">
       <DependentUpon>CarManagerForm.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="CarManagerChildForm\ParkingManagement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,6 +147,14 @@
     <Compile Include="PaymentForm.Designer.cs">
       <DependentUpon>PaymentForm.cs</DependentUpon>
     </Compile>
+=======
+    <Compile Include="ParkingManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkingManagement.Designer.cs">
+      <DependentUpon>ParkingManagement.cs</DependentUpon>
+    </Compile>
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
     <Compile Include="RJControls\RJButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -170,7 +181,11 @@
     <Compile Include="SlotDetailsEmpty.cs">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="SlotDetailsEmpty.designer.cs">
+=======
+    <Compile Include="SlotDetailsEmpty.Designer.cs">
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
       <DependentUpon>SlotDetailsEmpty.cs</DependentUpon>
     </Compile>
     <Compile Include="UpdateForm.cs">
@@ -209,12 +224,18 @@
     <EmbeddedResource Include="CarManagerForm.resx">
       <DependentUpon>CarManagerForm.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="CarManagerChildForm\ParkingManagement.resx">
       <DependentUpon>ParkingManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PaymentForm.resx">
       <DependentUpon>PaymentForm.cs</DependentUpon>
     </EmbeddedResource>
+=======
+    <EmbeddedResource Include="ParkingManagement.resx">
+      <DependentUpon>ParkingManagement.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
     <EmbeddedResource Include="RJControls\RJTextBox.resx">
       <DependentUpon>RJTextBox.cs</DependentUpon>
     </EmbeddedResource>
@@ -262,10 +283,16 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+<<<<<<< HEAD
     <None Include="Resources\CarParkingManager.jpg" />
     <None Include="Resources\Rectangle 26.png" />
     <None Include="Resources\HD-wallpaper-car-sports-car-parking-green.jpg" />
     <None Include="Resources\peakpx.jpg" />
+=======
+    <Content Include="Resources\Cars Silhouette PNG Images, Car Silhouette Vector, Car Clipart Png, Car, Sport Car Silhouette Vector PNG Image For Free Download.jpg" />
+    <Content Include="Resources\Screenshot 2023-04-11 000355.png" />
+    <None Include="Resources\Screenshot 2023-04-11 001245.png" />
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
     <None Include="Resources\olav-tvedt--oVaYMgBMbs-unsplash %281%29.jpg" />
     <None Include="Resources\olav-tvedt--oVaYMgBMbs-unsplash.jpg" />
     <None Include="Resources\x-solid.png" />

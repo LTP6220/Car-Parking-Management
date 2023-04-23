@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+<<<<<<< HEAD
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
@@ -11,11 +12,19 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BUS;
 using DAL;
+=======
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
 
 namespace CarParkingManagement
 {
     public partial class SlotDetailsEmpty : Form
     {
+<<<<<<< HEAD
         BUS_ParkingCard parkingCardController = new BUS_ParkingCard();
         CarManagerForm carManagerForm = new CarManagerForm("12345678");
         BUS_Car carController = new BUS_Car();
@@ -119,10 +128,24 @@ namespace CarParkingManagement
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+=======
+        public SlotDetailsEmpty()
+        {
+            InitializeComponent();
+        }
+
+        private void SlotDetailsEmpty_Load(object sender, EventArgs e)
         {
 
         }
 
+        private void label1_Click(object sender, EventArgs e)
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
+        {
+
+        }
+
+<<<<<<< HEAD
         public void OpenChildForm(Form childForm)
         {
             CarManagerForm carManagerForm = new CarManagerForm("12345678");
@@ -192,15 +215,23 @@ namespace CarParkingManagement
         }
 
         private void iconButton_booking_MouseClick(object sender, MouseEventArgs e)
+=======
+        private void label2_Click(object sender, EventArgs e)
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
         {
 
         }
 
+<<<<<<< HEAD
         private void label_slotName_Click(object sender, EventArgs e)
+=======
+        private void label6_Click(object sender, EventArgs e)
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
         {
 
         }
 
+<<<<<<< HEAD
         private void iconPictureBox_exit_MouseClick(object sender, MouseEventArgs e)
         {
             this.Hide();
@@ -382,6 +413,9 @@ namespace CarParkingManagement
         }
 
         private void dateTimePicker_checkOut_ValueChanged(object sender, EventArgs e)
+=======
+        private void label8_Click(object sender, EventArgs e)
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
         {
 
         }

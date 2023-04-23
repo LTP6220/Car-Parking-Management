@@ -304,11 +304,30 @@ namespace CarParkingManagement
             button_signup.BackColor = Color.Yellow;
         }
 
+<<<<<<< HEAD
+=======
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label_position_Click(object sender, EventArgs e)
+        {
+
+        }
+
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
         private void label_checkLong_Click(object sender, EventArgs e)
         {
 
         }
 
+<<<<<<< HEAD
         private void textBox_email_TextChanged_1(object sender, EventArgs e)
         {
             string email = textBox_email.Text;
@@ -407,11 +426,38 @@ namespace CarParkingManagement
         }
 
         private void rjButton1_Click(object sender, EventArgs e)
+=======
+        private void label_checkUsername2_Click(object sender, EventArgs e)
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
         {
 
         }
 
+<<<<<<< HEAD
         private void panel_title_MouseEnter(object sender, EventArgs e)
+=======
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_confirmPassword_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_checkEmail_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_fullname_Click(object sender, EventArgs e)
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
         {
 
         }
