@@ -90,11 +90,19 @@ D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\Ca
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.csproj.CopyComplete
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.exe
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.pdb
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.ParkingManagement.resources
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.SlotDetailsEmpty.resources
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.PaymentForm.resources
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.AccountantForm.resources
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.CarManagerChildForm.ParkingCardForm.resources
+<<<<<<< HEAD
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\bin\Debug\nunit.framework.dll
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\bin\Debug\nunit.framework.xml
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\bin\Debug\Guna.UI2.dll
@@ -102,3 +110,46 @@ D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\Ca
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\bin\Debug\CarParkingManagement.application
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.exe.manifest
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.application
+=======
+<<<<<<< HEAD
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\bin\Debug\nunit.framework.dll
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\bin\Debug\nunit.framework.xml
+=======
+=======
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.csproj.AssemblyReference.cache
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.csproj.SuggestedBindingRedirects.cache
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.AdminForm.resources
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.CarManagerChildForm.CarsForm.resources
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.CarManagerChildForm.CustomersForm.resources
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.CarManagerChildForm.DashboardForm.resources
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.CarManagerChildForm.InformationForm.resources
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.CarManagerChildForm.ParkingSlotForm.resources
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.ForgotPasswordForm.resources
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.CarManagerForm.resources
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.ParkingManagement.resources
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.RJControls.RJTextBox.resources
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.SignInForm.resources
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.Properties.Resources.resources
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.SignUpForm.resources
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.SlotDetailsEmpty.resources
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.UpdateForm.resources
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.csproj.GenerateResource.cache
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.csproj.CoreCompileInputs.cache
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.exe
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.pdb
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\bin\Debug\Database1.mdf
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\bin\Debug\Database1_log.ldf
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\bin\Debug\CarParkingManagement.exe.config
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\bin\Debug\CarParkingManagement.exe
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\bin\Debug\CarParkingManagement.pdb
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\bin\Debug\BUS.dll
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\bin\Debug\DAL.dll
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\bin\Debug\DTO.dll
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\bin\Debug\BUS.pdb
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\bin\Debug\DAL.pdb
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\bin\Debug\DTO.pdb
+C:\Users\NHU BINH\OneDrive\Documents\baocao_cnpm_version2\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.csproj.CopyComplete
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f

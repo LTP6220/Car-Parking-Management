@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.components = new System.ComponentModel.Container();
+=======
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AccountantForm));
             this.panel_menu = new System.Windows.Forms.Panel();
             this.iconButton_dashboard = new FontAwesome.Sharp.IconButton();
@@ -49,7 +52,10 @@
             this.iconPictureBox_exit = new FontAwesome.Sharp.IconPictureBox();
             this.label_titleChildForm = new System.Windows.Forms.Label();
             this.iconCurrentChildForm = new FontAwesome.Sharp.IconPictureBox();
+<<<<<<< HEAD
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
+=======
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.panel_menu.SuspendLayout();
             this.panel_picture.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_home)).BeginInit();
@@ -360,6 +366,7 @@
             this.iconCurrentChildForm.TabIndex = 0;
             this.iconCurrentChildForm.TabStop = false;
             // 
+<<<<<<< HEAD
             // guna2BorderlessForm1
             // 
             this.guna2BorderlessForm1.BorderRadius = 30;
@@ -367,6 +374,8 @@
             this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             this.guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
+=======
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             // AccountantForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -418,6 +427,9 @@
         public System.Windows.Forms.Panel panel_info;
         public System.Windows.Forms.Panel panel_desktop;
         public System.Windows.Forms.Label label_titleChildForm;
+<<<<<<< HEAD
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
+=======
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
     }
 }

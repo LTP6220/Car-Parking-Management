@@ -46,7 +46,10 @@
             this.rjTextBox_search = new CarParkingManagement.RJControls.RJTextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.rjButton1 = new CarParkingManagement.RJControls.RJButton();
+<<<<<<< HEAD
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
+=======
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_info)).BeginInit();
             this.panel_title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
@@ -97,7 +100,11 @@
             // 
             // panel_title
             // 
+<<<<<<< HEAD
             this.panel_title.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(78)))), ((int)(((byte)(92)))));
+=======
+            this.panel_title.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(52)))), ((int)(((byte)(56)))));
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.panel_title.Controls.Add(this.iconPictureBox1);
             this.panel_title.Controls.Add(this.label1);
             this.panel_title.Controls.Add(this.iconPictureBox_minimize);
@@ -316,6 +323,7 @@
             this.rjButton1.UseVisualStyleBackColor = false;
             this.rjButton1.Click += new System.EventHandler(this.rjButton1_Click_1);
             // 
+<<<<<<< HEAD
             // guna2BorderlessForm1
             // 
             this.guna2BorderlessForm1.BorderRadius = 30;
@@ -323,6 +331,8 @@
             this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             this.guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
+=======
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -368,6 +378,9 @@
         private System.Windows.Forms.TextBox textBox_search;
         private System.Windows.Forms.Label label2;
         private RJControls.RJButton rjButton1;
+<<<<<<< HEAD
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
+=======
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
     }
 }

@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.components = new System.ComponentModel.Container();
+=======
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.panel6 = new System.Windows.Forms.Panel();
             this.iconPictureBox_minimize = new FontAwesome.Sharp.IconPictureBox();
             this.iconPictureBox_exit = new FontAwesome.Sharp.IconPictureBox();
@@ -53,13 +56,22 @@
             this.rjTextBox6 = new CarParkingManagement.RJControls.RJTextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox_billId = new System.Windows.Forms.TextBox();
+<<<<<<< HEAD
             this.label_checkIn = new System.Windows.Forms.Label();
             this.label_checkOut = new System.Windows.Forms.Label();
+=======
+            this.dateTimePicker_checkIn = new System.Windows.Forms.DateTimePicker();
+            this.label_checkIn = new System.Windows.Forms.Label();
+            this.dateTimePicker_checkOut = new System.Windows.Forms.DateTimePicker();
+            this.label_checkOut = new System.Windows.Forms.Label();
+            this.iconButton_charge = new FontAwesome.Sharp.IconButton();
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.label8 = new System.Windows.Forms.Label();
             this.textBox_total = new System.Windows.Forms.TextBox();
             this.rjTextBox7 = new CarParkingManagement.RJControls.RJTextBox();
             this.iconButton_booking = new FontAwesome.Sharp.IconButton();
             this.label9 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.label10 = new System.Windows.Forms.Label();
             this.textBox_cash = new System.Windows.Forms.TextBox();
             this.rjTextBox8 = new CarParkingManagement.RJControls.RJTextBox();
@@ -68,6 +80,12 @@
             this.dateTimePicker_checkIn = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.iconButton_charge = new Guna.UI2.WinForms.Guna2Button();
             this.comboBox_payMethod = new Guna.UI2.WinForms.Guna2ComboBox();
+=======
+            this.comboBox_payMethod = new System.Windows.Forms.ComboBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBox_cash = new System.Windows.Forms.TextBox();
+            this.rjTextBox8 = new CarParkingManagement.RJControls.RJTextBox();
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox_minimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox_exit)).BeginInit();
@@ -83,7 +101,11 @@
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
+<<<<<<< HEAD
             this.panel6.Size = new System.Drawing.Size(908, 76);
+=======
+            this.panel6.Size = new System.Drawing.Size(998, 76);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.panel6.TabIndex = 2;
             this.panel6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel6_MouseDown);
             // 
@@ -95,7 +117,11 @@
             this.iconPictureBox_minimize.IconColor = System.Drawing.Color.White;
             this.iconPictureBox_minimize.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox_minimize.IconSize = 20;
+<<<<<<< HEAD
             this.iconPictureBox_minimize.Location = new System.Drawing.Point(839, 0);
+=======
+            this.iconPictureBox_minimize.Location = new System.Drawing.Point(929, 0);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.iconPictureBox_minimize.Name = "iconPictureBox_minimize";
             this.iconPictureBox_minimize.Size = new System.Drawing.Size(35, 20);
             this.iconPictureBox_minimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -111,7 +137,11 @@
             this.iconPictureBox_exit.IconColor = System.Drawing.Color.White;
             this.iconPictureBox_exit.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox_exit.IconSize = 20;
+<<<<<<< HEAD
             this.iconPictureBox_exit.Location = new System.Drawing.Point(873, 0);
+=======
+            this.iconPictureBox_exit.Location = new System.Drawing.Point(963, 0);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.iconPictureBox_exit.Name = "iconPictureBox_exit";
             this.iconPictureBox_exit.Size = new System.Drawing.Size(35, 20);
             this.iconPictureBox_exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -124,7 +154,11 @@
             this.label_slotName.AutoSize = true;
             this.label_slotName.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_slotName.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.label_slotName.Location = new System.Drawing.Point(427, 19);
+=======
+            this.label_slotName.Location = new System.Drawing.Point(441, 20);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.label_slotName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_slotName.Name = "label_slotName";
             this.label_slotName.Size = new System.Drawing.Size(64, 42);
@@ -137,7 +171,11 @@
             this.textBox_cardId.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_cardId.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_cardId.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.textBox_cardId.Location = new System.Drawing.Point(125, 181);
+=======
+            this.textBox_cardId.Location = new System.Drawing.Point(167, 184);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.textBox_cardId.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_cardId.Name = "textBox_cardId";
             this.textBox_cardId.ReadOnly = true;
@@ -154,7 +192,11 @@
             this.rjTextBox1.Enabled = false;
             this.rjTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox1.ForeColor = System.Drawing.Color.DimGray;
+<<<<<<< HEAD
             this.rjTextBox1.Location = new System.Drawing.Point(112, 174);
+=======
+            this.rjTextBox1.Location = new System.Drawing.Point(154, 177);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.rjTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.rjTextBox1.Multiline = false;
             this.rjTextBox1.Name = "rjTextBox1";
@@ -172,7 +214,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(122, 152);
+=======
+            this.label1.Location = new System.Drawing.Point(164, 155);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 18);
@@ -184,7 +230,11 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(501, 152);
+=======
+            this.label2.Location = new System.Drawing.Point(543, 155);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 18);
@@ -197,7 +247,11 @@
             this.textBox_slotId.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_slotId.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_slotId.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.textBox_slotId.Location = new System.Drawing.Point(504, 181);
+=======
+            this.textBox_slotId.Location = new System.Drawing.Point(546, 184);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.textBox_slotId.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_slotId.Name = "textBox_slotId";
             this.textBox_slotId.ReadOnly = true;
@@ -214,7 +268,11 @@
             this.rjTextBox2.Enabled = false;
             this.rjTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox2.ForeColor = System.Drawing.Color.DimGray;
+<<<<<<< HEAD
             this.rjTextBox2.Location = new System.Drawing.Point(491, 174);
+=======
+            this.rjTextBox2.Location = new System.Drawing.Point(533, 177);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.rjTextBox2.Margin = new System.Windows.Forms.Padding(4);
             this.rjTextBox2.Multiline = false;
             this.rjTextBox2.Name = "rjTextBox2";
@@ -232,7 +290,11 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(122, 247);
+=======
+            this.label3.Location = new System.Drawing.Point(164, 250);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(92, 18);
@@ -245,7 +307,11 @@
             this.textBox_customerID.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_customerID.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_customerID.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.textBox_customerID.Location = new System.Drawing.Point(125, 276);
+=======
+            this.textBox_customerID.Location = new System.Drawing.Point(167, 279);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.textBox_customerID.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_customerID.Name = "textBox_customerID";
             this.textBox_customerID.ReadOnly = true;
@@ -262,7 +328,11 @@
             this.rjTextBox3.Enabled = false;
             this.rjTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox3.ForeColor = System.Drawing.Color.DimGray;
+<<<<<<< HEAD
             this.rjTextBox3.Location = new System.Drawing.Point(112, 269);
+=======
+            this.rjTextBox3.Location = new System.Drawing.Point(154, 272);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.rjTextBox3.Margin = new System.Windows.Forms.Padding(4);
             this.rjTextBox3.Multiline = false;
             this.rjTextBox3.Name = "rjTextBox3";
@@ -280,7 +350,11 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(501, 247);
+=======
+            this.label4.Location = new System.Drawing.Point(543, 250);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(118, 18);
@@ -293,7 +367,11 @@
             this.textBox_customerName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_customerName.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_customerName.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.textBox_customerName.Location = new System.Drawing.Point(504, 276);
+=======
+            this.textBox_customerName.Location = new System.Drawing.Point(546, 279);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.textBox_customerName.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_customerName.Name = "textBox_customerName";
             this.textBox_customerName.ReadOnly = true;
@@ -310,7 +388,11 @@
             this.rjTextBox4.Enabled = false;
             this.rjTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox4.ForeColor = System.Drawing.Color.DimGray;
+<<<<<<< HEAD
             this.rjTextBox4.Location = new System.Drawing.Point(491, 269);
+=======
+            this.rjTextBox4.Location = new System.Drawing.Point(533, 272);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.rjTextBox4.Margin = new System.Windows.Forms.Padding(4);
             this.rjTextBox4.Multiline = false;
             this.rjTextBox4.Name = "rjTextBox4";
@@ -328,7 +410,11 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.label5.Location = new System.Drawing.Point(122, 351);
+=======
+            this.label5.Location = new System.Drawing.Point(164, 354);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(50, 18);
@@ -341,7 +427,11 @@
             this.textBox_carId.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_carId.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_carId.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.textBox_carId.Location = new System.Drawing.Point(125, 380);
+=======
+            this.textBox_carId.Location = new System.Drawing.Point(167, 383);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.textBox_carId.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_carId.Name = "textBox_carId";
             this.textBox_carId.ReadOnly = true;
@@ -358,7 +448,11 @@
             this.rjTextBox5.Enabled = false;
             this.rjTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox5.ForeColor = System.Drawing.Color.DimGray;
+<<<<<<< HEAD
             this.rjTextBox5.Location = new System.Drawing.Point(112, 373);
+=======
+            this.rjTextBox5.Location = new System.Drawing.Point(154, 376);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.rjTextBox5.Margin = new System.Windows.Forms.Padding(4);
             this.rjTextBox5.Multiline = false;
             this.rjTextBox5.Name = "rjTextBox5";
@@ -376,7 +470,11 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.label6.Location = new System.Drawing.Point(501, 351);
+=======
+            this.label6.Location = new System.Drawing.Point(543, 354);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(89, 18);
@@ -389,7 +487,11 @@
             this.textBox_carNumber.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_carNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_carNumber.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.textBox_carNumber.Location = new System.Drawing.Point(504, 380);
+=======
+            this.textBox_carNumber.Location = new System.Drawing.Point(546, 383);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.textBox_carNumber.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_carNumber.Name = "textBox_carNumber";
             this.textBox_carNumber.ReadOnly = true;
@@ -406,7 +508,11 @@
             this.rjTextBox6.Enabled = false;
             this.rjTextBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox6.ForeColor = System.Drawing.Color.DimGray;
+<<<<<<< HEAD
             this.rjTextBox6.Location = new System.Drawing.Point(491, 373);
+=======
+            this.rjTextBox6.Location = new System.Drawing.Point(533, 376);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.rjTextBox6.Margin = new System.Windows.Forms.Padding(4);
             this.rjTextBox6.Multiline = false;
             this.rjTextBox6.Name = "rjTextBox6";
@@ -424,7 +530,11 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.label7.Location = new System.Drawing.Point(656, 99);
+=======
+            this.label7.Location = new System.Drawing.Point(698, 102);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(45, 18);
@@ -438,7 +548,11 @@
             this.textBox_billId.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_billId.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_billId.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(78)))), ((int)(((byte)(92)))));
+<<<<<<< HEAD
             this.textBox_billId.Location = new System.Drawing.Point(705, 94);
+=======
+            this.textBox_billId.Location = new System.Drawing.Point(747, 97);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.textBox_billId.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_billId.Name = "textBox_billId";
             this.textBox_billId.ReadOnly = true;
@@ -446,36 +560,105 @@
             this.textBox_billId.TabIndex = 46;
             this.textBox_billId.Text = "BILL0001";
             // 
+<<<<<<< HEAD
+=======
+            // dateTimePicker_checkIn
+            // 
+            this.dateTimePicker_checkIn.CalendarForeColor = System.Drawing.Color.White;
+            this.dateTimePicker_checkIn.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(164)))), ((int)(((byte)(171)))));
+            this.dateTimePicker_checkIn.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(52)))), ((int)(((byte)(53)))));
+            this.dateTimePicker_checkIn.CalendarTitleForeColor = System.Drawing.Color.White;
+            this.dateTimePicker_checkIn.CalendarTrailingForeColor = System.Drawing.Color.White;
+            this.dateTimePicker_checkIn.CustomFormat = "dd/MM/yyyy HH:mm:ss";
+            this.dateTimePicker_checkIn.Enabled = false;
+            this.dateTimePicker_checkIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker_checkIn.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker_checkIn.Location = new System.Drawing.Point(154, 472);
+            this.dateTimePicker_checkIn.Name = "dateTimePicker_checkIn";
+            this.dateTimePicker_checkIn.Size = new System.Drawing.Size(315, 31);
+            this.dateTimePicker_checkIn.TabIndex = 50;
+            this.dateTimePicker_checkIn.Value = new System.DateTime(2023, 4, 19, 12, 0, 0, 0);
+            // 
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             // label_checkIn
             // 
             this.label_checkIn.AutoSize = true;
             this.label_checkIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_checkIn.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.label_checkIn.Location = new System.Drawing.Point(122, 448);
+=======
+            this.label_checkIn.Location = new System.Drawing.Point(164, 451);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.label_checkIn.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_checkIn.Name = "label_checkIn";
             this.label_checkIn.Size = new System.Drawing.Size(67, 18);
             this.label_checkIn.TabIndex = 49;
             this.label_checkIn.Text = "Check-in";
             // 
+<<<<<<< HEAD
+=======
+            // dateTimePicker_checkOut
+            // 
+            this.dateTimePicker_checkOut.CustomFormat = "dd/MM/yyyy HH:mm:ss";
+            this.dateTimePicker_checkOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker_checkOut.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker_checkOut.Location = new System.Drawing.Point(533, 472);
+            this.dateTimePicker_checkOut.Name = "dateTimePicker_checkOut";
+            this.dateTimePicker_checkOut.Size = new System.Drawing.Size(315, 31);
+            this.dateTimePicker_checkOut.TabIndex = 52;
+            this.dateTimePicker_checkOut.Value = new System.DateTime(2023, 4, 19, 12, 0, 0, 0);
+            this.dateTimePicker_checkOut.ValueChanged += new System.EventHandler(this.dateTimePicker_checkOut_ValueChanged);
+            // 
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             // label_checkOut
             // 
             this.label_checkOut.AutoSize = true;
             this.label_checkOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_checkOut.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.label_checkOut.Location = new System.Drawing.Point(501, 448);
+=======
+            this.label_checkOut.Location = new System.Drawing.Point(543, 451);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.label_checkOut.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_checkOut.Name = "label_checkOut";
             this.label_checkOut.Size = new System.Drawing.Size(77, 18);
             this.label_checkOut.TabIndex = 51;
             this.label_checkOut.Text = "Check-out";
             // 
+<<<<<<< HEAD
+=======
+            // iconButton_charge
+            // 
+            this.iconButton_charge.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.iconButton_charge.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButton_charge.FlatAppearance.BorderSize = 0;
+            this.iconButton_charge.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton_charge.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton_charge.ForeColor = System.Drawing.Color.White;
+            this.iconButton_charge.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButton_charge.IconColor = System.Drawing.Color.Black;
+            this.iconButton_charge.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton_charge.Location = new System.Drawing.Point(425, 608);
+            this.iconButton_charge.Name = "iconButton_charge";
+            this.iconButton_charge.Size = new System.Drawing.Size(180, 33);
+            this.iconButton_charge.TabIndex = 53;
+            this.iconButton_charge.Text = "Charge";
+            this.iconButton_charge.UseVisualStyleBackColor = false;
+            this.iconButton_charge.Click += new System.EventHandler(this.iconButton_charge_Click);
+            // 
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.label8.Location = new System.Drawing.Point(321, 525);
+=======
+            this.label8.Location = new System.Drawing.Point(363, 528);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(41, 18);
@@ -488,7 +671,11 @@
             this.textBox_total.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_total.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_total.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.textBox_total.Location = new System.Drawing.Point(324, 554);
+=======
+            this.textBox_total.Location = new System.Drawing.Point(366, 557);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.textBox_total.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_total.Name = "textBox_total";
             this.textBox_total.Size = new System.Drawing.Size(295, 25);
@@ -505,7 +692,11 @@
             this.rjTextBox7.Enabled = false;
             this.rjTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox7.ForeColor = System.Drawing.Color.DimGray;
+<<<<<<< HEAD
             this.rjTextBox7.Location = new System.Drawing.Point(311, 547);
+=======
+            this.rjTextBox7.Location = new System.Drawing.Point(353, 550);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.rjTextBox7.Margin = new System.Windows.Forms.Padding(4);
             this.rjTextBox7.Multiline = false;
             this.rjTextBox7.Name = "rjTextBox7";
@@ -529,7 +720,11 @@
             this.iconButton_booking.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconButton_booking.IconColor = System.Drawing.Color.Black;
             this.iconButton_booking.IconFont = FontAwesome.Sharp.IconFont.Auto;
+<<<<<<< HEAD
             this.iconButton_booking.Location = new System.Drawing.Point(354, 741);
+=======
+            this.iconButton_booking.Location = new System.Drawing.Point(384, 765);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.iconButton_booking.Name = "iconButton_booking";
             this.iconButton_booking.Size = new System.Drawing.Size(236, 54);
             this.iconButton_booking.TabIndex = 57;
@@ -542,19 +737,43 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.label9.Location = new System.Drawing.Point(122, 663);
+=======
+            this.label9.Location = new System.Drawing.Point(164, 666);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(87, 18);
             this.label9.TabIndex = 60;
             this.label9.Text = "Pay Method";
             // 
+<<<<<<< HEAD
+=======
+            // comboBox_payMethod
+            // 
+            this.comboBox_payMethod.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox_payMethod.FormattingEnabled = true;
+            this.comboBox_payMethod.Items.AddRange(new object[] {
+            "Cash",
+            "Credit Cards",
+            "Bank Transfer"});
+            this.comboBox_payMethod.Location = new System.Drawing.Point(154, 687);
+            this.comboBox_payMethod.Name = "comboBox_payMethod";
+            this.comboBox_payMethod.Size = new System.Drawing.Size(315, 33);
+            this.comboBox_payMethod.TabIndex = 61;
+            // 
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.label10.Location = new System.Drawing.Point(501, 658);
+=======
+            this.label10.Location = new System.Drawing.Point(543, 661);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(43, 18);
@@ -567,7 +786,11 @@
             this.textBox_cash.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_cash.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_cash.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.textBox_cash.Location = new System.Drawing.Point(504, 687);
+=======
+            this.textBox_cash.Location = new System.Drawing.Point(546, 690);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.textBox_cash.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_cash.Name = "textBox_cash";
             this.textBox_cash.Size = new System.Drawing.Size(295, 25);
@@ -583,7 +806,11 @@
             this.rjTextBox8.Enabled = false;
             this.rjTextBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox8.ForeColor = System.Drawing.Color.DimGray;
+<<<<<<< HEAD
             this.rjTextBox8.Location = new System.Drawing.Point(491, 680);
+=======
+            this.rjTextBox8.Location = new System.Drawing.Point(533, 683);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.rjTextBox8.Margin = new System.Windows.Forms.Padding(4);
             this.rjTextBox8.Multiline = false;
             this.rjTextBox8.Name = "rjTextBox8";
@@ -596,6 +823,7 @@
             this.rjTextBox8.Texts = "";
             this.rjTextBox8.UnderlinedStyle = false;
             // 
+<<<<<<< HEAD
             // guna2BorderlessForm1
             // 
             this.guna2BorderlessForm1.BorderRadius = 30;
@@ -676,11 +904,14 @@
             this.comboBox_payMethod.Size = new System.Drawing.Size(315, 36);
             this.comboBox_payMethod.TabIndex = 68;
             // 
+=======
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             // PaymentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(58)))), ((int)(((byte)(64)))));
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(908, 846);
             this.Controls.Add(this.comboBox_payMethod);
             this.Controls.Add(this.iconButton_charge);
@@ -689,12 +920,26 @@
             this.Controls.Add(this.label10);
             this.Controls.Add(this.textBox_cash);
             this.Controls.Add(this.rjTextBox8);
+=======
+            this.ClientSize = new System.Drawing.Size(998, 846);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.textBox_cash);
+            this.Controls.Add(this.rjTextBox8);
+            this.Controls.Add(this.comboBox_payMethod);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.Controls.Add(this.label9);
             this.Controls.Add(this.iconButton_booking);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox_total);
             this.Controls.Add(this.rjTextBox7);
+<<<<<<< HEAD
             this.Controls.Add(this.label_checkOut);
+=======
+            this.Controls.Add(this.iconButton_charge);
+            this.Controls.Add(this.dateTimePicker_checkOut);
+            this.Controls.Add(this.label_checkOut);
+            this.Controls.Add(this.dateTimePicker_checkIn);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.Controls.Add(this.label_checkIn);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox_billId);
@@ -756,13 +1001,22 @@
         private RJControls.RJTextBox rjTextBox6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox_billId;
+<<<<<<< HEAD
         private System.Windows.Forms.Label label_checkIn;
         private System.Windows.Forms.Label label_checkOut;
+=======
+        private System.Windows.Forms.DateTimePicker dateTimePicker_checkIn;
+        private System.Windows.Forms.Label label_checkIn;
+        private System.Windows.Forms.DateTimePicker dateTimePicker_checkOut;
+        private System.Windows.Forms.Label label_checkOut;
+        private FontAwesome.Sharp.IconButton iconButton_charge;
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox_total;
         private RJControls.RJTextBox rjTextBox7;
         private FontAwesome.Sharp.IconButton iconButton_booking;
         private System.Windows.Forms.Label label9;
+<<<<<<< HEAD
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox textBox_cash;
         private RJControls.RJTextBox rjTextBox8;
@@ -771,5 +1025,11 @@
         private Guna.UI2.WinForms.Guna2DateTimePicker dateTimePicker_checkIn;
         private Guna.UI2.WinForms.Guna2Button iconButton_charge;
         private Guna.UI2.WinForms.Guna2ComboBox comboBox_payMethod;
+=======
+        private System.Windows.Forms.ComboBox comboBox_payMethod;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBox_cash;
+        private RJControls.RJTextBox rjTextBox8;
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
     }
 }

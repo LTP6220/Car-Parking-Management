@@ -355,6 +355,7 @@ namespace CarParkingManagement
             /*  adminForm.ShowDialog();*/
             adminForm.dataGridView_info.DataSource = accountController.GetAccounts("SELECT * FROM Account");
         }
+<<<<<<< HEAD
 
         private void guna2ComboBox1_TextChanged(object sender, EventArgs e)
         {
@@ -371,5 +372,7 @@ namespace CarParkingManagement
                 button_signup.Enabled = false;
             }
         }
+=======
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
     }
 }

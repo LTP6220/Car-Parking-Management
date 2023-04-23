@@ -91,7 +91,14 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView_info.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView_info.Dock = System.Windows.Forms.DockStyle.Top;
+<<<<<<< HEAD
             this.dataGridView_info.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(58)))), ((int)(((byte)(64)))));
+=======
+<<<<<<< HEAD
+            this.dataGridView_info.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(58)))), ((int)(((byte)(64)))));
+=======
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.dataGridView_info.Location = new System.Drawing.Point(0, 0);
             this.dataGridView_info.Name = "dataGridView_info";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -132,12 +139,20 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(164)))), ((int)(((byte)(171)))));
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(2664, 1676);
+=======
+            this.ClientSize = new System.Drawing.Size(1332, 785);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.Controls.Add(this.rjButton_delete);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.rjButton4);
             this.Name = "ParkingCardForm";
+<<<<<<< HEAD
             this.Text = "Parking Card";
+=======
+            this.Text = "ParkingCardForm";
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.Load += new System.EventHandler(this.ParkingCardForm_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_info)).EndInit();

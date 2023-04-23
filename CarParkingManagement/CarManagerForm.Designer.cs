@@ -52,7 +52,11 @@
             this.iconPictureBox_exit = new FontAwesome.Sharp.IconPictureBox();
             this.label_titleChildForm = new System.Windows.Forms.Label();
             this.iconCurrentChildForm = new FontAwesome.Sharp.IconPictureBox();
+<<<<<<< HEAD
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
+=======
+            this.iconButton_cards = new FontAwesome.Sharp.IconButton();
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.panel_menu.SuspendLayout();
             this.panel_picture.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_home)).BeginInit();
@@ -436,12 +440,37 @@
             this.iconCurrentChildForm.TabIndex = 0;
             this.iconCurrentChildForm.TabStop = false;
             // 
+<<<<<<< HEAD
             // guna2BorderlessForm1
             // 
             this.guna2BorderlessForm1.BorderRadius = 30;
             this.guna2BorderlessForm1.ContainerControl = this;
             this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             this.guna2BorderlessForm1.TransparentWhileDrag = true;
+=======
+            // iconButton_cards
+            // 
+            this.iconButton_cards.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButton_cards.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton_cards.FlatAppearance.BorderSize = 0;
+            this.iconButton_cards.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton_cards.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton_cards.ForeColor = System.Drawing.Color.White;
+            this.iconButton_cards.IconChar = FontAwesome.Sharp.IconChar.Ticket;
+            this.iconButton_cards.IconColor = System.Drawing.Color.White;
+            this.iconButton_cards.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton_cards.IconSize = 32;
+            this.iconButton_cards.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton_cards.Location = new System.Drawing.Point(0, 394);
+            this.iconButton_cards.Name = "iconButton_cards";
+            this.iconButton_cards.Size = new System.Drawing.Size(199, 60);
+            this.iconButton_cards.TabIndex = 9;
+            this.iconButton_cards.Text = "Cards";
+            this.iconButton_cards.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton_cards.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton_cards.UseVisualStyleBackColor = true;
+            this.iconButton_cards.Click += new System.EventHandler(this.iconButton_cards_Click);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             // 
             // CarManagerForm
             // 
@@ -497,6 +526,9 @@
         public System.Windows.Forms.Panel panel_desktop;
         public System.Windows.Forms.Label label_titleChildForm;
         public FontAwesome.Sharp.IconButton iconButton_cards;
+<<<<<<< HEAD
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
+=======
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
     }
 }

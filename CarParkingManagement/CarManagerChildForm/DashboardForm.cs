@@ -110,6 +110,10 @@ namespace CarParkingManagement.CarManagerChildForm
 
                 // Display the count
                 label_slot.Text = count.ToString() + "/42";
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             }
 
             //using (SqlConnection conn = Connection.GetSqlConnection())
@@ -131,6 +135,33 @@ namespace CarParkingManagement.CarManagerChildForm
 
             //}
             label_customer.Text = CountCustomer().ToString();
+<<<<<<< HEAD
+=======
+=======
+
+            }
+
+            using (SqlConnection conn = Connection.GetSqlConnection())
+            {
+                // Create the SqlCommand object with the SQL query and conn
+                SqlCommand command = new SqlCommand("SELECT COUNT(*) FROM Customer", conn);
+
+                // Open the conn
+                conn.Open();
+
+                // Execute the query and retrieve the count
+                int count = (int)command.ExecuteScalar();
+
+                // Close the conn
+                conn.Close();
+
+                // Display the count
+                label_customer.Text = count.ToString();
+
+            }
+
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             using (SqlConnection conn = Connection.GetSqlConnection())
             {
                 // Create the SqlCommand object with the SQL query and conn

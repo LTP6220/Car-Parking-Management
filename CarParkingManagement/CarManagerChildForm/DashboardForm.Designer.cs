@@ -78,7 +78,14 @@
             this.dataGridView_info.ColumnHeadersHeight = 20;
             this.dataGridView_info.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView_info.Dock = System.Windows.Forms.DockStyle.Top;
+<<<<<<< HEAD
             this.dataGridView_info.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(58)))), ((int)(((byte)(64)))));
+=======
+<<<<<<< HEAD
+            this.dataGridView_info.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(58)))), ((int)(((byte)(64)))));
+=======
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.dataGridView_info.Location = new System.Drawing.Point(0, 0);
             this.dataGridView_info.Name = "dataGridView_info";
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -316,7 +323,14 @@
             this.rjButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.rjButton3.BorderRadius = 20;
             this.rjButton3.BorderSize = 0;
+<<<<<<< HEAD
             this.rjButton3.Enabled = false;
+=======
+<<<<<<< HEAD
+            this.rjButton3.Enabled = false;
+=======
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.rjButton3.FlatAppearance.BorderSize = 0;
             this.rjButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rjButton3.ForeColor = System.Drawing.Color.White;
@@ -335,7 +349,14 @@
             this.rjButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.rjButton2.BorderRadius = 20;
             this.rjButton2.BorderSize = 0;
+<<<<<<< HEAD
             this.rjButton2.Enabled = false;
+=======
+<<<<<<< HEAD
+            this.rjButton2.Enabled = false;
+=======
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.rjButton2.FlatAppearance.BorderSize = 0;
             this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rjButton2.ForeColor = System.Drawing.Color.White;
@@ -354,7 +375,14 @@
             this.rjButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.rjButton1.BorderRadius = 20;
             this.rjButton1.BorderSize = 0;
+<<<<<<< HEAD
             this.rjButton1.Enabled = false;
+=======
+<<<<<<< HEAD
+            this.rjButton1.Enabled = false;
+=======
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.rjButton1.FlatAppearance.BorderSize = 0;
             this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rjButton1.ForeColor = System.Drawing.Color.White;
@@ -373,7 +401,14 @@
             this.rjButton4.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.rjButton4.BorderRadius = 20;
             this.rjButton4.BorderSize = 0;
+<<<<<<< HEAD
             this.rjButton4.Enabled = false;
+=======
+<<<<<<< HEAD
+            this.rjButton4.Enabled = false;
+=======
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.rjButton4.FlatAppearance.BorderSize = 0;
             this.rjButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rjButton4.ForeColor = System.Drawing.Color.White;

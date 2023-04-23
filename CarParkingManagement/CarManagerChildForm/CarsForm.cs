@@ -39,6 +39,13 @@ namespace CarParkingManagement.CarManagerChildForm
 
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
 
 
         private void CarsForm_Load(object sender, EventArgs e)
@@ -249,6 +256,18 @@ namespace CarParkingManagement.CarManagerChildForm
             dv.RowFilter = String.Format("car_number like '%{0}%'", textBox_search.Text);
             dataGridView_info.DataSource = dv.ToTable();
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        private void CarsForm_Load(object sender, EventArgs e)
+        {
+
+        }
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
     }
 }
 

@@ -59,14 +59,38 @@
             this.rjTextBox4 = new CarParkingManagement.RJControls.RJTextBox();
             this.rjTextBox5 = new CarParkingManagement.RJControls.RJTextBox();
             this.rjButton1 = new CarParkingManagement.RJControls.RJButton();
+<<<<<<< HEAD
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.comboBox_position = new Guna.UI2.WinForms.Guna2ComboBox();
+=======
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel_title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox_minimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox_exit)).BeginInit();
             this.SuspendLayout();
             // 
+<<<<<<< HEAD
+=======
+            // comboBox_position
+            // 
+            this.comboBox_position.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(52)))), ((int)(((byte)(53)))));
+            this.comboBox_position.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox_position.ForeColor = System.Drawing.Color.White;
+            this.comboBox_position.FormattingEnabled = true;
+            this.comboBox_position.Items.AddRange(new object[] {
+            "Car Manager",
+            "Accountant",
+            "Cashier",
+            ""});
+            this.comboBox_position.Location = new System.Drawing.Point(91, 364);
+            this.comboBox_position.Name = "comboBox_position";
+            this.comboBox_position.Size = new System.Drawing.Size(340, 26);
+            this.comboBox_position.TabIndex = 44;
+            this.comboBox_position.SelectedIndexChanged += new System.EventHandler(this.comboBox_position_SelectedIndexChanged);
+            this.comboBox_position.TextChanged += new System.EventHandler(this.comboBox_position_TextChanged);
+            // 
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             // label_position
             // 
             this.label_position.AutoSize = true;
@@ -150,9 +174,14 @@
             // 
             this.textBox_username.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(52)))), ((int)(((byte)(53)))));
             this.textBox_username.BorderStyle = System.Windows.Forms.BorderStyle.None;
+<<<<<<< HEAD
             this.textBox_username.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_username.ForeColor = System.Drawing.Color.White;
             this.textBox_username.Location = new System.Drawing.Point(102, 440);
+=======
+            this.textBox_username.ForeColor = System.Drawing.Color.White;
+            this.textBox_username.Location = new System.Drawing.Point(102, 443);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.textBox_username.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_username.Multiline = true;
             this.textBox_username.Name = "textBox_username";
@@ -164,9 +193,14 @@
             // 
             this.textBox_fullName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(52)))), ((int)(((byte)(53)))));
             this.textBox_fullName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+<<<<<<< HEAD
             this.textBox_fullName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_fullName.ForeColor = System.Drawing.Color.White;
             this.textBox_fullName.Location = new System.Drawing.Point(103, 298);
+=======
+            this.textBox_fullName.ForeColor = System.Drawing.Color.White;
+            this.textBox_fullName.Location = new System.Drawing.Point(103, 301);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.textBox_fullName.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_fullName.Multiline = true;
             this.textBox_fullName.Name = "textBox_fullName";
@@ -191,9 +225,14 @@
             // 
             this.textBox_email.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(52)))), ((int)(((byte)(53)))));
             this.textBox_email.BorderStyle = System.Windows.Forms.BorderStyle.None;
+<<<<<<< HEAD
             this.textBox_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_email.ForeColor = System.Drawing.Color.White;
             this.textBox_email.Location = new System.Drawing.Point(103, 225);
+=======
+            this.textBox_email.ForeColor = System.Drawing.Color.White;
+            this.textBox_email.Location = new System.Drawing.Point(103, 228);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.textBox_email.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_email.Multiline = true;
             this.textBox_email.Name = "textBox_email";
@@ -241,9 +280,14 @@
             // 
             this.textBox_password.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(52)))), ((int)(((byte)(53)))));
             this.textBox_password.BorderStyle = System.Windows.Forms.BorderStyle.None;
+<<<<<<< HEAD
             this.textBox_password.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_password.ForeColor = System.Drawing.Color.White;
             this.textBox_password.Location = new System.Drawing.Point(103, 520);
+=======
+            this.textBox_password.ForeColor = System.Drawing.Color.White;
+            this.textBox_password.Location = new System.Drawing.Point(103, 523);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.textBox_password.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_password.Multiline = true;
             this.textBox_password.Name = "textBox_password";
@@ -296,9 +340,14 @@
             // 
             this.textBox_id.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(52)))), ((int)(((byte)(53)))));
             this.textBox_id.BorderStyle = System.Windows.Forms.BorderStyle.None;
+<<<<<<< HEAD
             this.textBox_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_id.ForeColor = System.Drawing.Color.White;
             this.textBox_id.Location = new System.Drawing.Point(103, 155);
+=======
+            this.textBox_id.ForeColor = System.Drawing.Color.White;
+            this.textBox_id.Location = new System.Drawing.Point(103, 158);
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.textBox_id.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_id.Multiline = true;
             this.textBox_id.Name = "textBox_id";
@@ -307,7 +356,11 @@
             // 
             // panel_title
             // 
+<<<<<<< HEAD
             this.panel_title.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(78)))), ((int)(((byte)(92)))));
+=======
+            this.panel_title.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(52)))), ((int)(((byte)(56)))));
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.panel_title.Controls.Add(this.label2);
             this.panel_title.Controls.Add(this.iconPictureBox_minimize);
             this.panel_title.Controls.Add(this.iconPictureBox_exit);
@@ -367,10 +420,17 @@
             // 
             // button_signup
             // 
+<<<<<<< HEAD
             this.button_signup.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(78)))), ((int)(((byte)(92)))));
             this.button_signup.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(78)))), ((int)(((byte)(92)))));
             this.button_signup.BorderColor = System.Drawing.Color.White;
             this.button_signup.BorderRadius = 10;
+=======
+            this.button_signup.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(52)))), ((int)(((byte)(56)))));
+            this.button_signup.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(52)))), ((int)(((byte)(56)))));
+            this.button_signup.BorderColor = System.Drawing.Color.White;
+            this.button_signup.BorderRadius = 5;
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.button_signup.BorderSize = 1;
             this.button_signup.FlatAppearance.BorderSize = 0;
             this.button_signup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -390,7 +450,11 @@
             this.rjTextBox_search.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(52)))), ((int)(((byte)(53)))));
             this.rjTextBox_search.BorderColor = System.Drawing.Color.White;
             this.rjTextBox_search.BorderFocusColor = System.Drawing.Color.HotPink;
+<<<<<<< HEAD
             this.rjTextBox_search.BorderRadius = 10;
+=======
+            this.rjTextBox_search.BorderRadius = 5;
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.rjTextBox_search.BorderSize = 1;
             this.rjTextBox_search.Enabled = false;
             this.rjTextBox_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -413,7 +477,11 @@
             this.rjTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(52)))), ((int)(((byte)(53)))));
             this.rjTextBox1.BorderColor = System.Drawing.Color.White;
             this.rjTextBox1.BorderFocusColor = System.Drawing.Color.HotPink;
+<<<<<<< HEAD
             this.rjTextBox1.BorderRadius = 10;
+=======
+            this.rjTextBox1.BorderRadius = 5;
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.rjTextBox1.BorderSize = 1;
             this.rjTextBox1.Enabled = false;
             this.rjTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -436,7 +504,11 @@
             this.rjTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(52)))), ((int)(((byte)(53)))));
             this.rjTextBox2.BorderColor = System.Drawing.Color.White;
             this.rjTextBox2.BorderFocusColor = System.Drawing.Color.HotPink;
+<<<<<<< HEAD
             this.rjTextBox2.BorderRadius = 10;
+=======
+            this.rjTextBox2.BorderRadius = 5;
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.rjTextBox2.BorderSize = 1;
             this.rjTextBox2.Enabled = false;
             this.rjTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -459,7 +531,11 @@
             this.rjTextBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(52)))), ((int)(((byte)(53)))));
             this.rjTextBox4.BorderColor = System.Drawing.Color.White;
             this.rjTextBox4.BorderFocusColor = System.Drawing.Color.HotPink;
+<<<<<<< HEAD
             this.rjTextBox4.BorderRadius = 10;
+=======
+            this.rjTextBox4.BorderRadius = 5;
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.rjTextBox4.BorderSize = 1;
             this.rjTextBox4.Enabled = false;
             this.rjTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -482,7 +558,11 @@
             this.rjTextBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(52)))), ((int)(((byte)(53)))));
             this.rjTextBox5.BorderColor = System.Drawing.Color.White;
             this.rjTextBox5.BorderFocusColor = System.Drawing.Color.HotPink;
+<<<<<<< HEAD
             this.rjTextBox5.BorderRadius = 10;
+=======
+            this.rjTextBox5.BorderRadius = 5;
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.rjTextBox5.BorderSize = 1;
             this.rjTextBox5.Enabled = false;
             this.rjTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -518,6 +598,7 @@
             this.rjButton1.TextColor = System.Drawing.Color.White;
             this.rjButton1.UseVisualStyleBackColor = false;
             // 
+<<<<<<< HEAD
             // guna2BorderlessForm1
             // 
             this.guna2BorderlessForm1.BorderRadius = 30;
@@ -546,13 +627,18 @@
             this.comboBox_position.TabIndex = 69;
             this.comboBox_position.TextChanged += new System.EventHandler(this.guna2ComboBox1_TextChanged);
             // 
+=======
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             // UpdateForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.ClientSize = new System.Drawing.Size(513, 725);
+<<<<<<< HEAD
             this.Controls.Add(this.comboBox_position);
+=======
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.Controls.Add(this.button_signup);
             this.Controls.Add(this.panel_title);
             this.Controls.Add(this.textBox_id);
@@ -580,7 +666,10 @@
             this.Controls.Add(this.rjTextBox5);
             this.Controls.Add(this.rjButton1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+<<<<<<< HEAD
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+=======
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
             this.Name = "UpdateForm";
             this.Text = "UpdateForm";
             this.Load += new System.EventHandler(this.UpdateForm_Load);
@@ -624,7 +713,10 @@
         private System.Windows.Forms.Label label2;
         private RJControls.RJButton button_signup;
         private RJControls.RJButton rjButton1;
+<<<<<<< HEAD
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
         private Guna.UI2.WinForms.Guna2ComboBox comboBox_position;
+=======
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
     }
 }

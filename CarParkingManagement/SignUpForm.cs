@@ -304,11 +304,42 @@ namespace CarParkingManagement
             button_signup.BackColor = Color.Yellow;
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label_position_Click(object sender, EventArgs e)
+        {
+
+        }
+
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
         private void label_checkLong_Click(object sender, EventArgs e)
         {
 
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
         private void textBox_email_TextChanged_1(object sender, EventArgs e)
         {
             string email = textBox_email.Text;
@@ -407,15 +438,35 @@ namespace CarParkingManagement
         }
 
         private void rjButton1_Click(object sender, EventArgs e)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        private void label_checkUsername2_Click(object sender, EventArgs e)
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
         {
 
         }
 
+<<<<<<< HEAD
         private void panel_title_MouseEnter(object sender, EventArgs e)
+=======
+<<<<<<< HEAD
+        private void panel_title_MouseEnter(object sender, EventArgs e)
+=======
+<<<<<<< HEAD
+        private void panel_title_MouseEnter(object sender, EventArgs e)
+=======
+        private void label2_Click_1(object sender, EventArgs e)
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
         {
 
         }
 
+<<<<<<< HEAD
         private void guna2ComboBox1_TextChanged(object sender, EventArgs e)
         {
             string password = textBox_password.Text;
@@ -431,6 +482,28 @@ namespace CarParkingManagement
             {
                 button_signup.Enabled = false;
             }
+=======
+        private void label_confirmPassword_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_checkEmail_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_fullname_Click(object sender, EventArgs e)
+>>>>>>> 254a39125487b85a6db1e64b122dffb19c154f36
+>>>>>>> 27e2169c61fab138a6939bf4ba051a846bf2e833
+        {
+
+>>>>>>> 9a5355bc15d16684ce1e457d63af9291c9a1e50f
         }
     }
 }
