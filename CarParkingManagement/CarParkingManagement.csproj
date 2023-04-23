@@ -58,6 +58,7 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -101,11 +102,23 @@
     <Compile Include="CarManagerChildForm\InformationForm.Designer.cs">
       <DependentUpon>InformationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CarManagerChildForm\ParkingCardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarManagerChildForm\ParkingCardForm.Designer.cs">
+      <DependentUpon>ParkingCardForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CarManagerChildForm\ParkingSlotForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CarManagerChildForm\ParkingSlotForm.Designer.cs">
       <DependentUpon>ParkingSlotForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountantForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountantForm.Designer.cs">
+      <DependentUpon>AccountantForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ForgotPasswordForm.cs">
       <SubType>Form</SubType>
@@ -118,6 +131,18 @@
     </Compile>
     <Compile Include="CarManagerForm.Designer.cs">
       <DependentUpon>CarManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarManagerChildForm\ParkingManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarManagerChildForm\ParkingManagement.designer.cs">
+      <DependentUpon>ParkingManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentForm.Designer.cs">
+      <DependentUpon>PaymentForm.cs</DependentUpon>
     </Compile>
     <Compile Include="RJControls\RJButton.cs">
       <SubType>Component</SubType>
@@ -142,6 +167,12 @@
     <Compile Include="SignUpForm.Designer.cs">
       <DependentUpon>SignUpForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SlotDetailsEmpty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SlotDetailsEmpty.designer.cs">
+      <DependentUpon>SlotDetailsEmpty.cs</DependentUpon>
+    </Compile>
     <Compile Include="UpdateForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -163,14 +194,26 @@
     <EmbeddedResource Include="CarManagerChildForm\InformationForm.resx">
       <DependentUpon>InformationForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CarManagerChildForm\ParkingCardForm.resx">
+      <DependentUpon>ParkingCardForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CarManagerChildForm\ParkingSlotForm.resx">
       <DependentUpon>ParkingSlotForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountantForm.resx">
+      <DependentUpon>AccountantForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ForgotPasswordForm.resx">
       <DependentUpon>ForgotPasswordForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CarManagerForm.resx">
       <DependentUpon>CarManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarManagerChildForm\ParkingManagement.resx">
+      <DependentUpon>ParkingManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentForm.resx">
+      <DependentUpon>PaymentForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RJControls\RJTextBox.resx">
       <DependentUpon>RJTextBox.cs</DependentUpon>
@@ -190,6 +233,9 @@
     </Compile>
     <EmbeddedResource Include="SignUpForm.resx">
       <DependentUpon>SignUpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SlotDetailsEmpty.resx">
+      <DependentUpon>SlotDetailsEmpty.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateForm.resx">
       <DependentUpon>UpdateForm.cs</DependentUpon>
@@ -216,6 +262,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\CarParkingManager.jpg" />
+    <None Include="Resources\Rectangle 26.png" />
+    <None Include="Resources\HD-wallpaper-car-sports-car-parking-green.jpg" />
+    <None Include="Resources\peakpx.jpg" />
     <None Include="Resources\olav-tvedt--oVaYMgBMbs-unsplash %281%29.jpg" />
     <None Include="Resources\olav-tvedt--oVaYMgBMbs-unsplash.jpg" />
     <None Include="Resources\x-solid.png" />

@@ -41,8 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DTO_Bill.cs" />
     <Compile Include="DTO_Account.cs" />
-    <Compile Include="ParkingCard.cs" />
+    <Compile Include="DTO_Car.cs" />
+    <Compile Include="DTO_Customer.cs" />
+    <Compile Include="DTO_ParkingCard.cs" />
+    <Compile Include="DTO_ParkingSlot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

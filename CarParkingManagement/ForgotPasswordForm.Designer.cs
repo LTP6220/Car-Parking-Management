@@ -57,7 +57,7 @@
             // 
             this.label_email.AutoSize = true;
             this.label_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_email.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.label_email.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(129)))), ((int)(((byte)(129)))));
             this.label_email.Location = new System.Drawing.Point(34, 162);
             this.label_email.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_email.Name = "label_email";
@@ -80,10 +80,10 @@
             // 
             // textBox_email
             // 
-            this.textBox_email.BackColor = System.Drawing.Color.White;
+            this.textBox_email.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(231)))), ((int)(((byte)(231)))));
             this.textBox_email.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_email.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.textBox_email.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(129)))), ((int)(((byte)(129)))));
             this.textBox_email.Location = new System.Drawing.Point(51, 273);
             this.textBox_email.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.textBox_email.Multiline = true;
@@ -216,10 +216,10 @@
             // 
             // rjButton_sendPassword
             // 
-            this.rjButton_sendPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(58)))), ((int)(((byte)(64)))));
-            this.rjButton_sendPassword.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(58)))), ((int)(((byte)(64)))));
+            this.rjButton_sendPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.rjButton_sendPassword.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
             this.rjButton_sendPassword.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton_sendPassword.BorderRadius = 0;
+            this.rjButton_sendPassword.BorderRadius = 10;
             this.rjButton_sendPassword.BorderSize = 0;
             this.rjButton_sendPassword.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rjButton_sendPassword.Enabled = false;
@@ -235,13 +235,15 @@
             this.rjButton_sendPassword.TextColor = System.Drawing.Color.White;
             this.rjButton_sendPassword.UseVisualStyleBackColor = false;
             this.rjButton_sendPassword.Click += new System.EventHandler(this.rjButton_sendPassword_Click);
+            this.rjButton_sendPassword.MouseEnter += new System.EventHandler(this.rjButton_sendPassword_MouseEnter);
+            this.rjButton_sendPassword.MouseLeave += new System.EventHandler(this.rjButton_sendPassword_MouseLeave);
             // 
             // rjTextBox1
             // 
-            this.rjTextBox1.BackColor = System.Drawing.Color.White;
-            this.rjTextBox1.BorderColor = System.Drawing.Color.DimGray;
+            this.rjTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(231)))), ((int)(((byte)(231)))));
+            this.rjTextBox1.BorderColor = System.Drawing.Color.Transparent;
             this.rjTextBox1.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.rjTextBox1.BorderRadius = 0;
+            this.rjTextBox1.BorderRadius = 5;
             this.rjTextBox1.BorderSize = 2;
             this.rjTextBox1.Enabled = false;
             this.rjTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -264,7 +266,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.ClientSize = new System.Drawing.Size(850, 581);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

@@ -22,8 +22,6 @@ namespace DAL
             /*builder["Password"] = "";*/
             Console.Write(builder.ConnectionString);
             return builder.ConnectionString;
-
-
         }
         /*        Data Source = (LocalDB)\MSSQLLocalDB;AttachDbFilename="D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\Database1.mdf";Integrated Security = True
         */
