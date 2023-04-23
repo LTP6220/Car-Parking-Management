@@ -91,3 +91,10 @@ D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\Ca
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.csproj.CopyComplete
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.exe
 D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.pdb
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.ParkingManagement.resources
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.SlotDetailsEmpty.resources
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.PaymentForm.resources
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.AccountantForm.resources
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\obj\Debug\CarParkingManagement.CarManagerChildForm.ParkingCardForm.resources
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\bin\Debug\nunit.framework.dll
+D:\TDTU\HK4\Công nghệ phần mềm\Đồ Án\GitLab\Car-Parking-Management\CarParkingManagement\bin\Debug\nunit.framework.xml

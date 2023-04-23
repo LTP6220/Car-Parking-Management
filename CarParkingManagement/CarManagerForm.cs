@@ -20,19 +20,20 @@ namespace CarParkingManagement
 {
     public partial class CarManagerForm : Form
     {
-        private IconButton currentBtn;
-        private Panel leftBorderBtn;
-        private Form currentChildForm;
+        public IconButton currentBtn;
+        public Panel leftBorderBtn;
+        public Form currentChildForm;
         BUS_Account accountController = new BUS_Account();
         SqlDataAdapter data;
         DataTable tb;
+
 
         bool visible = false;
         public CarManagerForm(string value)
         {
             InitializeComponent();
             leftBorderBtn = new Panel();
-            leftBorderBtn.Size = new Size(7, 80);
+            leftBorderBtn.Size = new Size(7, 60);
             /*     currentBtn = iconButton_dashboard;*/
             panel_menu.Controls.Add(leftBorderBtn);
             /*    ActivateButton(currBtn, colorActive);*/
@@ -41,6 +42,12 @@ namespace CarParkingManagement
             this.DoubleBuffered = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             this.Value = value;
+
+        }
+
+        public Form CurrentChildForm()
+        {
+            return currentChildForm;
         }
 
         public string Value { get; set; }
@@ -55,9 +62,11 @@ namespace CarParkingManagement
             public static Color color4 = Color.FromArgb(95, 77, 221);
             public static Color color5 = Color.FromArgb(249, 88, 155);
             public static Color color6 = Color.FromArgb(24, 161, 251);
+            public static Color color7 = Color.FromArgb(204, 78, 92);
+
         }
 
-        private void ActivateButton(object senderBtn, Color color)
+        public void ActivateButton(object senderBtn, Color color)
         {
             if (senderBtn != null)
             {
@@ -83,7 +92,7 @@ namespace CarParkingManagement
             }
         }
 
-        private void DisableButton()
+        public void DisableButton()
         {
             if (currentBtn != null)
             {
@@ -96,7 +105,7 @@ namespace CarParkingManagement
             }
         }
 
-        private void OpenChildForm(Form childForm)
+        public void OpenChildForm(Form childForm)
         {
             //open only form
             if (currentChildForm != null)
@@ -123,22 +132,13 @@ namespace CarParkingManagement
         }
 
 
-
-        private void iconButton_dashboard_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color1);
-            OpenChildForm(new CarManagerChildForm.DashboardForm());
-        }
-
-
-
-        private void iconButton_customers_Click(object sender, EventArgs e)
+        public void iconButton_customers_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color2);
             OpenChildForm(new CarManagerChildForm.CustomersForm());
         }
 
-        private void iconButton_cars_Click(object sender, EventArgs e)
+        public void iconButton_cars_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color3);
             OpenChildForm(new CarManagerChildForm.CarsForm());
@@ -168,10 +168,14 @@ namespace CarParkingManagement
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
 
-        private void iconButton_parkingSlot_Click(object sender, EventArgs e)
+
+
+        public void iconButton_parkingSlot_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, RGBColors.color4);
-            OpenChildForm(new CarManagerChildForm.ParkingSlotForm());
+            IconButton btn = new IconButton();
+            btn = (IconButton)sender;
+            ActivateButton(btn, RGBColors.color4);
+            OpenChildForm(new ParkingManagement());
         }
 
         private void panel_display_Paint(object sender, PaintEventArgs e)
@@ -411,6 +415,12 @@ namespace CarParkingManagement
         {
             panel_info.Visible = false;
             visible = false;
+        }
+
+        private void iconButton_cards_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color7);
+            OpenChildForm(new CarManagerChildForm.ParkingCardForm());
         }
     }
 }

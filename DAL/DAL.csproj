@@ -44,8 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL_Bill.cs" />
     <Compile Include="DAL_Account.cs" />
     <Compile Include="Connection.cs" />
+    <Compile Include="DAL_Car.cs" />
+    <Compile Include="DAL_Customer.cs" />
+    <Compile Include="DAL_ParkingCard.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

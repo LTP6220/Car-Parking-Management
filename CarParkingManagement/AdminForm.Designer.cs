@@ -38,12 +38,13 @@
             this.iconPictureBox_minimize = new FontAwesome.Sharp.IconPictureBox();
             this.iconPictureBox_exit = new FontAwesome.Sharp.IconPictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox_search = new System.Windows.Forms.TextBox();
-            this.rjTextBox_search = new CarParkingManagement.RJControls.RJTextBox();
             this.rjButton_update = new CarParkingManagement.RJControls.RJButton();
             this.rjButton_delete = new CarParkingManagement.RJControls.RJButton();
             this.rjButton_createAccount = new CarParkingManagement.RJControls.RJButton();
+            this.textBox_search = new System.Windows.Forms.TextBox();
+            this.rjTextBox_search = new CarParkingManagement.RJControls.RJTextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.rjButton1 = new CarParkingManagement.RJControls.RJButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_info)).BeginInit();
             this.panel_title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
@@ -94,7 +95,7 @@
             // 
             // panel_title
             // 
-            this.panel_title.BackColor = System.Drawing.Color.Transparent;
+            this.panel_title.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(52)))), ((int)(((byte)(56)))));
             this.panel_title.Controls.Add(this.iconPictureBox1);
             this.panel_title.Controls.Add(this.label1);
             this.panel_title.Controls.Add(this.iconPictureBox_minimize);
@@ -102,7 +103,7 @@
             this.panel_title.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_title.Location = new System.Drawing.Point(0, 0);
             this.panel_title.Name = "panel_title";
-            this.panel_title.Size = new System.Drawing.Size(1052, 99);
+            this.panel_title.Size = new System.Drawing.Size(1153, 99);
             this.panel_title.TabIndex = 4;
             this.panel_title.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_title_Paint);
             this.panel_title.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel_title_MouseDown);
@@ -128,7 +129,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(335, 49);
+            this.label1.Location = new System.Drawing.Point(426, 49);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(351, 31);
             this.label1.TabIndex = 8;
@@ -143,7 +144,7 @@
             this.iconPictureBox_minimize.IconColor = System.Drawing.Color.White;
             this.iconPictureBox_minimize.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox_minimize.IconSize = 20;
-            this.iconPictureBox_minimize.Location = new System.Drawing.Point(983, 0);
+            this.iconPictureBox_minimize.Location = new System.Drawing.Point(1084, 0);
             this.iconPictureBox_minimize.Name = "iconPictureBox_minimize";
             this.iconPictureBox_minimize.Size = new System.Drawing.Size(35, 20);
             this.iconPictureBox_minimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -161,7 +162,7 @@
             this.iconPictureBox_exit.IconColor = System.Drawing.Color.White;
             this.iconPictureBox_exit.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox_exit.IconSize = 20;
-            this.iconPictureBox_exit.Location = new System.Drawing.Point(1017, 0);
+            this.iconPictureBox_exit.Location = new System.Drawing.Point(1118, 0);
             this.iconPictureBox_exit.Name = "iconPictureBox_exit";
             this.iconPictureBox_exit.Size = new System.Drawing.Size(35, 20);
             this.iconPictureBox_exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -178,46 +179,10 @@
             this.panel1.Controls.Add(this.dataGridView_info);
             this.panel1.Controls.Add(this.rjButton_delete);
             this.panel1.Controls.Add(this.rjButton_createAccount);
-            this.panel1.Location = new System.Drawing.Point(12, 157);
+            this.panel1.Location = new System.Drawing.Point(61, 157);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1028, 454);
             this.panel1.TabIndex = 8;
-            // 
-            // textBox_search
-            // 
-            this.textBox_search.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.textBox_search.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_search.ForeColor = System.Drawing.Color.White;
-            this.textBox_search.Location = new System.Drawing.Point(760, 121);
-            this.textBox_search.Name = "textBox_search";
-            this.textBox_search.Size = new System.Drawing.Size(258, 15);
-            this.textBox_search.TabIndex = 8;
-            this.textBox_search.TextChanged += new System.EventHandler(this.textBox_search_TextChanged);
-            this.textBox_search.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_search_KeyPress);
-            // 
-            // rjTextBox_search
-            // 
-            this.rjTextBox_search.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.rjTextBox_search.BorderColor = System.Drawing.Color.Transparent;
-            this.rjTextBox_search.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.rjTextBox_search.BorderRadius = 0;
-            this.rjTextBox_search.BorderSize = 2;
-            this.rjTextBox_search.Enabled = false;
-            this.rjTextBox_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBox_search.ForeColor = System.Drawing.Color.DimGray;
-            this.rjTextBox_search.Location = new System.Drawing.Point(752, 113);
-            this.rjTextBox_search.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBox_search.Multiline = false;
-            this.rjTextBox_search.Name = "rjTextBox_search";
-            this.rjTextBox_search.Padding = new System.Windows.Forms.Padding(7);
-            this.rjTextBox_search.PasswordChar = false;
-            this.rjTextBox_search.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.rjTextBox_search.PlaceholderText = "";
-            this.rjTextBox_search.Size = new System.Drawing.Size(274, 31);
-            this.rjTextBox_search.TabIndex = 8;
-            this.rjTextBox_search.Texts = "";
-            this.rjTextBox_search.UnderlinedStyle = false;
             // 
             // rjButton_update
             // 
@@ -282,29 +247,86 @@
             this.rjButton_createAccount.MouseEnter += new System.EventHandler(this.rjButton_createAccount_MouseEnter);
             this.rjButton_createAccount.MouseLeave += new System.EventHandler(this.rjButton_createAccount_MouseLeave);
             // 
+            // textBox_search
+            // 
+            this.textBox_search.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.textBox_search.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_search.ForeColor = System.Drawing.Color.White;
+            this.textBox_search.Location = new System.Drawing.Point(760, 113);
+            this.textBox_search.Name = "textBox_search";
+            this.textBox_search.Size = new System.Drawing.Size(258, 15);
+            this.textBox_search.TabIndex = 8;
+            this.textBox_search.TextChanged += new System.EventHandler(this.textBox_search_TextChanged);
+            this.textBox_search.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_search_KeyPress);
+            // 
+            // rjTextBox_search
+            // 
+            this.rjTextBox_search.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.rjTextBox_search.BorderColor = System.Drawing.Color.Transparent;
+            this.rjTextBox_search.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.rjTextBox_search.BorderRadius = 0;
+            this.rjTextBox_search.BorderSize = 2;
+            this.rjTextBox_search.Enabled = false;
+            this.rjTextBox_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBox_search.ForeColor = System.Drawing.Color.DimGray;
+            this.rjTextBox_search.Location = new System.Drawing.Point(752, 105);
+            this.rjTextBox_search.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBox_search.Multiline = false;
+            this.rjTextBox_search.Name = "rjTextBox_search";
+            this.rjTextBox_search.Padding = new System.Windows.Forms.Padding(7);
+            this.rjTextBox_search.PasswordChar = false;
+            this.rjTextBox_search.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.rjTextBox_search.PlaceholderText = "";
+            this.rjTextBox_search.Size = new System.Drawing.Size(274, 31);
+            this.rjTextBox_search.TabIndex = 8;
+            this.rjTextBox_search.Texts = "";
+            this.rjTextBox_search.UnderlinedStyle = false;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(593, 121);
+            this.label2.Location = new System.Drawing.Point(593, 113);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(152, 16);
             this.label2.TabIndex = 8;
             this.label2.Text = "Search By Full Name";
             // 
+            // rjButton1
+            // 
+            this.rjButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.rjButton1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.rjButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjButton1.BorderRadius = 20;
+            this.rjButton1.BorderSize = 0;
+            this.rjButton1.Enabled = false;
+            this.rjButton1.FlatAppearance.BorderSize = 0;
+            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton1.ForeColor = System.Drawing.Color.White;
+            this.rjButton1.Location = new System.Drawing.Point(29, 143);
+            this.rjButton1.Name = "rjButton1";
+            this.rjButton1.Size = new System.Drawing.Size(1090, 485);
+            this.rjButton1.TabIndex = 8;
+            this.rjButton1.Text = "rjButton1";
+            this.rjButton1.TextColor = System.Drawing.Color.White;
+            this.rjButton1.UseVisualStyleBackColor = false;
+            this.rjButton1.Click += new System.EventHandler(this.rjButton1_Click_1);
+            // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(14)))), ((int)(((byte)(14)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(52)))), ((int)(((byte)(53)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(1052, 657);
+            this.ClientSize = new System.Drawing.Size(1153, 657);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox_search);
             this.Controls.Add(this.rjTextBox_search);
             this.Controls.Add(this.panel_title);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.rjButton1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AdminForm";
@@ -336,5 +358,6 @@
         private RJControls.RJTextBox rjTextBox_search;
         private System.Windows.Forms.TextBox textBox_search;
         private System.Windows.Forms.Label label2;
+        private RJControls.RJButton rjButton1;
     }
 }

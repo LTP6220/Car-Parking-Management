@@ -99,7 +99,8 @@ namespace CarParkingManagement.CarManagerChildForm
             rjTextBox_email.Texts = Email;
             rjTextBox_position.Texts = Position;
 
-            rjTextBox_id.Enabled = false;
+            /* rjTextBox_id.Enabled = false;*/
+
             rjTextBox_id.BackColor = Color.FromArgb(41, 39, 39);
             rjTextBox_id.ForeColor = Color.White;
 
@@ -237,6 +238,16 @@ namespace CarParkingManagement.CarManagerChildForm
         {
             CarManagerForm carManagerForm = new CarManagerForm("");
             carManagerForm.panel_info.Visible = false;
+        }
+
+        private void rjTextBox2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rjTextBox1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
